@@ -484,8 +484,27 @@
       "Engraved medieval icon"
     ]
   },
+  "source_adaptation": {
+    "principle": "Preserve semantic identity, not source rendering complexity.",
+    "subject_independence": "Apply the same target illustration language to anime characters, realistic people, animals, objects, and environments.",
+    "detail_budget": {
+      "primary_subject": "Preserve recognizable features, pose, silhouette, expression, and signature accessories.",
+      "secondary_details": "Simplify, merge, or selectively omit details that do not contribute to recognition.",
+      "background": "Reduce complexity according to foreground density.",
+      "ornament": "Use available negative space rather than adding decoration uniformly."
+    },
+    "complex_source_handling": [
+      "Identify major visual masses before rendering fine detail.",
+      "Consolidate repeated lines and tiny tonal transitions.",
+      "Translate source materials into the target illustration technique.",
+      "Maintain strong separation between subject, clothing layers, and background.",
+      "Avoid retaining source-specific cinematic lighting, digital gloss, or microtexture unless essential to subject identity.",
+      "Do not alter the character's recognizable anatomy, outfit design, pose, or distinctive accessories merely to simplify rendering."
+    ],
+    "complexity_rule": "The more visually complicated the input, the stronger the structural simplification. Do not increase the target style's overall detail density to match the input."
+  },
   "generation_instructions": {
-    "style_prompt":"Transform the subject into a contemporary ornamental fantasy character illustration. Use the visual language of a clean, sophisticated 2D digital illustration with precise dark ink outlines, mostly flat muted colors, subtle simplified shading, and elegant slightly elongated proportions. Present the entire figure within a tall, narrow, rounded architectural arch outlined in pale ivory against a solid dark background. Surround the subject with large stylized flowers, graceful botanical stems, and a restrained number of clean stained-glass-like geometric partitions. Use smooth flowing contours, clear graphic silhouettes, delicate costume details, and soft pastel-jewel color harmony. Render facial features as expressive stylized line art with minimal painterly modeling. Keep the overall design crisp, colorful, clean, balanced, and distinctly modern rather than antiqued. Preserve the original subject's recognizable identity, defining features, clothing, pose, and signature objects wherever possible. The final result should resemble an elegant illustrated fantasy character poster with decorative botanical framing, not a historical painting.",
+    "style_prompt": "Transform the subject into a contemporary ornamental fantasy character illustration. Use the visual language of a clean, sophisticated 2D digital illustration with precise dark ink outlines, mostly flat muted colors, subtle simplified shading, and elegant slightly elongated proportions. Present the entire figure within a tall, narrow, rounded architectural arch outlined in pale ivory against a solid dark background. Surround the subject with large stylized flowers, graceful botanical stems, and a restrained number of clean stained-glass-like geometric partitions. Use smooth flowing contours, clear graphic silhouettes, delicate costume details, and soft pastel-jewel color harmony. Render facial features as expressive stylized line art with minimal painterly modeling. Keep the overall design crisp, colorful, clean, balanced, and distinctly modern rather than antiqued. Preserve the original subject's recognizable identity, defining features, clothing, pose, and signature objects wherever possible. The final result should resemble an elegant illustrated fantasy character poster with decorative botanical framing, not a historical painting.",
     "subject_placeholder": "{SUBJECT}",
     "context_placeholder": "{CONTEXT}",
     "composition_placeholder": "{COMPOSITION}",
@@ -493,6 +512,7 @@
     "negative_prompt": "photorealism, portrait photography, Renaissance painting, Pre-Raphaelite realism, medieval illuminated manuscript, aged parchment, sepia color grading, gold leaf background, dense golden filigree, heavy grain, weathered paper, engraving, etching, pencil sketch, oil painting, textured watercolor, realistic skin pores, realistic hair strands, complex volumetric lighting, dramatic chiaroscuro, cinematic rendering, 3D, CGI, thick cartoon outlines, chibi proportions, anime cel shading, excessive micro-detail, ornate medieval frame, excessive halos, intricate celestial diagrams, close-up portrait, cropped legs, cropped feet, text, typography, watermark",
     "priority_order": [
       "Maintain source subject identity",
+      "Preserve semantic identity, not source rendering complexity",
       "Apply contemporary flat-color illustration rendering",
       "Preserve crisp dark linework",
       "Construct full-body composition",

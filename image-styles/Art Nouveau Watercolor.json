@@ -41,7 +41,9 @@
     "resolution": "High-resolution 2D illustration",
     "edges": "Sharp and clean",
     "color_transitions": "Soft within enclosed shapes",
-    "detail_resolution": "High",
+    "detail_resolution": "Selective: high for focal features, moderate for structural details, low for incidental micro-details",
+    "detail_translation": "Reconstruct source details into simplified ink contours and watercolor shapes; never reproduce source micro-detail one-to-one",
+    "complexity_reduction": "Adaptive to source density; aggressively consolidate dense lines and textures while preserving recognizable design",
     "surface_finish": "Matte",
     "visual_noise": "Low",
     "line_consistency": "High",
@@ -85,7 +87,8 @@
     "line_weight": "Subtle variations emphasizing depth and hierarchy",
     "curvature": "Organic, rhythmic, elegant",
     "geometric_elements": "Precise arcs, rays, parallel divisions, and ornamental patterns",
-    "detail": "Intricate but controlled",
+    "detail": "Hierarchical: strong external contours, selective internal structures, sparse decorative micro-lines",
+    "source_line_policy": "Merge repeated hair strands, small garment folds, and adjacent decorative lines into larger coherent forms",
     "edge_definition": "Clearly delineated shapes with minimal ambiguity",
     "hatching": "Sparse and selective",
     "overall_character": "A synthesis of architectural precision and natural fluidity"
@@ -159,7 +162,9 @@
     "organic_forms": "Flowing, elegantly simplified, rhythmically arranged",
     "mechanical_forms": "Precisely outlined, geometrically organized, ornamentally integrated",
     "materials": "Represented through line patterns, controlled highlights, and color variation",
-    "surface_detail": "Rich but organized around the primary silhouette",
+    "surface_detail": "Selective and subordinate to shape readability; preserve distinctive accessories without reproducing every source texture",
+    "hair": "Organize complex hair into large flowing masses with sparse delicate strand accents",
+    "clothing": "Translate complex garments into broad watercolor regions with selected seams, folds, belts, and structural details",
     "subject_integrity": "Preserve essential recognizable characteristics while adapting their visual treatment"
   },
   "botanical_design": {
@@ -170,12 +175,12 @@
     "depth": "Shallow layered space with selective overlapping elements",
     "structure": "Large simplified color regions combined with finely detailed ornamental forms",
     "natural_elements": "Stylized rather than photographically rendered",
-    "architectural_elements": "Flattened perspective and ornamental geometry",
+    "architectural_elements": "Flattened perspective and ornamental geometry; simplify distant architecture into layered silhouettes and selective architectural landmarks",
     "relationship_to_subject": "Supports the subject through contrast, framing, and thematic association"
   },
   "ornamental_language": {
     "importance": "A defining feature of the style",
-    "density": "Rich but carefully distributed",
+    "density": "Adaptive: reduce ornament density around already intricate subjects, increase only in quiet compositional regions",
     "motifs": [
       "Flowing botanical forms",
       "Elegant geometric patterns",
@@ -240,8 +245,27 @@
       "Random unrelated decorative details"
     ]
   },
+  "source_adaptation": {
+    "principle": "Preserve semantic identity, not source rendering complexity.",
+    "subject_independence": "Apply the same target illustration language to anime characters, realistic people, animals, objects, and environments.",
+    "detail_budget": {
+      "primary_subject": "Preserve recognizable features, pose, silhouette, expression, and signature accessories.",
+      "secondary_details": "Simplify, merge, or selectively omit details that do not contribute to recognition.",
+      "background": "Reduce complexity according to foreground density.",
+      "ornament": "Use available negative space rather than adding decoration uniformly."
+    },
+    "complex_source_handling": [
+      "Identify major visual masses before rendering fine detail.",
+      "Consolidate repeated lines and tiny tonal transitions.",
+      "Translate source materials into the target illustration technique.",
+      "Maintain strong separation between subject, clothing layers, and background.",
+      "Avoid retaining source-specific cinematic lighting, digital gloss, or microtexture unless essential to subject identity.",
+      "Do not alter the character's recognizable anatomy, outfit design, pose, or distinctive accessories merely to simplify rendering."
+    ],
+    "complexity_rule": "The more visually complicated the input, the stronger the structural simplification. Do not increase the target style's overall detail density to match the input."
+  },
   "generation_instructions": {
-    "style_prompt": "Create an elegant ornamental illustration in a refined Art Nouveau-inspired visual language. Combine clean flowing ink contours, sophisticated decorative composition, semi-realistic stylization, subtly elongated forms, muted jewel tones, antique pastels, gentle watercolor-like shading, and fine paper texture. Integrate precise geometric structures with rhythmic organic ornamentation. Maintain clear visual hierarchy, graceful silhouettes, delicate surface details, and balanced decorative density. Use soft illustrative lighting and a cohesive matte, hand-crafted finish. The result should resemble a meticulously designed traditional illustration rather than a photograph, 3D render, or conventional cartoon.",
+    "style_prompt": "Create an elegant ornamental illustration in a refined Art Nouveau-inspired visual language. Combine clean flowing ink contours, sophisticated decorative composition, semi-realistic stylization, subtly elongated forms, muted jewel tones, antique pastels, gentle watercolor-like shading, and fine paper texture. Integrate precise geometric structures with rhythmic organic ornamentation. Maintain clear visual hierarchy, graceful silhouettes, delicate surface details, and balanced decorative density. Use soft illustrative lighting and a cohesive matte, hand-crafted finish. The result should resemble a meticulously designed traditional illustration rather than a photograph, 3D render, or conventional cartoon. When adapting visually complex source material, reinterpret its details as a controlled hierarchy of large watercolor shapes, elegant ink contours, and selective small ornaments. Consolidate dense hair strands, fabric folds, reflections, and background architecture. Preserve defining features, pose, and recognizable costume components, but avoid reproducing the source's micro-detail or rendering style. Decorative richness must come from intentional composition rather than uniformly dense linework.",
     "subject_placeholder": "{SUBJECT}",
     "context_placeholder": "{CONTEXT}",
     "composition_placeholder": "{COMPOSITION}",

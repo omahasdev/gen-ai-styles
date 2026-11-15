@@ -42,7 +42,8 @@
     "line_art_prominence": 0.8,
     "painterly_rendering": 0.7,
     "texture_strength": 0.8,
-    "detail_resolution": "Very high",
+    "detail_resolution": "High but selective, emphasizing expressive forms and tactile materials over source complexity",
+    "source_translation": "Reillustrate the source in traditional storybook language rather than applying vintage textures to existing rendering",
     "surface_finish": "Matte, softly aged printed illustration",
     "edge_treatment": "Precise but organically irregular contours, softened by fine painterly and ink textures",
     "dimensionality": "Convincing illustrated volume without photographic rendering",
@@ -53,7 +54,8 @@
     "structure": "Narrative illustration with a clearly readable main subject integrated into a richly furnished environment",
     "hierarchy": "Primary subject first, important interacting objects second, decorative environment third",
     "subject_scale": "Medium to large, dominating the central portion of the composition",
-    "camera": "Close to the subject, slightly above or near eye level depending on the scene",
+    "camera": "Close to the subject, slightly above or near eye level; preserve the source's essential viewpoint while reducing dramatic foreshortening and overly cinematic perspective",
+    "complexity_adaptation": "Simplify complex character silhouettes and busy surroundings into distinct illustrated masses without removing identity-defining features",
     "perspective": "Naturalistic but gently compressed and simplified",
     "depth": "Layered foreground, middle ground, and softly subdued background",
     "balance": "Controlled asymmetry with deliberate placement of supporting objects",
@@ -91,7 +93,7 @@
     },
     "internal_contours": {
       "weight": "Very fine",
-      "density": "High",
+      "density": "Adaptive; high on tactile focal materials, reduced on complex garments, hair, and architecture",
       "techniques": [
         "Short directional strokes",
         "Fine parallel hatching",
@@ -166,7 +168,10 @@
     "overall_style": "Naturalistic illustration with gentle whimsical exaggeration",
     "anatomy": "Credible underlying anatomy with slightly softened, expressive proportions",
     "expressions": "Subtle, emotionally readable, gentle, and characterful",
-    "organic_forms": "Natural contours with dense directional line texture",
+    "organic_forms": "Natural expressive contours; dense directional texture only when supported by the material, such as fur or foliage",
+    "character_translation": "Preserve the characteristic facial proportions and costume identity of stylized sources such as anime, cartoon, or game art, but redraw them using delicate storybook linework and soft traditional pigment modeling",
+    "clothing_detail_policy": "Simplify excessive folds and reflections; preserve major seams, closures, ornamentation, and distinctive silhouettes",
+    "material_translation": "Represent glossy leather and polished metal through restrained ink contours, watercolor shadows, and selective gouache highlights, not continuous digital specular reflections",
     "eyes": "Expressive but proportionate, with small controlled reflections",
     "hands_and_paws": "Anatomically coherent with careful articulation and natural object interactions",
     "materials": {
@@ -205,7 +210,7 @@
     "decorative_objects": "Books, textiles, ceramics, lamps, botanical arrangements, and other contextually appropriate objects",
     "patterns": "Small-scale botanical motifs, lacework, wallpaper, decorative fabric, and engraved ornament when relevant",
     "windows": "Softly painted exterior light and restrained geometric framing",
-    "density": "High detail density without uniform visual emphasis",
+    "density": "High detail density without uniform visual emphasis; reduce background complexity substantially when the subject is visually intricate",
     "relationship_to_subject": "Environment reinforces the narrative while maintaining clear separation from the focal subject",
     "avoid": [
       "Empty generic gradient backgrounds",
@@ -250,7 +255,7 @@
     "surface_weathering": 0.15,
     "micro_detail": 0.9,
     "character": "Subtle printed-paper grain, finely broken pigment edges, irregular transparent washes, and densely articulated pen marks",
-    "distribution": "Texture follows the physical character and form of each material rather than acting as a uniform noise overlay",
+    "distribution": "Texture follows the physical character and form of each material rather than acting as a uniform noise overlay. Concentrate fine material texture in selected focal surfaces and keep calm broad pigment regions elsewhere.",
     "avoid": [
       "Artificial digital grain",
       "Aggressive grunge overlays",
@@ -287,7 +292,7 @@
     "explicitly_not_the_style": [
       "Modern flat vector art",
       "Clean digital cel shading",
-      "Anime illustration",
+      "Modern glossy anime rendering",
       "Photorealism",
       "3D rendering",
       "CGI",
@@ -301,15 +306,35 @@
       "Generic AI watercolor filter"
     ]
   },
+  "source_adaptation": {
+    "principle": "Preserve semantic identity, not source rendering complexity.",
+    "subject_independence": "Apply the same target illustration language to anime characters, realistic people, animals, objects, and environments.",
+    "detail_budget": {
+      "primary_subject": "Preserve recognizable features, pose, silhouette, expression, and signature accessories.",
+      "secondary_details": "Simplify, merge, or selectively omit details that do not contribute to recognition.",
+      "background": "Reduce complexity according to foreground density.",
+      "ornament": "Use available negative space rather than adding decoration uniformly."
+    },
+    "complex_source_handling": [
+      "Identify major visual masses before rendering fine detail.",
+      "Consolidate repeated lines and tiny tonal transitions.",
+      "Translate source materials into the target illustration technique.",
+      "Maintain strong separation between subject, clothing layers, and background.",
+      "Avoid retaining source-specific cinematic lighting, digital gloss, or microtexture unless essential to subject identity.",
+      "Do not alter the character's recognizable anatomy, outfit design, pose, or distinctive accessories merely to simplify rendering."
+    ],
+    "complexity_rule": "The more visually complicated the input, the stronger the structural simplification. Do not increase the target style's overall detail density to match the input."
+  },
   "generation_instructions": {
-    "style_prompt": "Create a richly detailed vintage storybook illustration rendered in fine traditional pen-and-ink linework, layered watercolor washes, and subtle opaque gouache accents. Use extraordinarily delicate directional strokes, stippling, and selective hatching to describe organic textures and material surfaces. Render subjects with believable anatomy, softly rounded volume, natural expressive gestures, and restrained whimsical stylization. Apply a sophisticated muted palette with warm ivory, amber, sienna, and umber balanced against dusty blue, slate teal, and cool charcoal. Establish soft atmospheric illumination and gently textured shadows. Surround the central subject with a believable, carefully furnished illustrative environment containing contextually appropriate decorative details. Maintain finely controlled visual hierarchy, clear silhouettes, richly differentiated materials, and tactile paper texture. The overall result must resemble a meticulously handcrafted, traditionally printed European storybook illustration rather than a modern digital painting, cartoon, photograph, or 3D render.",
+    "style_prompt": "Create a richly detailed vintage storybook illustration rendered in fine traditional pen-and-ink linework, layered watercolor washes, and subtle opaque gouache accents. Use extraordinarily delicate directional strokes, stippling, and selective hatching to describe organic textures and material surfaces. Render subjects with believable anatomy, softly rounded volume, natural expressive gestures, and restrained whimsical stylization. Apply a sophisticated muted palette with warm ivory, amber, sienna, and umber balanced against dusty blue, slate teal, and cool charcoal. Establish soft atmospheric illumination and gently textured shadows. Surround the central subject with a believable, carefully furnished illustrative environment containing contextually appropriate decorative details. Maintain finely controlled visual hierarchy, clear silhouettes, richly differentiated materials, and tactile paper texture. The overall result must resemble a meticulously handcrafted, traditionally printed European storybook illustration rather than a modern digital painting, cartoon, photograph, or 3D render. When adapting anime, fantasy, or highly rendered digital artwork, reconstruct the subject as an authentic hand-illustrated storybook scene. Preserve the subject's identity and distinctive design while translating shapes, materials, and lighting into traditional pen-and-ink, watercolor, and gouache techniques. Simplify cinematic perspective, glossy highlights, repetitive garment details, and dense architecture. Concentrate fine ink texture on selected tactile materials rather than covering the entire image with uniformly intricate marks.",
     "subject_placeholder": "{SUBJECT}",
     "context_placeholder": "{CONTEXT}",
     "composition_placeholder": "{COMPOSITION}",
     "palette_placeholder": "{PALETTE}",
-    "negative_prompt": "photorealism, CGI, 3D, smooth vector graphics, flat cartoon coloring, anime, cel shading, thick outlines, plastic surfaces, neon saturation, cinematic bokeh, harsh HDR, extreme chiaroscuro, airbrushed gradients, blurry facial details, simplified textures, chaotic composition, generic watercolor filter, oversaturated colors, random decorative symbols, excessive grunge, warped anatomy, distorted objects, text, watermark",
+    "negative_prompt": "photorealism, CGI, 3D, smooth vector graphics, flat cartoon coloring, glossy anime rendering, cel shading, thick outlines, plastic surfaces, neon saturation, cinematic bokeh, harsh HDR, extreme chiaroscuro, airbrushed gradients, blurry facial details, simplified textures, chaotic composition, generic watercolor filter, oversaturated colors, random decorative symbols, excessive grunge, warped anatomy, distorted objects, text, watermark",
     "priority_order": [
       "Preserve subject identity and anatomy",
+      "Preserve semantic identity, not source rendering complexity",
       "Apply fine traditional ink drawing",
       "Introduce layered watercolor pigment variation",
       "Build rich tactile material textures",
