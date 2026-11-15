@@ -210,7 +210,8 @@
     "decorative_objects": "Books, textiles, ceramics, lamps, botanical arrangements, and other contextually appropriate objects",
     "patterns": "Small-scale botanical motifs, lacework, wallpaper, decorative fabric, and engraved ornament when relevant",
     "windows": "Softly painted exterior light and restrained geometric framing",
-    "density": "High detail density without uniform visual emphasis; reduce background complexity substantially when the subject is visually intricate",
+    "density": "High detail density without uniform visual emphasis. Always keep a furnished cozy environment. When the subject is visually intricate, render the background objects with softer, broader marks, but do not remove them",
+    "sparse_source_background": "If the source background is plain, empty, or minimal, build a cozy furnished interior around the subject with contextually appropriate objects such as books, lamps, ceramics, textiles, and plants",
     "relationship_to_subject": "Environment reinforces the narrative while maintaining clear separation from the focal subject",
     "avoid": [
       "Empty generic gradient backgrounds",
@@ -312,8 +313,8 @@
     "detail_budget": {
       "primary_subject": "Preserve recognizable features, pose, silhouette, expression, and signature accessories.",
       "secondary_details": "Simplify, merge, or selectively omit details that do not contribute to recognition.",
-      "background": "Reduce complexity according to foreground density.",
-      "ornament": "Use available negative space rather than adding decoration uniformly."
+      "background": "Always keep a furnished storybook environment. Simplify how background objects are drawn according to foreground density, but do not remove the environment. If the source background is plain or sparse, add a cozy furnished interior with contextually appropriate objects.",
+      "ornament": "Place decorative objects in groups in the available space rather than spreading decoration uniformly."
     },
     "complex_source_handling": [
       "Identify major visual masses before rendering fine detail.",
@@ -326,7 +327,7 @@
     "complexity_rule": "The more visually complicated the input, the stronger the structural simplification. Do not increase the target style's overall detail density to match the input."
   },
   "generation_instructions": {
-    "style_prompt": "Create a richly detailed vintage storybook illustration rendered in fine traditional pen-and-ink linework, layered watercolor washes, and subtle opaque gouache accents. Use extraordinarily delicate directional strokes, stippling, and selective hatching to describe organic textures and material surfaces. Render subjects with believable anatomy, softly rounded volume, natural expressive gestures, and restrained whimsical stylization. Apply a sophisticated muted palette with warm ivory, amber, sienna, and umber balanced against dusty blue, slate teal, and cool charcoal. Establish soft atmospheric illumination and gently textured shadows. Surround the central subject with a believable, carefully furnished illustrative environment containing contextually appropriate decorative details. Maintain finely controlled visual hierarchy, clear silhouettes, richly differentiated materials, and tactile paper texture. The overall result must resemble a meticulously handcrafted, traditionally printed European storybook illustration rather than a modern digital painting, cartoon, photograph, or 3D render. When adapting anime, fantasy, or highly rendered digital artwork, reconstruct the subject as an authentic hand-illustrated storybook scene. Preserve the subject's identity and distinctive design while translating shapes, materials, and lighting into traditional pen-and-ink, watercolor, and gouache techniques. Simplify cinematic perspective, glossy highlights, repetitive garment details, and dense architecture. Concentrate fine ink texture on selected tactile materials rather than covering the entire image with uniformly intricate marks.",
+    "style_prompt": "Create a richly detailed vintage storybook illustration rendered in fine traditional pen-and-ink linework, layered watercolor washes, and subtle opaque gouache accents. Use extraordinarily delicate directional strokes, stippling, and selective hatching to describe organic textures and material surfaces. Render subjects with believable anatomy, softly rounded volume, natural expressive gestures, and restrained whimsical stylization. Apply a sophisticated muted palette with warm ivory, amber, sienna, and umber balanced against dusty blue, slate teal, and cool charcoal. Establish soft atmospheric illumination and gently textured shadows. Surround the central subject with a believable, carefully furnished illustrative environment containing contextually appropriate decorative details. Maintain finely controlled visual hierarchy, clear silhouettes, richly differentiated materials, and tactile paper texture. The overall result must resemble a meticulously handcrafted, traditionally printed European storybook illustration rather than a modern digital painting, cartoon, photograph, or 3D render. If the source background is plain or sparse, build a cozy furnished interior around the subject with books, lamps, ceramics, textiles, and plants. Only for anime, fantasy, or highly rendered digital sources: keep the subject's identity, and simplify cinematic perspective, glossy highlights, and repetitive garment details into traditional pen-and-ink, watercolor, and gouache techniques.",
     "subject_placeholder": "{SUBJECT}",
     "context_placeholder": "{CONTEXT}",
     "composition_placeholder": "{COMPOSITION}",
