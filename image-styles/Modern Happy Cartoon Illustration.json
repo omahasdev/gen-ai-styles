@@ -1,0 +1,510 @@
+{
+  "style_name": "Modern Happy Cartoon Illustration",
+  "style_definition": {
+    "primary_identity": "Cheerful, charming 2D cartoon illustration featuring thick expressive dark outlines, rounded simplified shapes, adorable character expressions, rich smooth color fills, soft warm lighting, and playful storybook aesthetics. Subjects are reimagined as friendly, visually appealing cartoon forms with strong silhouettes and instantly recognizable features.",
+    "aesthetic": "Cute, happy, cozy, playful, colorful, soft, expressive, polished",
+    "influences": [
+      "Contemporary kawaii illustration",
+      "Modern children's picture books",
+      "Polished digital sticker illustration",
+      "Expressive mascot character design",
+      "Soft Western cartoon animation",
+      "Whimsical cozy fantasy illustration",
+      "Modern hand-drawn digital cartoons"
+    ],
+    "adaptability": "Applicable to humans, animals, anime characters, fantasy creatures, objects, interiors, architecture, landscapes, and complex narrative scenes.",
+    "mood": {
+      "primary": [
+        "Happy",
+        "Cozy",
+        "Whimsical",
+        "Heartwarming",
+        "Playful",
+        "Friendly",
+        "Comforting"
+      ],
+      "variable": [
+        "Mischievous",
+        "Dreamy",
+        "Excited",
+        "Peaceful",
+        "Romantic",
+        "Magical",
+        "Adventurous"
+      ],
+      "adaptation": "Express the source's emotional character through an optimistic, appealing cartoon interpretation without forcibly changing its narrative meaning."
+    }
+  },
+  "rendering": {
+    "medium": "High-resolution polished 2D digital cartoon illustration",
+    "technique": "Bold ink-like contours enclosing simplified colored shapes, smooth digital fills, broad layered shadows, and carefully placed soft highlights",
+    "realism_level": 0.12,
+    "stylization_level": 0.95,
+    "line_art_prominence": 0.98,
+    "flat_color_prominence": 0.85,
+    "painterly_rendering": 0.1,
+    "texture_strength": 0.08,
+    "detail_resolution": "Low to moderate, with high precision at essential expressive and identity-defining features",
+    "source_translation": "Completely redraw the source in the target cartoon language instead of applying an outline filter or merely increasing saturation.",
+    "surface_finish": "Smooth, clean, softly luminous digital illustration",
+    "edge_treatment": "Bold, smooth, confidently drawn contours with rounded corners and organic variation",
+    "dimensionality": "Stylized 2D forms with gentle illustrative volume",
+    "photographic_elements": false,
+    "three_dimensional_rendering": false,
+    "avoid": [
+      "Photographic textures",
+      "Detailed realistic rendering",
+      "Painterly brushstrokes",
+      "Complex surface noise",
+      "Realistic material simulation",
+      "Thin sketch-like outlines",
+      "Hard geometric vector appearance",
+      "3D toy rendering"
+    ]
+  },
+  "composition": {
+    "structure": "Large recognizable focal subject supported by a simplified, softly atmospheric environment",
+    "hierarchy": "Main subject first, essential interacting objects second, decorative environment third",
+    "subject_scale": "Large and prominent, occupying approximately 65-85% of the useful composition when appropriate",
+    "camera": "Preserve the source's essential perspective while gently simplifying dramatic angles and foreshortening",
+    "perspective": "Flattened and subtly exaggerated to maximize visual readability",
+    "depth": "Three clearly separated layers: foreground, focal subject, and subdued background",
+    "balance": "Friendly, stable composition with expressive asymmetry",
+    "silhouette": "Bold, rounded, immediately recognizable",
+    "visual_flow": "Soft curves, overlapping rounded forms, and natural gestures direct attention toward the main subject",
+    "negative_space": "Generous enough to distinguish important contours and object interactions",
+    "aspect_ratio": "Preserve the source aspect ratio unless otherwise requested",
+    "principles": {
+      "readability": "The main concept must remain recognizable as a small thumbnail.",
+      "simplicity": "Consolidate intricate source detail into a few large coherent shapes.",
+      "expressiveness": "Prioritize emotional clarity and appealing character design.",
+      "focal_separation": "Use strong contour contrast, distinct color regions, and selective brightness.",
+      "coherence": "Characters, objects, and environments share one consistent cartoon rendering language.",
+      "storytelling": "Preserve the original scene's relationships and actions.",
+      "density": "High visual clarity with relatively low internal detail."
+    }
+  },
+  "framing": {
+    "importance": "Low",
+    "default_shape": "Full-bleed illustration without a decorative border",
+    "frame_style": "Immersive cartoon scene",
+    "outer_background": {
+      "type": "Integrated simplified illustrated environment"
+    },
+    "avoid": [
+      "Unrequested circular avatar crops",
+      "Decorative poster borders",
+      "Unnecessary ornamental arches",
+      "Large empty margins",
+      "Cropping important subject features"
+    ]
+  },
+  "linework": {
+    "primary_style": "Bold expressive cartoon ink contours",
+    "outline_color": "#141016",
+    "alternate_outline_colors": [
+      "#211923",
+      "#241A28",
+      "#30232D"
+    ],
+    "external_contours": {
+      "weight": "Very thick",
+      "relative_weight": "Approximately 1.0-1.8% of image width for major silhouettes, adjusted to composition",
+      "appearance": "Deep near-black, smooth, confidently curved, organically varied",
+      "continuity": "Strong continuous outlines around major forms"
+    },
+    "internal_contours": {
+      "weight": "Medium to thick",
+      "relative_weight": "Approximately 35-65% of external contour weight",
+      "density": "Low",
+      "application": [
+        "Facial expressions",
+        "Major hair or fur divisions",
+        "Clothing boundaries",
+        "Important object features",
+        "Paw and finger articulation",
+        "Essential decorative markings"
+      ]
+    },
+    "line_character": {
+      "precision": 0.95,
+      "fluidity": 0.95,
+      "uniformity": 0.65,
+      "expressiveness": 1.0,
+      "roughness": 0.02
+    },
+    "rules": [
+      "Every major subject must have an immediately recognizable outer silhouette.",
+      "Use thicker outlines for outer contours than for interior details.",
+      "Favor sweeping curves and rounded corners.",
+      "Use tapered or slightly irregular contour transitions for organic appeal.",
+      "Draw expressive features with a minimal number of confident strokes.",
+      "Separate overlapping forms using dark outlines rather than realistic shading.",
+      "Avoid excessive outlines inside broad color areas."
+    ],
+    "avoid": [
+      "Hairline strokes",
+      "Sketchy construction lines",
+      "Crosshatching",
+      "Engraving",
+      "Realistic feathering",
+      "Dense anime linework",
+      "Uniformly thin vector outlines",
+      "Uncontrolled thick black shadow patches"
+    ]
+  },
+  "color_system": {
+    "identity": "Rich, charming, warm-cool cartoon color harmony with creamy highlights, warm pink accents, deep plum or charcoal shadows, and selective bright complementary colors",
+    "saturation": "Medium-high on the focal subject, moderate-low in the background",
+    "contrast": "High silhouette and contour contrast with smooth internal transitions",
+    "temperature": "Warm foreground highlights balanced against cooler, quieter background shadows",
+    "harmony": "Compact harmonious palette combining warm highlights, soft saturated midtones, and deep complementary shadow hues",
+    "color_application": "Large opaque color fills with two or three carefully differentiated tonal regions per major shape",
+    "palette": {
+      "near_black": "#141016",
+      "deep_plum": "#332637",
+      "warm_charcoal": "#594650",
+      "dusty_mauve": "#846575",
+      "warm_rose": "#E5A4A5",
+      "soft_coral": "#FF8F82",
+      "peach_cream": "#FFD5BE",
+      "warm_ivory": "#FFF0DC",
+      "midnight_blue": "#193B77",
+      "soft_navy": "#294D89",
+      "golden_amber": "#FFBA48",
+      "bright_orange": "#FF951A",
+      "soft_lavender": "#AD78BA",
+      "dark_berry": "#8D2453"
+    },
+    "palette_rule": "Treat these colors as a tonal reference, not a mandatory recoloring template. Preserve recognizable subject-specific colors while translating them into the same bright, warm, harmonious cartoon treatment.",
+    "highlight_policy": "Use cream, peach, and softly luminous warm highlights on focal forms",
+    "shadow_policy": "Prefer colored dark plum, navy, or warm charcoal shadows over pure black shading",
+    "background_policy": "Use a darker, less saturated, visually quieter palette than the foreground",
+    "accent_policy": "Reserve the most saturated accent colors for one or two meaningful focal elements",
+    "avoid": [
+      "Neon rainbow saturation",
+      "Uniform saturation across the scene",
+      "Flat monochrome recoloring",
+      "Photographic color grading",
+      "Harsh HDR",
+      "Large muddy color regions",
+      "Low-contrast merging of adjacent objects"
+    ]
+  },
+  "shading_and_lighting": {
+    "lighting": {
+      "type": "Soft warm illustrative ambient light",
+      "direction": "Broad upper-front or upper-side illumination",
+      "temperature": "Warm peach and amber illumination balanced with muted violet or blue ambient shadows",
+      "shadow_style": "Broad, softly rounded, simplified shadow shapes",
+      "highlight_style": "Creamy soft highlights and selective small glossy accents",
+      "contrast": "Moderate internal contrast, very strong graphic edge separation",
+      "luminosity": "Warm, welcoming, softly glowing",
+      "practical_lights": "Stylized warm light sources only when appropriate to the original scene"
+    },
+    "shading": {
+      "method": "Simplified cel shading with a small amount of soft gradient blending",
+      "volume": "Plush, rounded, gently inflated forms",
+      "ambient_occlusion": "Selective darkening at contacts, folds, and overlapping objects",
+      "color_variation": "Controlled warm highlights and cool shadows within large color masses",
+      "material_definition": "Simplified highlights, color blocks, and clean silhouette boundaries",
+      "priority": "Appealing rounded cartoon volume rather than realistic light physics"
+    },
+    "avoid": [
+      "Complex physically based lighting",
+      "Highly detailed reflections",
+      "Sharp cinematic shadows",
+      "Photorealistic skin shading",
+      "Heavy volumetric lighting",
+      "Metallic realism",
+      "Strong bloom obscuring outlines",
+      "Extensive airbrush gradients"
+    ]
+  },
+  "subject_design": {
+    "overall_style": "Adorable rounded cartoon interpretation with expressive character design and recognizable source identity",
+    "proportions": {
+      "head": "Moderately enlarged for expressive characters where appropriate",
+      "body": "Compact, softened, and gently rounded",
+      "limbs": "Simplified and expressive while preserving essential anatomy",
+      "hands_and_paws": "Soft rounded shapes with clear functional articulation",
+      "silhouette": "Appealing large masses connected by smooth curves",
+      "proportion_rule": "Adapt exaggeration to the source; preserve distinctive body type, age, proportions, and identity rather than imposing one universal mascot anatomy."
+    },
+    "face": {
+      "geometry": "Soft rounded shapes with minimal internal complexity",
+      "eyes": "Large expressive simplified eyes when open; graceful curved closed-eye lines when smiling",
+      "eyebrows": "Minimal expressive curves",
+      "nose": "Small simplified shape with clear contrast",
+      "mouth": "Confident curved strokes expressing an approachable positive emotion",
+      "cheeks": "Optional soft blush or warm highlights",
+      "expression": "Warm, endearing, emotionally immediate",
+      "detail": "Very low, carefully controlled",
+      "expression_rule": "Translate the source emotion into the target cartoon style, favoring warmth without erasing essential narrative intent."
+    },
+    "hair_and_fur": {
+      "construction": "Large rounded locks, tufts, or clumps",
+      "silhouette": "Soft fluffy outline with selected pointed accents",
+      "detail": "Very few decorative inner strands",
+      "shading": "Large overlapping colored masses",
+      "texture": "Implied by silhouette and color rather than individually rendered strands"
+    },
+    "clothing": {
+      "construction": "Preserve recognizable costume shapes and colors",
+      "folds": "Few large curved folds",
+      "accessories": "Simplified but distinctive",
+      "patterns": "Bold and readable at small scale",
+      "shading": "Two or three color regions per major garment component",
+      "rule": "Preserve signature costume identity while removing unnecessary folds, reflections, and micro-ornaments."
+    },
+    "objects": {
+      "shape_language": "Rounded and gently exaggerated",
+      "edges": "Softened corners, broad contours",
+      "proportions": "Slightly exaggerated where useful for recognition and charm",
+      "materials": "Represented through simplified color fills, highlights, and thick outlines",
+      "mechanical_integrity": "Preserve essential functionality, connections, and recognizable construction",
+      "object_interaction": "Maintain clear contact points and physically understandable actions"
+    },
+    "organic_forms": "Soft, rhythmic, rounded, and approachable",
+    "subject_integrity": "Retain the source's recognizable identity, distinctive colors, essential anatomy, clothing, pose, interaction, and significant objects.",
+    "avoid": [
+      "Unnecessary anatomical distortion",
+      "Generic character replacement",
+      "Excessive head enlargement",
+      "Unwanted age changes",
+      "Changing signature costumes",
+      "Unnatural fingers or paws",
+      "Ambiguous object interactions",
+      "Photographic facial rendering",
+      "Realistic hair and fur strands",
+      "Rubbery 3D appearance"
+    ]
+  },
+  "botanical_design": {
+    "importance": "Optional and context-dependent",
+    "style": "Large simple flowers and rounded leaf shapes with bold contours and flat cheerful colors",
+    "placement": [
+      "Only where plants belong to the source scene or interior",
+      "As simplified textile or wallpaper patterns"
+    ],
+    "avoid": [
+      "Arbitrary floral decorations",
+      "Detailed botanical rendering",
+      "Small dense foliage"
+    ]
+  },
+  "background_design": {
+    "style": "Simplified cozy cartoon environment with soft atmospheric depth",
+    "depth": "Shallow to moderate",
+    "geometry": "Broad simplified architectural and environmental shapes",
+    "architecture": "Rounded, streamlined versions of source structures with major landmarks preserved",
+    "furniture": "Recognizable simplified silhouettes with bold contours",
+    "decorative_objects": "Only contextually relevant objects that reinforce the narrative",
+    "patterns": "Large simplified patterns rather than tiny intricate repetitions",
+    "lighting": "Soft ambient glow from existing or appropriate light sources",
+    "detail_density": "Low",
+    "contrast": "Substantially lower than the central subject",
+    "focus": "Visually subordinate to primary subject and essential interactions",
+    "relationship_to_subject": "Support the scene's atmosphere while preserving strong separation of the focal silhouette",
+    "avoid": [
+      "Highly detailed background architecture",
+      "Sharp background micro-details",
+      "Unrelated decoration",
+      "Busy wallpaper patterns",
+      "Photographic bokeh",
+      "Unnecessary scene replacement",
+      "Strong background outlines competing with the subject"
+    ]
+  },
+  "ornamental_language": {
+    "importance": "Low to moderate and context-dependent",
+    "identity": "Simple cheerful decorations integrated naturally into depicted objects and environments",
+    "motifs": [
+      "Large simple flowers",
+      "Rounded leaf shapes",
+      "Soft decorative curves",
+      "Bold simplified textile patterns",
+      "Minimal stars or sparkles when appropriate",
+      "Playful geometric accents"
+    ],
+    "scale": "Medium or large, never unnecessarily intricate",
+    "density": "Sparse",
+    "integration": "Ornaments should belong to the actual scene or subject design",
+    "repetition": "Limited and visually controlled",
+    "avoid": [
+      "Arbitrary floral decorations",
+      "Ornate borders",
+      "Excessive small patterns",
+      "Random floating symbols",
+      "Decoration replacing original content"
+    ]
+  },
+  "texture": {
+    "overall": "Smooth polished digital cartoon finish",
+    "paper_grain": 0.0,
+    "watercolor_bleed": 0.0,
+    "color_noise": 0.01,
+    "line_roughness": 0.02,
+    "surface_weathering": 0.0,
+    "micro_detail": 0.08,
+    "gradient_smoothness": 0.9,
+    "character": "Clean color regions, subtle shading transitions, and crisp ink-like contours",
+    "distribution": "Almost textureless overall; use only very subtle localized variation if necessary",
+    "avoid": [
+      "Watercolor paper",
+      "Film grain",
+      "Canvas texture",
+      "Photographic noise",
+      "Crosshatching",
+      "Scratches",
+      "Weathering",
+      "Realistic fabric weave",
+      "Detailed material microtexture"
+    ]
+  },
+  "style_fidelity": {
+    "mandatory_features": [
+      "Very thick near-black outer contours",
+      "Smooth expressive rounded silhouettes",
+      "Strong intentional shape simplification",
+      "Friendly emotionally readable expressions",
+      "Large cohesive color fills",
+      "Soft peach and cream highlights",
+      "Controlled saturated accent colors",
+      "Broad simplified cel shading",
+      "Plush appealing visual volume",
+      "Clean digital finish",
+      "Subdued atmospheric background",
+      "High readability at small display sizes",
+      "Consistent cartoon rendering across every object"
+    ],
+    "optional_features": [
+      "Closed smiling eyes",
+      "Soft pink cheeks",
+      "Fluffy hair or fur tufts",
+      "Warm lamps",
+      "Cozy interior decorations",
+      "Simple flowers",
+      "Rounded household objects",
+      "Small bright highlights",
+      "Soft ambient glow"
+    ],
+    "explicitly_not_the_style": [
+      "Photorealism",
+      "Vintage watercolor illustration",
+      "Fine pen-and-ink engraving",
+      "Anime screenshot rendering",
+      "Complex anime cel shading",
+      "Realistic fantasy concept art",
+      "3D animation",
+      "CGI",
+      "Photographic textures",
+      "Flat minimalist iconography",
+      "Thin uniform vector art",
+      "Painterly oil illustration",
+      "Excessively detailed backgrounds",
+      "Complex cinematic lighting"
+    ]
+  },
+  "source_adaptation": {
+    "principle": "Preserve semantic identity, recognizable design, and narrative relationships while radically simplifying source rendering complexity.",
+    "subject_independence": "Apply the same cheerful cartoon visual language to realistic photographs, anime characters, stylized illustrations, animals, people, fantasy creatures, objects, and environments.",
+    "detail_budget": {
+      "primary_subject": "Preserve identifying features and essential shapes; render using a limited number of large color and contour regions.",
+      "face": "Prioritize expressive features, distinctive facial geometry, and recognizable identity.",
+      "clothing": "Preserve major layers, signature colors, accessories, and structural details; merge repetitive folds and ornament.",
+      "objects": "Retain distinguishing geometry, functional construction, and object relationships.",
+      "background": "Reduce architectural and decorative detail aggressively while preserving scene recognition.",
+      "ornament": "Only retain significant or narratively useful decoration."
+    },
+    "complex_source_handling": [
+      "Analyze the source as large visual masses before drawing.",
+      "Identify the focal subject and essential narrative objects.",
+      "Establish a clean outer silhouette before internal detailing.",
+      "Convert complex anatomy into simplified but coherent cartoon geometry.",
+      "Merge hair strands, fur details, folds, reflections, and tiny textures into large shapes.",
+      "Replace realistic surface textures with flat colors and simple highlights.",
+      "Convert complex lighting into two or three clear tonal regions.",
+      "Reconstruct the environment using recognizable simplified silhouettes.",
+      "Keep overlapping objects visually separate using thick dark contours.",
+      "Retain signature character design rather than substituting a generic cute mascot.",
+      "Ensure the entire image uses the same cartoon vocabulary."
+    ],
+    "complexity_rule": "The greater the source complexity, the more aggressively secondary details should be consolidated. Target detail density must remain consistently low regardless of source rendering density.",
+    "anime_adaptation": {
+      "principle": "Reconstruct anime characters in the target rounded cartoon style without losing character identity.",
+      "preserve": [
+        "Distinctive hairstyle and hair color",
+        "Recognizable facial features",
+        "Signature costume",
+        "Important accessories",
+        "Body type and character silhouette",
+        "Original character relationships"
+      ],
+      "simplify": [
+        "Hair strand count",
+        "Complex eye reflections",
+        "Garment fold density",
+        "Armor and mechanical micro-details",
+        "Glossy highlights",
+        "Background architecture",
+        "Complex shadow gradients"
+      ],
+      "avoid": [
+        "Keeping the original anime shading",
+        "Combining realistic faces with cartoon bodies",
+        "Replacing characters with unrelated mascots",
+        "Making every character chibi",
+        "Losing distinctive costume details"
+      ]
+    },
+    "realistic_source_adaptation": {
+      "principle": "Transform realistic source material into attractive rounded cartoon forms rather than preserving photographic geometry or surface detail.",
+      "preserve": [
+        "Recognizable subject",
+        "Major spatial relationships",
+        "Essential actions",
+        "Distinctive colors",
+        "Important environmental landmarks"
+      ],
+      "transform": [
+        "Realistic proportions into gently exaggerated appealing forms",
+        "Complex textures into broad colored shapes",
+        "Realistic shadows into simplified graphic shading",
+        "Detailed backgrounds into atmospheric cartoon environments",
+        "Subtle expressions into clearly readable cartoon expressions"
+      ]
+    }
+  },
+  "generation_instructions": {
+    "style_prompt": "Redraw the subject as a modern happy cartoon illustration: a cheerful, cozy 2D image with very thick, smooth near-black outlines, large rounded shapes, and warm, appealing character design. Use clean opaque digital color fills in a harmonious palette: creamy peach highlights, warm rose midtones, deep plum or navy shadows, and one or two vibrant accent colors. Shade with simple two-to-three-tone cel shading and soft transitions, and add small glossy highlights. Give forms a soft, plush, rounded volume while keeping the image clearly 2D. Draw faces with a few confident lines and a clear, friendly expression. Render hair and fur as a few large rounded tufts, not individual strands. Exaggerate shapes only enough to add charm, and keep the subject's recognizable identity, proportions, colors, hairstyle, costume, and signature accessories. Whether the source is a photo, anime, or detailed artwork, redraw it fully in this same cartoon language: merge dense strands, folds, reflections, and small decorations into broad shapes, and turn complex lighting into two or three tonal regions. Keep the original story, pose, and spatial relationships, with clear contact points and understandable actions. Simplify the environment into a soft, lower-contrast background so that the subject reads instantly at thumbnail size. Separate overlapping forms with bold contours and distinct color regions. The result is a polished, heartwarming digital cartoon, not a filtered photo, an anime screenshot, or a 3D render.",
+    "subject_placeholder": "{SUBJECT}",
+    "context_placeholder": "{CONTEXT}",
+    "composition_placeholder": "{COMPOSITION}",
+    "palette_placeholder": "{PALETTE}",
+    "negative_prompt": "photorealism, photography, realistic skin, realistic fur, realistic hair strands, thin outlines, sketchy lines, crosshatching, ink engraving, watercolor texture, oil painting, painterly brushstrokes, anime cel shading, anime screenshot, complex material simulation, 3D, CGI, plastic toy, photorealistic lighting, harsh shadows, dramatic chiaroscuro, excessive detail, tiny repetitive patterns, detailed architecture, realistic depth of field, bokeh, blurred subject, muddy colors, neon colors, weak silhouette, merged overlapping objects, chibi proportions, deformed anatomy, extra fingers, extra limbs, distorted paws, decorative border, circular crop, text, typography, watermark",
+    "priority_order": [
+      "Preserve recognizable subject identity and essential narrative",
+      "Completely transform source rendering into cheerful cartoon illustration",
+      "Establish large expressive rounded shapes",
+      "Apply exceptionally bold smooth dark outlines",
+      "Simplify complex details into clear graphic masses",
+      "Create adorable emotionally readable character expressions",
+      "Use cohesive colorful fills and warm creamy highlights",
+      "Apply broad simplified shading and soft rounded volume",
+      "Preserve important accessories and functional interactions",
+      "Separate major objects through contours and color contrast",
+      "Simplify and visually subordinate the background",
+      "Ensure high readability at thumbnail size",
+      "Maintain a clean polished consistent 2D finish"
+    ],
+    "reference_image_usage": {
+      "style_references": "Use the cartoon reference as authority for contour thickness, rounded shape language, simplified anatomy, cheerful expression, warm-cool palette harmony, clean digital color fills, and soft lighting. Do not copy its specific subject or props.",
+      "subject_reference": "Use the original source image as authority for character identity, distinctive physical appearance, subject-specific colors, clothing, significant objects, pose, and narrative relationships.",
+      "style_strength": "Very high",
+      "subject_identity_strength": "High",
+      "composition_adaptation": "Moderate; simplify and rebalance the source composition without unnecessarily replacing it",
+      "texture_transfer": "Replace source textures with simplified cartoon color regions and highlights rather than copying photographic or painterly surface details"
+    }
+  }
+}
