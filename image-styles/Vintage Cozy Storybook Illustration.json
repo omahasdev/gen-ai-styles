@@ -1,0 +1,332 @@
+{
+  "style_name": "Vintage Cozy Storybook Illustration",
+  "style_definition": {
+    "primary_identity": "Highly detailed, nostalgic storybook illustration combining delicate hand-inked contours, finely textured watercolor and gouache coloring, warm domestic atmosphere, and richly illustrated vintage objects. Naturalistic subjects are rendered with gentle expressive stylization and tactile surface detail.",
+    "aesthetic": "Cozy, nostalgic, intricate, whimsical, handcrafted, intimate",
+    "influences": [
+      "Late Victorian illustrated storybooks",
+      "Edwardian children's book illustration",
+      "Traditional watercolor and gouache",
+      "Fine pen-and-ink illustration",
+      "Vintage botanical illustration",
+      "Antique illustrated fairy tales",
+      "Decorative domestic illustration",
+      "Traditional European picture books"
+    ],
+    "adaptability": "Applicable to animals, people, creatures, objects, interiors, architecture, landscapes, and narrative scenes.",
+    "mood": {
+      "primary": [
+        "Warm",
+        "Cozy",
+        "Nostalgic",
+        "Gentle",
+        "Whimsical",
+        "Intimate",
+        "Timeless"
+      ],
+      "variable": [
+        "Mysterious",
+        "Melancholic",
+        "Playful",
+        "Romantic",
+        "Dreamlike",
+        "Serene"
+      ]
+    }
+  },
+  "rendering": {
+    "medium": "Traditional-looking 2D illustration",
+    "technique": "Fine ink drawing combined with layered translucent watercolor, opaque gouache accents, and controlled stippled texture",
+    "realism_level": 0.72,
+    "stylization_level": 0.48,
+    "line_art_prominence": 0.8,
+    "painterly_rendering": 0.7,
+    "texture_strength": 0.8,
+    "detail_resolution": "Very high",
+    "surface_finish": "Matte, softly aged printed illustration",
+    "edge_treatment": "Precise but organically irregular contours, softened by fine painterly and ink textures",
+    "dimensionality": "Convincing illustrated volume without photographic rendering",
+    "photographic_elements": false,
+    "three_dimensional_rendering": false
+  },
+  "composition": {
+    "structure": "Narrative illustration with a clearly readable main subject integrated into a richly furnished environment",
+    "hierarchy": "Primary subject first, important interacting objects second, decorative environment third",
+    "subject_scale": "Medium to large, dominating the central portion of the composition",
+    "camera": "Close to the subject, slightly above or near eye level depending on the scene",
+    "perspective": "Naturalistic but gently compressed and simplified",
+    "depth": "Layered foreground, middle ground, and softly subdued background",
+    "balance": "Controlled asymmetry with deliberate placement of supporting objects",
+    "silhouette": "Natural, rounded, expressive, recognizable",
+    "visual_flow": "Curves of objects, furniture, gestures, and decorative motifs guide attention toward the subject",
+    "negative_space": "Limited but intentionally maintained around focal features",
+    "aspect_ratio": "Flexible; square and portrait formats particularly suitable",
+    "principles": {
+      "storytelling": "Every object should contribute to a believable illustrated moment",
+      "readability": "Fine details must not compromise recognition of the principal subject",
+      "density": "Rich decorative detail organized into distinct visual groups",
+      "focal_separation": "Use contour contrast, brightness, and localized color separation",
+      "coherence": "All elements share the same hand-painted and hand-inked treatment"
+    }
+  },
+  "framing": {
+    "importance": "Low",
+    "default_shape": "Full-bleed scene without a decorative border or arch",
+    "frame_style": "Intimate and immersive rather than poster-like",
+    "outer_background": {
+      "type": "None; the illustrated environment fills the entire image"
+    },
+    "avoid": [
+      "Arbitrary ornamental borders",
+      "Poster-like framing"
+    ]
+  },
+  "linework": {
+    "primary_style": "Intricate hand-drawn ink illustration",
+    "outline_color": "Warm charcoal, dark umber, and muted near-black",
+    "external_contours": {
+      "weight": "Fine to medium",
+      "appearance": "Dark, organically irregular, selectively reinforced",
+      "continuity": "Mostly continuous, with occasional textured interruptions"
+    },
+    "internal_contours": {
+      "weight": "Very fine",
+      "density": "High",
+      "techniques": [
+        "Short directional strokes",
+        "Fine parallel hatching",
+        "Selective crosshatching",
+        "Stippling",
+        "Broken contour marks",
+        "Delicate engraved-looking texture"
+      ]
+    },
+    "organic_detail": "Hundreds of small directional marks can describe fur, feathers, hair, foliage, and other organic surfaces",
+    "material_detail": "Precise curved contours and small tonal marks distinguish ceramic, wood, glass, fabric, and metal",
+    "line_character": {
+      "precision": 0.9,
+      "fluidity": 0.75,
+      "uniformity": 0.45,
+      "expressiveness": 0.8,
+      "roughness": 0.3
+    },
+    "avoid": [
+      "Thick cartoon outlines",
+      "Perfectly uniform vector strokes",
+      "Unstructured scribbling",
+      "Photographic edge blending",
+      "Heavy black shadow masses"
+    ]
+  },
+  "color_system": {
+    "identity": "Muted, sophisticated historical palette balancing cool blue-green environments against warm cream, amber, and reddish-brown accents",
+    "saturation": "Low to medium",
+    "contrast": "Moderate global contrast with stronger localized contrast at the subject",
+    "temperature": "Warm foreground illumination balanced by cool shadowed surroundings",
+    "harmony": "Analogous earth tones combined with complementary dusty blue accents",
+    "color_application": "Multiple translucent pigment layers, delicately modulated local colors, and selective opaque highlights",
+    "palette": {
+      "dark_charcoal": "#343536",
+      "slate_blue": "#526D78",
+      "dusty_teal": "#667D80",
+      "antique_cream": "#E6CBB1",
+      "warm_ivory": "#F0DFCB",
+      "burnt_sienna": "#9B573B",
+      "mahogany": "#684234",
+      "antique_gold": "#C28A4E",
+      "muted_periwinkle": "#7B85A6",
+      "deep_umber": "#483C36",
+      "warm_shadow": "#AA8570"
+    },
+    "palette_rule": "Use the palette as a tonal reference, not as a mandatory fixed color scheme. Adapt local hues to the subject while preserving muted warmth, cool shadow balance, and antique pigment character.",
+    "highlight_policy": "Reserve brightest cream and amber colors for important surfaces and visual focal points",
+    "background_policy": "Keep background colors slightly darker, cooler, and less saturated than foreground elements"
+  },
+  "shading_and_lighting": {
+    "lighting": {
+      "type": "Soft atmospheric interior or natural light with gentle warm highlights",
+      "direction": "Compositionally motivated side or upper-side illumination",
+      "temperature": "Warm amber highlights and cooler blue-gray ambient shadows",
+      "shadow_style": "Soft-edged, layered, and gently textured",
+      "highlight_style": "Small controlled highlights on reflective surfaces and soft broad highlights on organic forms",
+      "contrast": "Moderate, avoiding intense dramatic chiaroscuro",
+      "luminosity": "Subdued and intimate",
+      "practical_lights": "Decorative lamps, windows, candles, or other believable sources when appropriate"
+    },
+    "shading": {
+      "method": "Layered watercolor washes reinforced with fine ink hatching and opaque gouache accents",
+      "volume": "Naturalistic, softly rounded forms",
+      "ambient_occlusion": "Moderate at contact points and overlapping surfaces",
+      "color_variation": "Fine warm-cool pigment variations within individual objects",
+      "material_definition": "Combination of tonal washes, fine ink marks, and selective highlights",
+      "priority": "Preserve illustration character over physically accurate rendering"
+    }
+  },
+  "subject_design": {
+    "overall_style": "Naturalistic illustration with gentle whimsical exaggeration",
+    "anatomy": "Credible underlying anatomy with slightly softened, expressive proportions",
+    "expressions": "Subtle, emotionally readable, gentle, and characterful",
+    "organic_forms": "Natural contours with dense directional line texture",
+    "eyes": "Expressive but proportionate, with small controlled reflections",
+    "hands_and_paws": "Anatomically coherent with careful articulation and natural object interactions",
+    "materials": {
+      "fur": "Dense fine directional strokes with layered gray and warm pigment variation",
+      "hair": "Individual fine ink strands integrated with broader painted masses",
+      "fabric": "Soft folds, subtle woven texture, and gentle shadow transitions",
+      "ceramics": "Warm ivory surfaces with delicate decorative markings and small glossy highlights",
+      "wood": "Layered brown washes, visible grain, and fine engraved-looking contours",
+      "metal": "Warm illustrated reflections with restrained specular accents",
+      "glass": "Subtle transparency and carefully placed highlights",
+      "foliage": "Detailed leaf silhouettes, precise veins, and layered muted greens"
+    },
+    "subject_integrity": "Preserve recognizable anatomy, proportions, distinctive colors, and signature characteristics",
+    "avoid": [
+      "Chibi anatomy",
+      "Oversized cartoon eyes",
+      "Rubbery or plastic surfaces",
+      "Excessive anthropomorphism",
+      "Unnatural articulation",
+      "Hyperrealistic skin or fur simulation"
+    ]
+  },
+  "botanical_design": {
+    "importance": "Optional and context-dependent",
+    "style": "Vintage botanical illustration with detailed leaf silhouettes, precise veins, and layered muted greens",
+    "placement": [
+      "Botanical arrangements among the decorative objects",
+      "Small-scale botanical motifs on ceramics, textiles, and wallpaper"
+    ]
+  },
+  "background_design": {
+    "style": "Detailed illustrated environment with vintage decorative character",
+    "depth": "Moderate spatial depth with softer, lower-contrast distant regions",
+    "architecture": "Naturalistic period-inspired geometry, subtle ornamental woodwork, and textured architectural surfaces",
+    "furniture": "Carefully delineated silhouettes with visible material qualities",
+    "decorative_objects": "Books, textiles, ceramics, lamps, botanical arrangements, and other contextually appropriate objects",
+    "patterns": "Small-scale botanical motifs, lacework, wallpaper, decorative fabric, and engraved ornament when relevant",
+    "windows": "Softly painted exterior light and restrained geometric framing",
+    "density": "High detail density without uniform visual emphasis",
+    "relationship_to_subject": "Environment reinforces the narrative while maintaining clear separation from the focal subject",
+    "avoid": [
+      "Empty generic gradient backgrounds",
+      "Unrelated decorative clutter",
+      "Strong bokeh",
+      "Cinematic lens blur",
+      "Excessively sharp distant objects"
+    ]
+  },
+  "ornamental_language": {
+    "importance": "High but context-dependent",
+    "identity": "Domestic, botanical, historical, and handcrafted ornament rather than abstract graphic decoration",
+    "motifs": [
+      "Fine floral ceramic patterns",
+      "Botanical arrangements",
+      "Antique furniture details",
+      "Decorative textiles",
+      "Lace and embroidery",
+      "Stained-glass-inspired lamp details",
+      "Vintage book ornament",
+      "Small repeated organic patterns"
+    ],
+    "scale": "Mostly small and medium motifs integrated into physical objects",
+    "density": "High in selected secondary areas, restrained near focal features",
+    "integration": "Ornaments belong naturally to depicted objects and environments",
+    "repetition": "Subtle repeated patterns establish visual cohesion",
+    "avoid": [
+      "Arbitrary ornamental borders",
+      "Giant decorative halos",
+      "Unrelated fantasy symbols",
+      "Excessive gold filigree",
+      "Patterns obscuring major silhouettes"
+    ]
+  },
+  "texture": {
+    "overall": "Rich, fine-grained traditional illustration texture",
+    "paper_grain": 0.65,
+    "watercolor_granulation": 0.7,
+    "pigment_variation": 0.8,
+    "ink_texture": 0.85,
+    "gouache_opacity": 0.45,
+    "surface_weathering": 0.15,
+    "micro_detail": 0.9,
+    "character": "Subtle printed-paper grain, finely broken pigment edges, irregular transparent washes, and densely articulated pen marks",
+    "distribution": "Texture follows the physical character and form of each material rather than acting as a uniform noise overlay",
+    "avoid": [
+      "Artificial digital grain",
+      "Aggressive grunge overlays",
+      "Heavy canvas texture",
+      "Photographic noise",
+      "Uncontrolled watercolor bleeding",
+      "Excessive sharpening"
+    ]
+  },
+  "style_fidelity": {
+    "mandatory_features": [
+      "Extremely fine hand-inked contours",
+      "Layered watercolor and gouache rendering",
+      "High-density controlled surface detail",
+      "Muted warm and cool pigment harmony",
+      "Tactile paper-like texture",
+      "Soft believable lighting",
+      "Naturalistic yet gently whimsical subjects",
+      "Rich illustrative environments",
+      "Distinct material rendering",
+      "Traditional vintage storybook appearance"
+    ],
+    "optional_features": [
+      "Antique domestic interiors",
+      "Decorative botanical arrangements",
+      "Vintage furniture",
+      "Patterned porcelain",
+      "Handmade textiles",
+      "Ornamental lamps",
+      "Weathered books",
+      "Decorative wallpaper",
+      "Soft window lighting"
+    ],
+    "explicitly_not_the_style": [
+      "Modern flat vector art",
+      "Clean digital cel shading",
+      "Anime illustration",
+      "Photorealism",
+      "3D rendering",
+      "CGI",
+      "Glossy concept art",
+      "Neon color grading",
+      "Thick uniform outlines",
+      "Minimalist backgrounds",
+      "Smooth airbrushed surfaces",
+      "Extreme depth of field",
+      "Excessive painterly abstraction",
+      "Generic AI watercolor filter"
+    ]
+  },
+  "generation_instructions": {
+    "style_prompt": "Create a richly detailed vintage storybook illustration rendered in fine traditional pen-and-ink linework, layered watercolor washes, and subtle opaque gouache accents. Use extraordinarily delicate directional strokes, stippling, and selective hatching to describe organic textures and material surfaces. Render subjects with believable anatomy, softly rounded volume, natural expressive gestures, and restrained whimsical stylization. Apply a sophisticated muted palette with warm ivory, amber, sienna, and umber balanced against dusty blue, slate teal, and cool charcoal. Establish soft atmospheric illumination and gently textured shadows. Surround the central subject with a believable, carefully furnished illustrative environment containing contextually appropriate decorative details. Maintain finely controlled visual hierarchy, clear silhouettes, richly differentiated materials, and tactile paper texture. The overall result must resemble a meticulously handcrafted, traditionally printed European storybook illustration rather than a modern digital painting, cartoon, photograph, or 3D render.",
+    "subject_placeholder": "{SUBJECT}",
+    "context_placeholder": "{CONTEXT}",
+    "composition_placeholder": "{COMPOSITION}",
+    "palette_placeholder": "{PALETTE}",
+    "negative_prompt": "photorealism, CGI, 3D, smooth vector graphics, flat cartoon coloring, anime, cel shading, thick outlines, plastic surfaces, neon saturation, cinematic bokeh, harsh HDR, extreme chiaroscuro, airbrushed gradients, blurry facial details, simplified textures, chaotic composition, generic watercolor filter, oversaturated colors, random decorative symbols, excessive grunge, warped anatomy, distorted objects, text, watermark",
+    "priority_order": [
+      "Preserve subject identity and anatomy",
+      "Apply fine traditional ink drawing",
+      "Introduce layered watercolor pigment variation",
+      "Build rich tactile material textures",
+      "Maintain naturalistic illustrated volume",
+      "Use harmonious muted warm-cool colors",
+      "Establish intimate atmospheric lighting",
+      "Integrate detailed contextual surroundings",
+      "Preserve clear silhouettes and focal hierarchy",
+      "Avoid modern digital or photographic appearance"
+    ],
+    "reference_image_usage": {
+      "style_references": "Use the reference image as authority for line density, pigment texture, color harmony, lighting softness, material rendering, and nostalgic illustration character.",
+      "subject_reference": "Preserve the identity, appearance, and essential characteristics of the supplied subject without copying unrelated objects from the style reference.",
+      "style_strength": "High",
+      "subject_identity_strength": "High",
+      "composition_adaptation": "Flexible",
+      "texture_transfer": "Strong transfer of illustrated texture, not literal copying of object-specific patterns"
+    }
+  }
+}

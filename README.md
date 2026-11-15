@@ -16,6 +16,7 @@ Style definitions for AI image generation. Each style is one JSON file in `image
 |---|---|---|
 | [Art Nouveau Watercolor](https://raw.githubusercontent.com/omahasdev/gen-ai-styles/main/image-styles/Art%20Nouveau%20Watercolor.json) | <img src="image-styles/Art%20Nouveau%20Watercolor.example.png" width="200" alt="Art Nouveau Watercolor example"> | Art Nouveau-inspired 2D illustration for any subject: flowing ink contours, ornamental framing, muted jewel tones, watercolor-like shading on paper texture |
 | [Art Nouveau Character Arch](https://raw.githubusercontent.com/omahasdev/gen-ai-styles/main/image-styles/Art%20Nouveau%20Character%20Arch.json) | <img src="image-styles/Art%20Nouveau%20Character%20Arch.example.png" width="200" alt="Art Nouveau Character Arch example"> | Modern flat-color character poster: full-body figure in a tall pale arch on a dark background, dark ink outlines, large stylized flowers |
+| [Vintage Cozy Storybook Illustration](https://raw.githubusercontent.com/omahasdev/gen-ai-styles/main/image-styles/Vintage%20Cozy%20Storybook%20Illustration.json) | <img src="image-styles/Vintage%20Cozy%20Storybook%20Illustration.example.png" width="200" alt="Vintage Cozy Storybook Illustration example"> | Victorian and Edwardian storybook illustration: fine pen-and-ink hatching, layered watercolor and gouache, muted warm and cool palette, detailed cozy interiors |
 
 The examples are made from the baseline image.
 
