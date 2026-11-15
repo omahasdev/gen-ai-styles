@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local tool settings
+.claude/settings.local.json
+AGENTS.md
+
+# Temporary files
+*.tmp
+*.bak
+tmp/

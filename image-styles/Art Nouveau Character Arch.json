@@ -1,0 +1,514 @@
+{
+  "style_name": "Art Nouveau Character Arch",
+  "style_definition": {
+    "primary_identity": "Contemporary 2D fantasy character illustration with Art Nouveau-inspired botanical ornamentation, graphic architectural framing, elegant line art, and restrained digital coloring",
+    "secondary_influences": [
+      "Fantasy character concept illustration",
+      "Decorative graphic poster design",
+      "Stylized stained-glass composition",
+      "Contemporary illustrated tarot aesthetics",
+      "Modern reinterpretation of Art Nouveau",
+      "Elegant comic-book character illustration"
+    ],
+    "historical_influences": {
+      "art_nouveau": "Borrow curved organic lines, floral framing, and decorative rhythm, not antique engraving or heavy metallic ornament",
+      "stained_glass": "Borrow geometric segmentation and bold contour separation, not realistic glass textures",
+      "medieval_fantasy": "Influence costumes and subject matter only, not the underlying rendering technique"
+    },
+    "visual_priority": [
+      "Full-body stylized subject",
+      "Clear dark ink contours",
+      "Flat-color digital illustration",
+      "Tall ornamental silhouette",
+      "Large botanical motifs",
+      "Restrained pastel and jewel-tone palette",
+      "Simplified soft shading",
+      "Clean contemporary finish"
+    ]
+  },
+  "rendering": {
+    "medium": "Clean high-resolution 2D digital line illustration",
+    "technique": "Precise ink-like outlines over flat digital color fills",
+    "visual_finish": "Smooth, polished, slightly hand-drawn",
+    "dimensionality": "Predominantly flat 2D with restrained volumetric modeling",
+    "realism_level": 0.35,
+    "stylization_level": 0.8,
+    "line_art_prominence": 0.95,
+    "flat_color_prominence": 0.85,
+    "painterly_rendering": 0.15,
+    "texture_strength": 0.1,
+    "surface": "Clean digital illustration with extremely subtle grain",
+    "avoid": [
+      "Oil painting",
+      "Traditional watercolor simulation",
+      "Engraving",
+      "Etching",
+      "Parchment texture",
+      "Vintage poster deterioration",
+      "Photorealistic rendering",
+      "Three-dimensional rendering"
+    ]
+  },
+  "composition": {
+    "default_orientation": "Portrait",
+    "preferred_aspect_ratio": "2:3 or 3:5",
+    "subject_framing": "Entire figure from head to feet",
+    "subject_scale": "The character occupies approximately 75-90% of the interior frame height",
+    "subject_position": "Centered or subtly offset",
+    "camera": "Straight-on, near eye-level",
+    "perspective": "Minimal perspective distortion",
+    "pose": "Natural but elegant, with a readable silhouette",
+    "body_proportions": {
+      "style": "Gracefully elongated contemporary fantasy illustration",
+      "head_to_body_ratio": "Approximately 1:7.5 to 1:8.5 when anatomically appropriate",
+      "limbs": "Slender and slightly elongated",
+      "hands": "Expressive but clearly anatomically structured",
+      "feet": "Visible and fully contained within the illustration",
+      "proportion_rule": "Stylization should preserve recognizability and subject identity"
+    },
+    "spatial_design": {
+      "depth": "Shallow layered composition",
+      "foreground": "Selective botanical silhouettes overlapping the lower subject",
+      "middle_ground": "Main character or focal subject",
+      "background": "Decorative flat illustration with soft botanical or geometric elements",
+      "perspective_depth": "Low",
+      "environment_detail": "Moderate"
+    },
+    "layout_constraints": [
+      "Never crop the head or feet unless explicitly requested",
+      "Do not allow decorations to overpower the subject",
+      "Maintain large clear silhouettes",
+      "Keep face and upper torso visually unobstructed",
+      "Do not default to a close-up portrait"
+    ]
+  },
+  "framing": {
+    "importance": "Very high",
+    "default_shape": "Tall narrow rounded arch with a semicircular or slightly pointed top",
+    "frame_style": "Clean architectural outline inspired by stained glass",
+    "border_color": "White, ivory, or very pale cream",
+    "border_width": "Thin to medium, visually consistent",
+    "secondary_contour": "Thin dark line adjacent to the light frame",
+    "border_ornamentation": "Sparse, elegant, integrated into the composition",
+    "geometric_divisions": {
+      "enabled": true,
+      "style": "Sharp geometric segments and long straight lines",
+      "density": "Low to moderate",
+      "examples": [
+        "Radiating lines",
+        "Asymmetric diagonal divisions",
+        "Simple curved partitions",
+        "Long vertical structural lines",
+        "Angular stained-glass-like panels"
+      ],
+      "rule": "Large geometric areas should remain visually uncluttered"
+    },
+    "outer_background": {
+      "type": "Flat solid color",
+      "preferred_colors": [
+        "Midnight navy",
+        "Deep burgundy",
+        "Dark plum",
+        "Muted charcoal blue",
+        "Dark warm brown"
+      ],
+      "texture": "None",
+      "visual_role": "Provide strong contrast against the pale architectural frame"
+    },
+    "avoid": [
+      "Elaborate gold picture frames",
+      "Heavy Gothic cathedral tracery",
+      "Rectangular illuminated manuscript borders",
+      "Highly complex metallic scrollwork",
+      "Aged parchment borders",
+      "Dense symmetrical corner ornament"
+    ]
+  },
+  "linework": {
+    "primary_style": "Clean hand-drawn ink line art",
+    "outline_color": "#29202F",
+    "alternate_outline_colors": [
+      "#302337",
+      "#30282E",
+      "#342A3B"
+    ],
+    "external_contours": {
+      "weight": "Medium",
+      "continuity": "Mostly continuous and clearly defined",
+      "appearance": "Dark smooth lines with subtle organic variation"
+    },
+    "internal_contours": {
+      "weight": "Fine",
+      "detail_level": "Moderate to high",
+      "application": [
+        "Hair strands",
+        "Garment folds",
+        "Armor segmentation",
+        "Facial details",
+        "Flower petals",
+        "Embroidery",
+        "Decorative patterns"
+      ]
+    },
+    "line_character": {
+      "precision": 0.9,
+      "fluidity": 0.85,
+      "uniformity": 0.75,
+      "expressiveness": 0.65,
+      "roughness": 0.05
+    },
+    "rules": [
+      "Every major object should have clearly readable contours",
+      "Maintain graphic separation between overlapping objects",
+      "Favor smooth continuous contours over textured brushstrokes",
+      "Use fine internal details without obscuring flat color regions",
+      "Apply consistent line treatment across character and environment",
+      "Use dark contours rather than metallic-colored outlines"
+    ],
+    "avoid": [
+      "Pencil sketching",
+      "Dense crosshatching",
+      "Etched engraving lines",
+      "Heavy comic-book outlines",
+      "Painterly broken edges",
+      "Photographic edge blending",
+      "Excessively thin low-contrast contours"
+    ]
+  },
+  "color_system": {
+    "identity": "Muted but colorful fantasy palette using complementary pastel and jewel-tone relationships",
+    "saturation": "Low to medium with selective moderately saturated accents",
+    "value_range": "Medium-high overall readability",
+    "color_application": "Opaque flat fills with soft localized gradient variation",
+    "contrast": "Dark outlines and background, lighter subject and floral details",
+    "palette_families": {
+      "lavender_fantasy": {
+        "primary": [
+          "#8777B4",
+          "#A99BCF",
+          "#C9B9E4",
+          "#E0CFF0"
+        ],
+        "secondary": [
+          "#8A9C82",
+          "#BBC5A4",
+          "#E5D9BD"
+        ],
+        "background": "#101334"
+      },
+      "rose_fantasy": {
+        "primary": [
+          "#A34D57",
+          "#C87972",
+          "#E9A78D",
+          "#F2C5A2"
+        ],
+        "secondary": [
+          "#7B527D",
+          "#9D8B59",
+          "#B7BB8D"
+        ],
+        "background": "#4A191E"
+      },
+      "moonlit_fantasy": {
+        "primary": [
+          "#6C648F",
+          "#9892BE",
+          "#C2B9DD",
+          "#D7D9E5"
+        ],
+        "secondary": [
+          "#D6BC7A",
+          "#E8D39E",
+          "#8B9A9C"
+        ],
+        "background": "#182740"
+      },
+      "autumn_fantasy": {
+        "primary": [
+          "#A85146",
+          "#D0835D",
+          "#E5AD7B",
+          "#F0D3A6"
+        ],
+        "secondary": [
+          "#87926D",
+          "#A6A579",
+          "#88677B"
+        ],
+        "background": "#493026"
+      }
+    },
+    "selection_policy": [
+      "Choose a compact harmonious palette based on the subject",
+      "Use one dominant family and a small number of accents",
+      "Reserve dark colors for contours, structural elements, and outer background",
+      "Use pastel hues inside the ornamental arch",
+      "Keep color transitions subtle",
+      "Do not automatically recolor all subjects purple",
+      "Preserve recognizable costume colors where needed"
+    ],
+    "avoid": [
+      "Monochromatic sepia",
+      "Predominantly beige compositions",
+      "Extensive gold surfaces",
+      "Metallic gold outlines everywhere",
+      "Neon highlights",
+      "Excessive color grading",
+      "Desaturated antique-paper appearance"
+    ]
+  },
+  "shading_and_lighting": {
+    "rendering_style": "Simplified illustrative shading",
+    "base_colors": "Mostly flat and opaque",
+    "shading_method": "Two to three softly blended tonal regions per major form",
+    "shadow_style": "Soft cel-painterly hybrid shading",
+    "shadow_density": "Low",
+    "ambient_occlusion": "Minimal",
+    "highlight_style": "Small, controlled highlights",
+    "light_direction": "Diffuse frontal or upper-side illumination",
+    "face_shading": "Gentle stylized transitions with limited detail",
+    "fabric_shading": "Broad folded regions with restrained gradients",
+    "metal_shading": "Simplified graphic highlights and clearly defined segments",
+    "flower_shading": "Flat petal colors with small inner tonal variations",
+    "background_shading": "Broad, subtle gradients only",
+    "avoid": [
+      "High dynamic range",
+      "Dramatic chiaroscuro",
+      "Photorealistic skin shading",
+      "Strong volumetric lighting",
+      "Complex reflected light",
+      "Hyperrealistic metal",
+      "Heavy directional shadows"
+    ]
+  },
+  "subject_design": {
+    "overall_style": "Elegant contemporary fantasy illustration",
+    "face": {
+      "geometry": "Simplified semi-realistic facial construction",
+      "proportions": "Slightly idealized, not photographic",
+      "eyes": "Clear almond-shaped eyes with expressive dark contours",
+      "eyebrows": "Clean, carefully shaped",
+      "nose": "Simplified contour and minimal tonal shading",
+      "lips": "Soft flat color with delicate contour definition",
+      "skin": "Smooth stylized coloring",
+      "expression": "Subtle and deliberate",
+      "detail": "Moderate",
+      "avoid": [
+        "Detailed pores",
+        "Photographic wrinkles",
+        "Complex skin microtexture",
+        "Hyperrealistic facial anatomy",
+        "Anime-style oversized eyes",
+        "Painterly portrait rendering"
+      ]
+    },
+    "hair": {
+      "construction": "Large flowing locks subdivided by fine contour lines",
+      "silhouette": "Clearly defined, decorative, graceful",
+      "detail": "Stylized strands rather than individually rendered hairs",
+      "shading": "Two or three main values",
+      "behavior": "Hair can contribute to the ornamental rhythm of the composition"
+    },
+    "clothing": {
+      "approach": "Stylized fantasy costume illustration",
+      "silhouette": "Long, layered, flowing or structurally decorative",
+      "folds": "Broad graphic fold shapes",
+      "surface_detail": "Selective ornamental patterns",
+      "materials": {
+        "fabric": "Smooth illustrated folds with elegant contour lines",
+        "metal": "Flat metallic hues with a few sharp highlights",
+        "leather": "Simplified dark color regions with fine seams",
+        "embroidery": "Thin repeating ornamental lines",
+        "jewelry": "Small flat highlights and graphic geometric shapes"
+      },
+      "detail_priority": [
+        "Readable overall costume",
+        "Major structural shapes",
+        "Secondary decorative features",
+        "Fine surface motifs"
+      ]
+    },
+    "subject_adaptation": {
+      "preserve_identity": true,
+      "preserve_signature_costume": true,
+      "preserve_signature_objects": true,
+      "preserve_recognizable_age": true,
+      "preserve_distinguishing_features": true,
+      "stylization_target": "Translate recognizable features into the illustration's flat graphic language",
+      "do_not": [
+        "Redesign an established character unnecessarily",
+        "Add arbitrary accessories",
+        "Replace clothing with generic fantasy armor",
+        "Change distinctive props",
+        "Overrender facial details"
+      ]
+    }
+  },
+  "botanical_design": {
+    "importance": "High",
+    "style": "Large flat botanical illustrations with clean dark contours",
+    "flower_geometry": "Broad simplified petals with delicate interior lines",
+    "flower_scale": "Large enough to read individually",
+    "placement": [
+      "Growing vertically along frame edges",
+      "Overlapping the lower portion of the arch",
+      "Clustering near corners",
+      "Framing the head without obscuring it",
+      "Interacting with architectural dividers"
+    ],
+    "stems": "Thin flowing organic curves",
+    "leaves": "Elongated pointed or softly rounded shapes",
+    "color": "Muted complementary pastel tones",
+    "density": "Medium to high, arranged in distinct readable clusters",
+    "depth": "Flat overlapping layers",
+    "examples": [
+      "Roses",
+      "Lilies",
+      "Anemones",
+      "Carnations",
+      "Wildflowers",
+      "Stylized foliage"
+    ],
+    "selection_rule": "Choose flowers that support the subject's theme and color palette",
+    "avoid": [
+      "Photorealistic flowers",
+      "Tiny repetitive floral wallpaper",
+      "Heavy metallic vines",
+      "Uncontrolled botanical clutter",
+      "Excessively intricate individual petals"
+    ]
+  },
+  "background_design": {
+    "type": "Decorative flat fantasy environment",
+    "interior_style": "Soft muted fills behind the character",
+    "primary_components": [
+      "Large botanical shapes",
+      "Broad geometric panels",
+      "Simplified environmental silhouettes",
+      "Subtle celestial motifs",
+      "Sparse ornamental curves"
+    ],
+    "environmental_depth": "Minimal",
+    "architectural_detail": "Low to moderate",
+    "landscapes": "Simplified layered silhouettes",
+    "celestial_elements": {
+      "optional": true,
+      "style": "Flat graphic circles, crescents, or delicate arcs",
+      "density": "Low",
+      "rule": "Use only when contextually appropriate"
+    },
+    "negative_space": "Large quiet areas between ornamental clusters",
+    "avoid": [
+      "Detailed realistic scenery",
+      "Complex atmospheric perspective",
+      "Strong photographic depth",
+      "Dense celestial diagrams",
+      "Gold radial halos as a universal default",
+      "Overly elaborate architecture"
+    ]
+  },
+  "ornamental_language": {
+    "core_principle": "Decoration must remain graphic, organic, and integrated into the composition",
+    "visual_motifs": [
+      "Long elegant curves",
+      "Broad flower petals",
+      "Delicate filigree accents",
+      "Simple celestial geometry",
+      "Stylized armor decorations",
+      "Rhythmic fabric ornamentation",
+      "Large architectural partitions"
+    ],
+    "ornament_scale": "Prefer medium and large motifs over dense micro-detail",
+    "distribution": "Concentrate ornament near borders, costumes, and selected focal areas",
+    "density": "Moderate",
+    "hierarchy": "Subject first, structural frame second, ornament third",
+    "avoid": [
+      "Gold leaf overload",
+      "Dense medieval illumination",
+      "Tiny repetitive motifs",
+      "Full-background geometric mandalas",
+      "Engraved filigree covering every surface"
+    ]
+  },
+  "texture": {
+    "overall": "Clean, nearly textureless digital finish",
+    "paper_grain": 0.05,
+    "watercolor_bleed": 0.05,
+    "color_noise": 0.02,
+    "line_roughness": 0.05,
+    "surface_weathering": 0.0,
+    "fabric_texture": "Suggested by contours rather than realistic material simulation",
+    "background_texture": "Very subtle or absent",
+    "avoid": [
+      "Aged paper",
+      "Cracks",
+      "Stains",
+      "Scratches",
+      "Strong canvas texture",
+      "Grunge overlays",
+      "Visible brushstroke texture"
+    ]
+  },
+  "style_fidelity": {
+    "mandatory_features": [
+      "Contemporary hand-drawn digital illustration",
+      "Full-body or full-subject composition by default",
+      "Large clean ornamental arch",
+      "Strong dark outlines",
+      "Mostly flat coloring",
+      "Subtle simplified shading",
+      "Large stylized botanical elements",
+      "Elegant decorative silhouette",
+      "Restrained harmonious palette",
+      "Solid dark outer background"
+    ],
+    "optional_features": [
+      "Celestial symbolism",
+      "Fantasy armor",
+      "Weapons",
+      "Ornamental jewelry",
+      "Capes",
+      "Flowing fabrics",
+      "Geometric radiating lines",
+      "Crescent motifs"
+    ],
+    "explicitly_not_the_style": [
+      "Historical illuminated manuscript",
+      "Traditional oil painting",
+      "Detailed Pre-Raphaelite portrait",
+      "Antique gold-and-parchment illustration",
+      "Photographic fantasy portrait",
+      "Highly textured watercolor painting",
+      "Realistic fantasy concept-art rendering",
+      "Engraved medieval icon"
+    ]
+  },
+  "generation_instructions": {
+    "style_prompt":"Transform the subject into a contemporary ornamental fantasy character illustration. Use the visual language of a clean, sophisticated 2D digital illustration with precise dark ink outlines, mostly flat muted colors, subtle simplified shading, and elegant slightly elongated proportions. Present the entire figure within a tall, narrow, rounded architectural arch outlined in pale ivory against a solid dark background. Surround the subject with large stylized flowers, graceful botanical stems, and a restrained number of clean stained-glass-like geometric partitions. Use smooth flowing contours, clear graphic silhouettes, delicate costume details, and soft pastel-jewel color harmony. Render facial features as expressive stylized line art with minimal painterly modeling. Keep the overall design crisp, colorful, clean, balanced, and distinctly modern rather than antiqued. Preserve the original subject's recognizable identity, defining features, clothing, pose, and signature objects wherever possible. The final result should resemble an elegant illustrated fantasy character poster with decorative botanical framing, not a historical painting.",
+    "subject_placeholder": "{SUBJECT}",
+    "context_placeholder": "{CONTEXT}",
+    "composition_placeholder": "{COMPOSITION}",
+    "palette_placeholder": "{PALETTE}",
+    "negative_prompt": "photorealism, portrait photography, Renaissance painting, Pre-Raphaelite realism, medieval illuminated manuscript, aged parchment, sepia color grading, gold leaf background, dense golden filigree, heavy grain, weathered paper, engraving, etching, pencil sketch, oil painting, textured watercolor, realistic skin pores, realistic hair strands, complex volumetric lighting, dramatic chiaroscuro, cinematic rendering, 3D, CGI, thick cartoon outlines, chibi proportions, anime cel shading, excessive micro-detail, ornate medieval frame, excessive halos, intricate celestial diagrams, close-up portrait, cropped legs, cropped feet, text, typography, watermark",
+    "priority_order": [
+      "Maintain source subject identity",
+      "Apply contemporary flat-color illustration rendering",
+      "Preserve crisp dark linework",
+      "Construct full-body composition",
+      "Use a tall outlined ornamental arch",
+      "Introduce large stylized botanical elements",
+      "Apply a cohesive muted palette",
+      "Keep shading simplified",
+      "Avoid antique textures and overly intricate gold decoration"
+    ],
+    "reference_image_usage": {
+      "style_references": "Use the original ornamental fantasy illustrations as the primary authority for linework, rendering, palette, framing, and ornamental density",
+      "subject_reference": "Use the provided character photograph or source image only for character identity, distinctive anatomy, costume, pose, and signature objects",
+      "style_strength": "High",
+      "subject_identity_strength": "High",
+      "composition_adaptation": "Allowed to extend the scene to show the full character",
+      "texture_transfer": "Do not transfer photographic texture into the illustration"
+    }
+  }
+}

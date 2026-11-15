@@ -1,0 +1,251 @@
+{
+  "style_name": "Art Nouveau Watercolor",
+  "style_definition": {
+    "primary_identity": "A highly decorative, hand-illustrated visual language combining elegant figurative drawing, flowing organic ornamentation, structured geometric framing, and sophisticated color harmony. The aesthetic emphasizes craftsmanship, visual storytelling, symbolic composition, and a balance between intricate detail and clear silhouettes.",
+    "aesthetic": "Decorative, elegant, timeless, illustrative",
+    "influences": [
+      "Art Nouveau",
+      "Decorative illustration",
+      "Symbolist art",
+      "Traditional ink drawing",
+      "Watercolor painting",
+      "Illustrated manuscripts",
+      "Stained-glass design",
+      "Ornamental printmaking"
+    ],
+    "adaptability": "Applicable to characters, creatures, objects, architecture, landscapes, abstract concepts, and narrative scenes",
+    "mood": {
+      "primary": [
+        "Elegant",
+        "Dreamlike",
+        "Timeless",
+        "Refined",
+        "Mysterious",
+        "Poetic"
+      ],
+      "variable": [
+        "Romantic",
+        "Melancholic",
+        "Majestic",
+        "Serene",
+        "Dramatic",
+        "Whimsical",
+        "Ethereal"
+      ],
+      "adaptation": "Adjust mood according to the subject without losing the core decorative identity"
+    }
+  },
+  "rendering": {
+    "medium": "Stylized 2D digital illustration",
+    "realism": "Semi-realistic with intentional stylization",
+    "resolution": "High-resolution 2D illustration",
+    "edges": "Sharp and clean",
+    "color_transitions": "Soft within enclosed shapes",
+    "detail_resolution": "High",
+    "surface_finish": "Matte",
+    "visual_noise": "Low",
+    "line_consistency": "High",
+    "photographic_elements": false,
+    "three_dimensional_rendering": false,
+    "typography": "Not required",
+    "watermarks": false
+  },
+  "composition": {
+    "structure": "A clearly defined central subject integrated with decorative surrounding elements",
+    "hierarchy": "Strong primary focal point supported by secondary ornamental details",
+    "balance": "Controlled asymmetry within an overall harmonious composition",
+    "silhouette": "Clear, elegant, easily recognizable",
+    "proportions": "Gracefully elongated where appropriate",
+    "depth": "Layered two-dimensional composition with restrained spatial perspective",
+    "negative_space": "Intentionally distributed to support readability",
+    "aspect_ratio": "Flexible, with a preference for vertical compositions",
+    "visual_flow": "Curving and radiating lines guide attention toward the focal subject",
+    "principles": {
+      "readability": "Maintain strong silhouette recognition despite decorative complexity",
+      "rhythm": "Use repeated curves, shapes, and ornamental patterns",
+      "unity": "Apply consistent linework, color handling, and texture throughout",
+      "contrast": "Balance highly detailed areas with visually quieter regions",
+      "movement": "Lead the eye using graceful organic curves and geometric structures",
+      "craftsmanship": "Every decorative element should appear intentionally designed",
+      "stylization": "Favor expressive design choices over strict physical accuracy",
+      "coherence": "The subject and surrounding ornaments should feel like parts of one visual system"
+    }
+  },
+  "framing": {
+    "default_shape": "Architectural, geometric, botanical, or abstract decorative borders",
+    "options": "Optional arches, panels, borders, or geometric divisions",
+    "outer_background": {
+      "type": "Simple, solid, or softly textured when appropriate"
+    }
+  },
+  "linework": {
+    "technique": "Precise hand-inked illustration",
+    "primary_contours": "Smooth, continuous, dark outlines",
+    "secondary_contours": "Fine lines describing internal structures and decorative elements",
+    "line_weight": "Subtle variations emphasizing depth and hierarchy",
+    "curvature": "Organic, rhythmic, elegant",
+    "geometric_elements": "Precise arcs, rays, parallel divisions, and ornamental patterns",
+    "detail": "Intricate but controlled",
+    "edge_definition": "Clearly delineated shapes with minimal ambiguity",
+    "hatching": "Sparse and selective",
+    "overall_character": "A synthesis of architectural precision and natural fluidity"
+  },
+  "color_system": {
+    "philosophy": "Harmonious, nuanced, and emotionally expressive rather than strictly realistic",
+    "palette": "Muted jewel tones, antique pastels, natural pigments, and selective metallic accents",
+    "saturation": "Moderate, with controlled vivid accents",
+    "contrast": "Strong contour separation with gentle internal tonal transitions",
+    "temperature": "Balanced warm and cool relationships",
+    "harmony": "Analogous palettes with carefully selected complementary accents",
+    "background_relationship": "Distinct but harmonized with the primary subject",
+    "application": "Mostly flat color regions enhanced by subtle gradients and translucent shading",
+    "metallic_effects": "Illustrated reflections rather than physically rendered materials",
+    "color_families": {
+      "cool": [
+        "Dusty lavender",
+        "Deep indigo",
+        "Slate blue",
+        "Muted teal",
+        "Soft periwinkle"
+      ],
+      "warm": [
+        "Antique gold",
+        "Terracotta",
+        "Muted coral",
+        "Warm ivory",
+        "Burnt sienna"
+      ],
+      "neutral": [
+        "Parchment",
+        "Charcoal",
+        "Warm gray",
+        "Dark plum",
+        "Soft cream"
+      ]
+    },
+    "selection_rule": "Choose a cohesive subset appropriate to the subject rather than including every color"
+  },
+  "shading_and_lighting": {
+    "lighting": {
+      "type": "Soft illustrative ambient light",
+      "direction": "Subtle and compositionally motivated",
+      "shadows": "Minimal, gently graded, and stylized",
+      "highlights": "Localized to focal features and reflective materials",
+      "luminosity": "Gentle, atmospheric",
+      "optional_effects": [
+        "Soft halos",
+        "Symbolic backlighting",
+        "Subtle luminous accents",
+        "Decorative celestial radiance"
+      ]
+    },
+    "shading": {
+      "method": "Layered watercolor-like tonal modeling",
+      "volume": "Suggested through soft gradients and selective shadows",
+      "surface_treatment": "Smooth color transitions with delicate texture",
+      "material_definition": "Fine illustrative highlights and contour-based details",
+      "complexity": "Moderate shading complexity beneath highly detailed linework",
+      "priority": "Preserve decorative clarity over realistic volumetric rendering"
+    },
+    "avoid": [
+      "Harsh photographic contrast or physically simulated cinematic lighting"
+    ]
+  },
+  "subject_design": {
+    "approach": "Stylized realism adapted to the nature of the subject",
+    "anatomy": "Naturalistic foundations with graceful proportional stylization",
+    "facial_features": "Expressive and delicately modeled when faces are present",
+    "expressions": "Subtle, composed, emotionally evocative",
+    "organic_forms": "Flowing, elegantly simplified, rhythmically arranged",
+    "mechanical_forms": "Precisely outlined, geometrically organized, ornamentally integrated",
+    "materials": "Represented through line patterns, controlled highlights, and color variation",
+    "surface_detail": "Rich but organized around the primary silhouette",
+    "subject_integrity": "Preserve essential recognizable characteristics while adapting their visual treatment"
+  },
+  "botanical_design": {
+    "importance": "Optional and context-dependent rather than mandatory"
+  },
+  "background_design": {
+    "style": "Decorative, illustrative, and visually integrated",
+    "depth": "Shallow layered space with selective overlapping elements",
+    "structure": "Large simplified color regions combined with finely detailed ornamental forms",
+    "natural_elements": "Stylized rather than photographically rendered",
+    "architectural_elements": "Flattened perspective and ornamental geometry",
+    "relationship_to_subject": "Supports the subject through contrast, framing, and thematic association"
+  },
+  "ornamental_language": {
+    "importance": "A defining feature of the style",
+    "density": "Rich but carefully distributed",
+    "motifs": [
+      "Flowing botanical forms",
+      "Elegant geometric patterns",
+      "Curvilinear filigree",
+      "Repeating decorative rhythms",
+      "Radiating line structures",
+      "Symbolic iconography",
+      "Architectural tracery",
+      "Stylized natural elements"
+    ],
+    "integration": "Ornamentation follows the subject's shapes, narrative, and visual rhythm",
+    "symbolism": "Adapted to the subject's thematic or emotional context",
+    "repetition": "Controlled repetition creates visual cohesion",
+    "complexity": "Intricate secondary details remain subordinate to the focal subject"
+  },
+  "texture": {
+    "base": "Fine-grained paper-like surface",
+    "pigment": "Subtle watercolor diffusion",
+    "finish": "Matte, printed illustration",
+    "imperfections": "Very slight handmade irregularities",
+    "detail": "Fine ornamental markings and delicate surface patterns",
+    "uniformity": "Consistent illustrated finish across the composition"
+  },
+  "style_fidelity": {
+    "mandatory_features": [
+      "Precise flowing contour lines",
+      "Strong decorative composition",
+      "Harmonious restrained palette",
+      "Subtle painterly color modeling",
+      "Elegant stylization",
+      "Ornamental visual rhythm",
+      "Clear subject hierarchy",
+      "Traditional illustration aesthetic",
+      "Integration of organic and geometric forms"
+    ],
+    "optional_features": [
+      "Ornamental arches",
+      "Botanical borders",
+      "Celestial motifs",
+      "Symbolic objects",
+      "Decorative armor",
+      "Flowing garments",
+      "Geometric panels",
+      "Floral arrangements",
+      "Circular halos",
+      "Stained-glass partitions",
+      "Architectural framing"
+    ],
+    "explicitly_not_the_style": [
+      "Photorealism",
+      "CGI aesthetics",
+      "Plastic-looking materials",
+      "Excessively glossy surfaces",
+      "Aggressive cinematic lighting",
+      "Neon saturation",
+      "Uncontrolled visual clutter",
+      "Thick cartoon outlines",
+      "Heavy cel shading",
+      "Photographic depth of field",
+      "Overly realistic perspective",
+      "Inconsistent line weights",
+      "Random unrelated decorative details"
+    ]
+  },
+  "generation_instructions": {
+    "style_prompt": "Create an elegant ornamental illustration in a refined Art Nouveau-inspired visual language. Combine clean flowing ink contours, sophisticated decorative composition, semi-realistic stylization, subtly elongated forms, muted jewel tones, antique pastels, gentle watercolor-like shading, and fine paper texture. Integrate precise geometric structures with rhythmic organic ornamentation. Maintain clear visual hierarchy, graceful silhouettes, delicate surface details, and balanced decorative density. Use soft illustrative lighting and a cohesive matte, hand-crafted finish. The result should resemble a meticulously designed traditional illustration rather than a photograph, 3D render, or conventional cartoon.",
+    "subject_placeholder": "{SUBJECT}",
+    "context_placeholder": "{CONTEXT}",
+    "composition_placeholder": "{COMPOSITION}",
+    "palette_placeholder": "{PALETTE}",
+    "negative_prompt": "photorealistic, 3D rendering, CGI, plastic textures, neon colors, excessive saturation, cinematic lighting, strong depth of field, thick cartoon outlines, simplistic cel shading, rough inconsistent linework, chaotic ornamentation, overly glossy surfaces, watermark, unwanted text"
+  }
+}
