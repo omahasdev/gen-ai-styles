@@ -114,7 +114,7 @@
   },
   "framing": {
     "default_shape": "Full-bleed cinematic frame without a decorative border or arch",
-    "edge_treatment": "Soft analog vignette that darkens the corners",
+    "edge_treatment": "Even exposure up to the frame edges, with no vignette and no darkened corners",
     "outer_background": {
       "type": "None",
       "description": "The scene fills the whole image"
@@ -122,7 +122,8 @@
     "avoid": [
       "Decorative borders",
       "Ornamental frames",
-      "Letterbox bars with text"
+      "Letterbox bars with text",
+      "Vignette or darkened corners"
     ]
   },
   "linework": {
@@ -291,7 +292,7 @@
     "film_grain": 0.45,
     "halation": 0.25,
     "chromatic_aberration": 0.08,
-    "vignette": 0.15,
+    "vignette": 0.0,
     "surface_weathering": 0.2,
     "softness": 0.25,
     "detail": "High clarity around the focal subject, softer environmental detail",
@@ -388,7 +389,7 @@
     "context_placeholder": "{CONTEXT}",
     "composition_placeholder": "{COMPOSITION}",
     "palette_placeholder": "{PALETTE}",
-    "negative_prompt": "existing television characters, recognizable film scenes, iconic fictional interiors, copied production design, copyrighted symbols, exact cinematic recreations, generic horror monsters, gore, excessive body horror, random visual mutations, obvious surreal gimmicks, slapstick absurdity, cartoonish exaggeration, floating objects, excessive repetition, endless rows of identical objects, furniture repeating to the horizon, infinite corridors, chaotic psychedelic imagery, neon cyberpunk, glossy CGI, aggressive VHS glitches, excessive fog, heavy shadows, mismatched shadows, shadows of absent figures, portal mirrors, mirrors showing other worlds, windows into other dimensions, glowing doorways, flat anime cel shading, anime line art, crushed blacks, underexposure, unexplained anatomy errors, generic AI surrealism, text overlays, watermarks",
+    "negative_prompt": "existing television characters, recognizable film scenes, iconic fictional interiors, copied production design, copyrighted symbols, exact cinematic recreations, generic horror monsters, gore, excessive body horror, random visual mutations, obvious surreal gimmicks, slapstick absurdity, cartoonish exaggeration, floating objects, excessive repetition, endless rows of identical objects, furniture repeating to the horizon, infinite corridors, chaotic psychedelic imagery, neon cyberpunk, glossy CGI, aggressive VHS glitches, excessive fog, heavy shadows, mismatched shadows, shadows of absent figures, portal mirrors, mirrors showing other worlds, windows into other dimensions, glowing doorways, flat anime cel shading, anime line art, crushed blacks, underexposure, vignette, darkened corners, unexplained anatomy errors, generic AI surrealism, text overlays, watermarks",
     "surreal_event_placeholder": "{SURREAL_EVENT}"
   }
 }
