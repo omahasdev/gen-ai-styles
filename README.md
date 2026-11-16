@@ -20,7 +20,7 @@ Style definitions for AI image generation. Each style is one JSON file in `image
 | [Modern Happy Cartoon Illustration](https://raw.githubusercontent.com/omahasdev/gen-ai-styles/main/image-styles/Modern%20Happy%20Cartoon%20Illustration.json) | <img src="image-styles/Modern%20Happy%20Cartoon%20Illustration.example.png" width="200" alt="Modern Happy Cartoon Illustration example"> | Modern happy cartoon illustration for any subject: very thick near-black outlines, rounded plush shapes, warm cel shading, simplified low-contrast backgrounds |
 | [Uncanny Dream Logic Surrealism](https://raw.githubusercontent.com/omahasdev/gen-ai-styles/main/image-styles/Uncanny%20Dream%20Logic%20Surrealism.json) | <img src="image-styles/Uncanny%20Dream%20Logic%20Surrealism.example.png" width="200" alt="Uncanny Dream Logic Surrealism example"> | Cinematic surrealism for any subject: a believable everyday scene with one unexplained contradiction, deadpan absurd humor, low-key warm-cool lighting, analog film grain |
 
-The examples are made from the baseline image.
+The examples are made from the baseline image with ChatGPT.
 
 ## Usage
 
@@ -29,6 +29,8 @@ The examples are made from the baseline image.
 - `negative_prompt` goes into the negative prompt field. If the model has no such field, add its items as "Avoid: ...".
 
 You can also give the full JSON file to a language model and ask for a prompt for a specific subject.
+
+To apply the styles to your own images with a local ComfyUI, see [`comfyui/`](comfyui/README.md).
 
 ## License
 

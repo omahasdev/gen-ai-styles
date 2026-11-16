@@ -1,0 +1,172 @@
+{
+  "id": "6a1f4c2e-5b7d-4e0a-9c3b-2d8e1f7a6b40",
+  "revision": 0,
+  "last_node_id": 14,
+  "last_link_id": 15,
+  "nodes": [
+    {
+      "id": 1, "type": "UNETLoader", "title": "Diffusion model",
+      "pos": [40, 40], "size": [320, 100], "flags": {}, "order": 0, "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "MODEL", "type": "MODEL", "links": [4], "slot_index": 0}],
+      "properties": {"Node name for S&R": "UNETLoader"},
+      "widgets_values": ["qwen_image_2.1_turbo_int8_convrot.safetensors", "default"]
+    },
+    {
+      "id": 2, "type": "CLIPLoader", "title": "Text encoder",
+      "pos": [40, 180], "size": [320, 100], "flags": {}, "order": 1, "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "CLIP", "type": "CLIP", "links": [1], "slot_index": 0}],
+      "properties": {"Node name for S&R": "CLIPLoader"},
+      "widgets_values": ["qwen3vl_8b_int8_convrot.safetensors", "qwen_image", "default"]
+    },
+    {
+      "id": 3, "type": "VAELoader", "title": "VAE",
+      "pos": [40, 340], "size": [320, 100], "flags": {}, "order": 2, "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "VAE", "type": "VAE", "links": [2, 14], "slot_index": 0}],
+      "properties": {"Node name for S&R": "VAELoader"},
+      "widgets_values": ["qwen_image_2.1_vae_bf16.safetensors"]
+    },
+    {
+      "id": 4, "type": "LoadImage", "title": "Source image",
+      "pos": [40, 460], "size": [320, 420], "flags": {}, "order": 3, "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [3], "slot_index": 0},
+        {"name": "MASK", "type": "MASK", "links": [], "slot_index": 1}
+      ],
+      "properties": {"Node name for S&R": "LoadImage"},
+      "widgets_values": ["source.png", "image"]
+    },
+    {
+      "id": 5, "type": "TextEncodeQwenImage21", "title": "Style prompt",
+      "pos": [420, 40], "size": [360, 620], "flags": {}, "order": 4, "mode": 0,
+      "inputs": [
+        {"name": "clip", "type": "CLIP", "link": 1},
+        {"name": "vae", "type": "VAE", "link": 2, "shape": 7},
+        {"name": "images.image_1", "type": "IMAGE", "link": 3, "shape": 7}
+      ],
+      "outputs": [
+        {"name": "positive", "type": "CONDITIONING", "links": [6], "slot_index": 0},
+        {"name": "negative", "type": "CONDITIONING", "links": [7], "slot_index": 1},
+        {"name": "latent", "type": "LATENT", "links": [12], "slot_index": 2}
+      ],
+      "properties": {"Node name for S&R": "TextEncodeQwenImage21"},
+      "widgets_values": [
+        "Redraw <image1> as a new illustration in the style \"Vintage Cozy Storybook Illustration\". Keep the subject, identity, pose, and the main composition of <image1>.\n\nCreate a richly detailed vintage storybook illustration rendered in fine traditional pen-and-ink linework, layered watercolor washes, and subtle opaque gouache accents. Use extraordinarily delicate directional strokes, stippling, and selective hatching to describe organic textures and material surfaces. Render subjects with believable anatomy, softly rounded volume, natural expressive gestures, and restrained whimsical stylization. Apply a sophisticated muted palette with warm ivory, amber, sienna, and umber balanced against dusty blue, slate teal, and cool charcoal. Establish soft atmospheric illumination and gently textured shadows. Surround the central subject with a believable, carefully furnished illustrative environment containing contextually appropriate decorative details. Maintain finely controlled visual hierarchy, clear silhouettes, richly differentiated materials, and tactile paper texture. The overall result must resemble a meticulously handcrafted, traditionally printed European storybook illustration rather than a modern digital painting, cartoon, photograph, or 3D render. If the source background is plain or sparse, build a cozy furnished interior around the subject with books, lamps, ceramics, textiles, and plants. Only for anime, fantasy, or highly rendered digital sources: keep the subject's identity, and simplify cinematic perspective, glossy highlights, and repetitive garment details into traditional pen-and-ink, watercolor, and gouache techniques.\n\nMandatory style features: Extremely fine hand-inked contours. Layered watercolor and gouache rendering. High-density controlled surface detail. Muted warm and cool pigment harmony. Tactile paper-like texture. Soft believable lighting. Naturalistic yet gently whimsical subjects. Rich illustrative environments. Distinct material rendering. Traditional vintage storybook appearance.\n\nThe image must not contain: photorealism, CGI, 3D, smooth vector graphics, flat cartoon coloring, glossy anime rendering, cel shading, thick outlines, plastic surfaces, neon saturation, cinematic bokeh, harsh HDR, extreme chiaroscuro, airbrushed gradients, blurry facial details, simplified textures, chaotic composition, generic watercolor filter, oversaturated colors, random decorative symbols, excessive grunge, warped anatomy, distorted objects, text, watermark.",
+        "",
+        1024
+      ]
+    },
+    {
+      "id": 6, "type": "QwenImage21Cache", "title": "KV cache",
+      "pos": [420, 700], "size": [320, 100], "flags": {}, "order": 5, "mode": 0,
+      "inputs": [{"name": "model", "type": "MODEL", "link": 4}],
+      "outputs": [{"name": "MODEL", "type": "MODEL", "links": [5], "slot_index": 0}],
+      "properties": {"Node name for S&R": "QwenImage21Cache"},
+      "widgets_values": ["auto", "default"]
+    },
+    {
+      "id": 7, "type": "CFGGuider", "title": "Guider",
+      "pos": [820, 40], "size": [320, 100], "flags": {}, "order": 6, "mode": 0,
+      "inputs": [
+        {"name": "model", "type": "MODEL", "link": 5},
+        {"name": "positive", "type": "CONDITIONING", "link": 6},
+        {"name": "negative", "type": "CONDITIONING", "link": 7}
+      ],
+      "outputs": [{"name": "GUIDER", "type": "GUIDER", "links": [9], "slot_index": 0}],
+      "properties": {"Node name for S&R": "CFGGuider"},
+      "widgets_values": [1.0]
+    },
+    {
+      "id": 8, "type": "KSamplerSelect", "title": "Sampler",
+      "pos": [820, 220], "size": [320, 100], "flags": {}, "order": 7, "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "SAMPLER", "type": "SAMPLER", "links": [10], "slot_index": 0}],
+      "properties": {"Node name for S&R": "KSamplerSelect"},
+      "widgets_values": ["euler"]
+    },
+    {
+      "id": 9, "type": "ManualSigmas", "title": "Turbo sigmas (8 steps)",
+      "pos": [820, 320], "size": [320, 120], "flags": {}, "order": 8, "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "SIGMAS", "type": "SIGMAS", "links": [11], "slot_index": 0}],
+      "properties": {"Node name for S&R": "ManualSigmas"},
+      "widgets_values": ["1.0, 0.978453, 0.95418, 0.926626, 0.89508, 0.845148, 0.704534, 0.414568, 0"]
+    },
+    {
+      "id": 10, "type": "RandomNoise", "title": "Seed",
+      "pos": [820, 480], "size": [320, 100], "flags": {}, "order": 9, "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "NOISE", "type": "NOISE", "links": [8], "slot_index": 0}],
+      "properties": {"Node name for S&R": "RandomNoise"},
+      "widgets_values": [0, "randomize"]
+    },
+    {
+      "id": 11, "type": "SamplerCustomAdvanced", "title": "Sample",
+      "pos": [1180, 40], "size": [320, 100], "flags": {}, "order": 10, "mode": 0,
+      "inputs": [
+        {"name": "noise", "type": "NOISE", "link": 8},
+        {"name": "guider", "type": "GUIDER", "link": 9},
+        {"name": "sampler", "type": "SAMPLER", "link": 10},
+        {"name": "sigmas", "type": "SIGMAS", "link": 11},
+        {"name": "latent_image", "type": "LATENT", "link": 12}
+      ],
+      "outputs": [
+        {"name": "output", "type": "LATENT", "links": [13], "slot_index": 0},
+        {"name": "denoised_output", "type": "LATENT", "links": [], "slot_index": 1}
+      ],
+      "properties": {"Node name for S&R": "SamplerCustomAdvanced"},
+      "widgets_values": []
+    },
+    {
+      "id": 12, "type": "VAEDecode", "title": "Decode",
+      "pos": [1180, 260], "size": [320, 100], "flags": {}, "order": 11, "mode": 0,
+      "inputs": [
+        {"name": "samples", "type": "LATENT", "link": 13},
+        {"name": "vae", "type": "VAE", "link": 14}
+      ],
+      "outputs": [{"name": "IMAGE", "type": "IMAGE", "links": [15], "slot_index": 0}],
+      "properties": {"Node name for S&R": "VAEDecode"},
+      "widgets_values": []
+    },
+    {
+      "id": 13, "type": "SaveImage", "title": "Save",
+      "pos": [1440, 40], "size": [520, 640], "flags": {}, "order": 12, "mode": 0,
+      "inputs": [{"name": "images", "type": "IMAGE", "link": 15}],
+      "outputs": [],
+      "properties": {"Node name for S&R": "SaveImage"},
+      "widgets_values": ["style-transfer"]
+    },
+    {
+      "id": 14, "type": "MarkdownNote", "title": "How to use",
+      "pos": [40, 900], "size": [740, 260], "flags": {}, "order": 13, "mode": 0,
+      "inputs": [], "outputs": [], "properties": {},
+      "widgets_values": [
+        "Style transfer with Qwen Image 2.1 Turbo (8 steps, cfg 1, KV cache).\n\n1. Load the source image in 'Source image'.\n2. Paste a style prompt into 'Style prompt'. To print the prompt of any file in image-styles/, run:\n   python comfyui/style_transfer.py any.png --styles \"image-styles/<Style>.json\" --prompt-mode compact --dry-run\n3. Queue. Refer to the source as <image1> in the prompt.\n\ncfg 1 ignores negative_prompt. This graph has no prompt enhancer. For the best results (the enhancer reads the complete style JSON) and for batch work over all styles, use comfyui/style_transfer.py."
+      ]
+    }
+  ],
+  "links": [
+    [1, 2, 0, 5, 0, "CLIP"],
+    [2, 3, 0, 5, 1, "VAE"],
+    [3, 4, 0, 5, 2, "IMAGE"],
+    [4, 1, 0, 6, 0, "MODEL"],
+    [5, 6, 0, 7, 0, "MODEL"],
+    [6, 5, 0, 7, 1, "CONDITIONING"],
+    [7, 5, 1, 7, 2, "CONDITIONING"],
+    [8, 10, 0, 11, 0, "NOISE"],
+    [9, 7, 0, 11, 1, "GUIDER"],
+    [10, 8, 0, 11, 2, "SAMPLER"],
+    [11, 9, 0, 11, 3, "SIGMAS"],
+    [12, 5, 2, 11, 4, "LATENT"],
+    [13, 11, 0, 12, 0, "LATENT"],
+    [14, 3, 0, 12, 1, "VAE"],
+    [15, 12, 0, 13, 0, "IMAGE"]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {"ds": {"scale": 0.8, "offset": [0, 0]}},
+  "version": 0.4
+}
