@@ -22,6 +22,8 @@ Style definitions for AI image generation. Each style is one JSON file in `image
 
 The examples are made from the baseline image with ChatGPT.
 
+More ChatGPT examples of each style, with the source photo and the main example side by side: [`image-styles/examples/`](image-styles/examples/README.md).
+
 ## Usage
 
 - Most of each file describes the visual language: the necessary features, the optional features, and the features to avoid.
