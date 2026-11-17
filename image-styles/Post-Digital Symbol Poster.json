@@ -1,0 +1,283 @@
+{
+  "style_name": "Post-Digital Symbol Poster",
+  "style_definition": {
+    "primary_identity": "A premium vertical 3:4 design poster that condenses the subject of the source photograph into one abstract geometric symbol on aged warm paper: a few large modular shapes, one grain-filled disc in the photograph's warmest color, thin construction lines and a small archival label system, printed with risograph grain and slight misregistration. The photograph itself does not appear; the poster is its independent visual identity.",
+    "aesthetic": "Restrained, minimal, systematic, archival, quietly emotional, gallery-grade",
+    "influences": [
+      "Post-digital graphic design",
+      "Deconstructed Swiss design",
+      "Generative symbol systems and brand identity marks",
+      "Diagrammatic abstraction and technical drawing",
+      "Risograph and photocopy printing of independent art publications",
+      "Visual language of art institutions, architecture offices and experimental design studios",
+      "Experimental branding",
+      "Contemporary art publications"
+    ],
+    "adaptability": "Apply to any photograph: animals, people, objects, architecture, landscapes and still lifes. The symbol is always derived from the subject of this photograph.",
+    "core_principle": "The fewest elements that still make the most recognizable sign of the photographed subject. Order with error, precision with a hand trace, digital with analog, reason with emotion. The result is a collectible experimental design poster with a strong conceptual connection to the photograph.",
+    "mood": {
+      "primary": [
+        "Calm",
+        "Precise",
+        "Contemplative",
+        "Premium"
+      ],
+      "variable": [
+        "Cozy",
+        "Playful",
+        "Melancholic",
+        "Energetic"
+      ]
+    }
+  },
+  "rendering": {
+    "medium": "Flat printed graphic design: risograph or screen-printed inks on aged warm paper",
+    "technique": "Deconstruct the subject into large geometric modules (circles, arcs, semicircles, rectangles, triangles), overlay a few thin construction lines and arcs, and print the flat fills with grain",
+    "realism_level": 0.15,
+    "stylization_level": 0.85,
+    "line_art_prominence": 0.35,
+    "flat_color_prominence": 0.75,
+    "painterly_rendering": 0.0,
+    "texture_strength": 0.35,
+    "detail_resolution": "Very low: only the shapes that make the subject recognizable, plus one to three signature details such as an eye or an ear",
+    "source_translation": "The photograph is the source of the visual code only: the poster is a new abstract sign of its subject, never the photograph, a traced copy or a filtered copy",
+    "surface_finish": "Matte printed paper",
+    "photographic_elements": false,
+    "three_dimensional_rendering": false,
+    "avoid": [
+      "The photograph itself or a panel of it in the poster",
+      "A split or two-panel layout",
+      "A detailed illustration of the subject",
+      "3D rendering, glossy gradients or bevels",
+      "Sterile vector graphics without print texture"
+    ]
+  },
+  "composition": {
+    "structure": "Vertical poster, aspect ratio 3:4, one sheet of aged paper; the symbol sits in the middle of the sheet with generous margins, and the label system sits in the four corners",
+    "aspect_ratio": "3:4 portrait",
+    "camera": "A flat frontal view of the printed sheet: no perspective, no camera angle, no depth of field",
+    "symbol_construction": "The symbol keeps the subject's silhouette, pose, structure and relation of elements (for example a body and the surface it rests on), rebuilt from a few overlapping geometric modules",
+    "secondary_elements": "A hairline grid of a few horizontal and vertical lines with small dot nodes at some intersections, one large thin arc or semicircle that frames the symbol, a dashed line or two, a small registration cross, offset modular color blocks that extend the symbol into the grid, and the label system in the four corners",
+    "negative_space": "Large calm areas of warm paper around the symbol",
+    "hierarchy": "The symbol first, the construction lines second, the labels last",
+    "rules": [
+      "The poster has one symbol only, never several icons",
+      "The poster is never an infographic or a chart",
+      "The symbol is recognizably the subject of the photograph",
+      "The photograph itself never appears"
+    ],
+    "signature_motif": "One large grain-filled disc in the accent color (the warmest strong color of the photograph) sits behind the upper right part of the symbol, partly covered by it, like a sun or a stamp; it is the recurring mark of the series",
+    "context_abstraction": "The setting of the photograph enters the symbol only as a few flat bands and blocks (sea, sky, table, wall) and at most one or two tiny pictorial marks (a railing, a sail, a window), never as a scene",
+    "symbol_placement": "One central symbol as the only focal point, centered or slightly offset, large enough to span most of the sheet width, with generous empty paper around it"
+  },
+  "framing": {
+    "importance": "High",
+    "default_shape": "Full-bleed sheet of aged printed paper, no border and no frame",
+    "frame_style": "No border: the worn paper edge is the only edge of the poster",
+    "outer_background": {
+      "type": "None: the paper sheet fills the whole canvas"
+    },
+    "avoid": [
+      "Decorative borders",
+      "A photograph panel",
+      "A split or two-panel layout",
+      "A mockup of a poster on a wall"
+    ],
+    "paper_panel": "The whole poster is one sheet of aged printed paper: warm cream, slightly darker and worn at its edges and corners, with faint creases and soft stains"
+  },
+  "linework": {
+    "primary_style": "Hairline construction lines: thin, precise, dark grey or black, about 1 px at print size, slightly broken in places as in a photocopy",
+    "line_types": [
+      "One large arc or circle that traces the symbol's geometry",
+      "A few straight horizontal and vertical lines that cross at the symbol",
+      "A small registration cross",
+      "Thin white or light strokes for a fine signature detail, such as whiskers"
+    ],
+    "weight": "Hairline for construction, none on the filled shapes",
+    "rules": [
+      "Filled shapes have no outlines; their edges are the color boundary",
+      "Lines are few and purposeful, like a technical drawing of the symbol",
+      "Small hand-made imperfections at line ends are welcome"
+    ],
+    "avoid": [
+      "Thick outlines",
+      "Dense line patterns",
+      "Decorative flourishes",
+      "Sketchy hand-drawn hatching"
+    ]
+  },
+  "color_system": {
+    "palette_source": "Every ink comes from the photograph. Extract its characteristic colors and turn them into a small brand palette of three to four inks on warm paper; no ink is fixed in advance",
+    "palette_rule": "Take the roles from the colors of each photograph. Teal, blue, magenta or orange appear only when the photograph has them, and only as small functional accents that mark something",
+    "function": "Color marks parts of the symbol and the palette dots; it is never decoration",
+    "saturation": "Medium; inks are slightly muted, as printed on paper",
+    "contrast": "A strong dark ink against warm paper, with one main color ink",
+    "avoid": [
+      "Chaotic color combinations",
+      "Neon effects",
+      "Typical commercial gradients",
+      "More than four inks"
+    ],
+    "grain_gradient": "Color may fade into the paper through a coarse risograph or halftone dither, never through a smooth commercial gradient",
+    "palette_roles": {
+      "paper": "A warm cream or warm white, slightly toned by the photograph's light",
+      "key_dark": "The darkest characteristic color of the photograph (a dark coat, clothing, roofs or shadow), as a near-black ink",
+      "accent": "The warmest strong color of the photograph (a coat patch, flowers, a sunset, wood, a lamp), used for the large disc and small blocks",
+      "cool": "The main cool color of the photograph (sea, sky, a wall, a roof), used for bands and blocks",
+      "subject_color": "Optional: one more color that identifies the subject (a garment, a print, a leaf)"
+    }
+  },
+  "shading_and_lighting": {
+    "highlights": "At most one small flat highlight shape, such as the shine of an eye",
+    "avoid": [
+      "Drop shadows",
+      "Soft 3D shading in the symbol",
+      "Glows",
+      "Lens effects"
+    ],
+    "shading": "No light and no shading: flat ink fills; depth only from overlapping shapes and a slight grain falloff at shape edges"
+  },
+  "subject_design": {
+    "overall_style": "On the poster, the subject becomes a sign: its essence, pose and character in a few large shapes",
+    "deconstruction": "Body masses become circles, semicircles and arcs; flat surfaces become rectangles and bands; points such as ears, beaks or roofs become triangles; a photographic part may stay as a coarse halftone cut-out when it carries the identity",
+    "signature_details": "Keep one to three small signature details in precise flat shapes, such as an eye, an ear, a few whiskers or a window",
+    "identity": "The symbol keeps the subject's silhouette, pose, proportions and dominant colors, so that it is recognizably the subject of the photograph",
+    "people": "A person keeps the face as a high-contrast halftone photocopy cut-out (duotone, coarse dot screen) inside the geometric construction; the body, clothing and background become flat modules and offset color blocks. Identity comes from the halftone face and the silhouette",
+    "objects_and_places": "An object becomes its main volumes, cut into fluted or segmented geometric strips, with one characteristic detail; a building becomes a layered silhouette of domes, arches, spires and blocks in charcoal and teal; a landscape becomes stacked bands and one landmark shape",
+    "avoid": [
+      "A full realistic drawing of the subject",
+      "Cute cartoon features",
+      "Many small details",
+      "A symbol that no longer relates to the photograph"
+    ]
+  },
+  "botanical_design": {
+    "importance": "Optional and context-dependent",
+    "style": "Only when plants are in the photograph: a leaf or a stem as one geometric shape or one line"
+  },
+  "background_design": {
+    "avoid": [
+      "A scene or scenery behind the symbol",
+      "Patterns or gradients behind the symbol",
+      "The photograph's background"
+    ],
+    "paper": "Plain aged warm paper with subtle texture, mostly empty around the symbol"
+  },
+  "ornamental_language": {
+    "importance": "Low",
+    "elements": [
+      "Small corner labels in a thin uppercase monospace font, written as technical or scientific notation",
+      "A short thin dash or underline under a label",
+      "One small solid dot near the symbol",
+      "Optional: a vertical row of palette dots, or one small circled drafting mark"
+    ],
+    "typography": "Very small uppercase monospace with wide spacing, like the notation of a technical drawing or an archival plate; never a headline, never everyday words about the subject",
+    "density": "Sparse: four to six small elements in the corners of the poster",
+    "avoid": [
+      "Large titles",
+      "Everyday names or descriptions of the subject",
+      "Slogans or mood phrases",
+      "Many icons",
+      "Logos of real brands",
+      "Infographic charts"
+    ],
+    "label_system": {
+      "principle": "The labels read like the notation of a scientific plate, an archive catalogue or an engineering drawing. They never name the subject in everyday words, never form a title, and never form a slogan or a phrase",
+      "top_left": "A catalogue designation in one to three short lines with a short dash under it: a plate or figure number (FIG. 001, PL. 07, REF. 12-A) and, when it fits, a classification term of the subject in scientific form: the Latin binomial of a living being, the material or object class of an object, the building type or order of an architecture",
+      "top_right": "An index or sheet number (№ 034, SHEET 03/12)",
+      "bottom_left": "Two lines of measurement or position data: geographic coordinates (50.4501° N / 30.5234° E), a scale and a revision (SCALE 1:4 / REV. B), or a dimension and an angle (Ø 240 MM / 32°)",
+      "bottom_right": "A small drafting mark: a triple slash ///, a registration cross or a section arrow",
+      "notation_vocabulary": [
+        "FIG.",
+        "PL.",
+        "REF.",
+        "№",
+        "SHEET",
+        "SCALE",
+        "REV.",
+        "SECT.",
+        "Ø",
+        "°",
+        "MM",
+        "N",
+        "E"
+      ]
+    }
+  },
+  "texture": {
+    "risograph_grain": "Visible fine grain inside every ink fill, denser at the edges of shapes",
+    "print_registration": "Very slight offset between ink layers, showing a thin colored edge along some shapes",
+    "xerox_and_scanner": "Faint photocopy specks and a little scanner noise",
+    "paper": "Aged warm paper with fine fibers, darker worn edges and corners, faint creases and soft stains",
+    "edges": "Slightly imperfect shape edges, as in real print",
+    "avoid": [
+      "Heavy grunge",
+      "Torn paper effects",
+      "Sterile flat digital fills"
+    ],
+    "halftone": "Coarse halftone dot screen on photographic cut-outs and in color fades"
+  },
+  "style_fidelity": {
+    "mandatory_features": [
+      "Vertical 3:4 poster on one sheet of aged warm paper with worn edges",
+      "One abstract geometric symbol of the photographed subject as the only focal point",
+      "Symbol built from a few large modular shapes with one to three signature details",
+      "One large grain-filled disc in the photograph's warmest strong color, partly behind the symbol",
+      "Thin construction lines, one large arc and a hairline grid with dot nodes",
+      "Risograph grain, slight misregistration and paper texture",
+      "A corner label system in technical or scientific notation: catalogue designation, index number, measurement data, drafting mark",
+      "Every ink extracted from the photograph: key dark, warm accent, cool color, paper"
+    ],
+    "optional_features": [
+      "One small circled pictogram",
+      "A registration cross",
+      "A short stacked phrase in the lower left",
+      "A small solid dot near the symbol",
+      "A halftone photocopy cut-out of a face or a key part",
+      "Dot nodes at grid intersections",
+      "One or two tiny pictorial marks from the setting"
+    ],
+    "explicitly_not_the_style": [
+      "A detailed illustration or a cartoon",
+      "An infographic or a set of icons",
+      "A glossy commercial gradient logo",
+      "A neon or chaotic palette",
+      "A poster with a large headline",
+      "A photograph with a graphic under it",
+      "A split or two-panel poster",
+      "A poster mockup on a wall"
+    ]
+  },
+  "source_adaptation": {
+    "principle": "Extract the photograph's visual code: silhouette, structure, pose, characteristic features, the relation between elements, and its colors. The photograph itself does not appear in the poster.",
+    "subject_independence": "Apply the same poster system to animals, people, objects, buildings, landscapes and still lifes.",
+    "detail_budget": {
+      "symbol": "Three to eight large shapes and one to three signature details",
+      "construction_lines": "One large arc and two to five straight hairlines",
+      "labels": "Four small corner labels in technical or scientific notation: a catalogue designation, an index number, measurement data, a drafting mark"
+    },
+    "complex_source_handling": [
+      "Find the subject and the surface or element it relates to",
+      "Reduce the subject to its largest masses and its pose",
+      "Choose one to three signature details that identify it",
+      "Take two to four colors from the photograph as the inks",
+      "Place the symbol in the middle of the sheet with generous empty paper around it"
+    ],
+    "complexity_rule": "The more complex the photograph, the fewer and larger the shapes of the symbol; the symbol never gains detail from a busy source."
+  },
+  "generation_instructions": {
+    "style_prompt": "Make a premium vertical 3:4 design poster from the input photograph, as one sheet of aged cream paper with darker worn edges; the photograph itself does not appear, and the poster has no split and no panels. Condense the subject of the photograph into one abstract geometric symbol in the middle of the sheet that could be the mark of a premium brand: a few large overlapping modules (circles, arcs, semicircles, rectangles, triangles) that keep its silhouette, pose and relation to its surroundings, with one to three precise signature details. Place one large grain-filled disc in the warmest strong color of the photograph partly behind the symbol, like a sun. Abstract the setting into a few flat bands and offset color blocks, with at most one or two tiny pictorial marks. Cross the symbol with one large thin arc, a hairline grid with small dot nodes, a dashed line and a small registration cross. For a person, keep the face as a coarse halftone photocopy cut-out inside the geometric construction. Take every ink from the photograph: its darkest characteristic color as the key dark, its warmest strong color as the accent, its main cool color for bands and blocks, and optionally one color that identifies the subject; no ink is fixed in advance. Print with risograph grain, very slight layer misregistration, faint photocopy specks and subtle paper texture. Add only four small uppercase monospace labels in technical or scientific notation, never everyday words about the subject: in the top left a catalogue designation such as a figure or plate number with, when it fits, the subject's classification in scientific form (a Latin name, a material class or a building type), with a short dash under it; in the top right an index or sheet number such as № 034; in the bottom left two lines of measurement data such as coordinates, a scale and revision, or a dimension and angle; and in the bottom right a small drafting mark such as ///. Keep the composition restrained, with the symbol as the only focal point and plenty of empty paper.",
+    "subject_placeholder": "{SUBJECT}",
+    "context_placeholder": "{CONTEXT}",
+    "composition_placeholder": "{COMPOSITION}",
+    "palette_placeholder": "{PALETTE}",
+    "negative_prompt": "photograph panel, split layout, two panels, realistic photo, poster mockup, cartoon symbol, detailed illustration, many icons, infographic, chart, large headline, real brand logos, neon colors, commercial gradient, 3D render, glossy logo, drop shadow, thick outlines, chaotic palette, heavy grunge, torn paper, border, headline, title text, slogan, descriptive caption",
+    "priority_order": [
+      "One recognizable abstract symbol of the photographed subject",
+      "Every ink extracted from the photograph",
+      "A single 3:4 sheet of aged paper, with no photograph and no split",
+      "Construction lines, print texture and the small label system",
+      "Generous empty paper"
+    ]
+  }
+}
