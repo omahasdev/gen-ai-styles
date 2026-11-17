@@ -8,6 +8,20 @@ Each row shows, from left to right: the source photo, the main example, and the 
 
 The source photo is CC0. The repository license does not cover it.
 
+## Anime Isekai Comedy
+
+Style file: [`Anime Isekai Comedy.json`](../Anime%20Isekai%20Comedy.json)
+
+<p>
+<img src="../_baseline.png" width="110" alt="Source photo">
+<img src="../Anime%20Isekai%20Comedy.example.png" width="110" alt="Anime Isekai Comedy, main example">
+<img src="Anime%20Isekai%20Comedy/%D0%90%D0%BD%D1%96%D0%BC%D0%B5-%D0%BA%D1%96%D1%82%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%E2%80%99%D1%8F%D0%BD%D1%96%D0%B9%20%D0%BF%D1%96%D0%B4%D0%BB%D0%BE%D0%B7%D1%96.png" width="110" alt="Anime Isekai Comedy, extra example 1">
+<img src="Anime%20Isekai%20Comedy/%D0%97%D0%B0%D1%82%D0%B8%D1%88%D0%BD%D0%B8%D0%B9%20%D1%81%D0%BC%D1%83%D0%B3%D0%B0%D1%81%D1%82%D0%B8%D0%B9%20%D0%BA%D1%96%D1%82%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%E2%80%99%D1%8F%D0%BD%D1%96%D0%B9%20%D0%BF%D1%96%D0%B4%D0%BB%D0%BE%D0%B7%D1%96.png" width="110" alt="Anime Isekai Comedy, extra example 2">
+<img src="Anime%20Isekai%20Comedy/%D0%9A%D0%BE%D1%82%D0%B8%D0%BA%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%E2%80%99%D1%8F%D0%BD%D1%96%D0%B9%20%D0%BF%D1%96%D0%B4%D0%BB%D0%BE%D0%B7%D1%96.png" width="110" alt="Anime Isekai Comedy, extra example 3">
+<img src="Anime%20Isekai%20Comedy/%D0%9C%D0%B8%D0%BB%D0%B8%D0%B9%20%D1%81%D0%BC%D1%83%D0%B3%D0%B0%D1%81%D1%82%D0%B8%D0%B9%20%D0%BA%D1%96%D1%82%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%E2%80%99%D1%8F%D0%BD%D1%96%D0%B9%20%D0%BF%D1%96%D0%B4%D0%BB%D0%BE%D0%B7%D1%96.png" width="110" alt="Anime Isekai Comedy, extra example 4">
+<img src="Anime%20Isekai%20Comedy/%D0%A2%D0%B0%D0%B1%D0%B1%D1%96-%D0%BA%D1%96%D1%82%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%E2%80%99%D1%8F%D0%BD%D1%96%D0%B9%20%D0%BF%D1%96%D0%B4%D0%BB%D0%BE%D0%B7%D1%96.png" width="110" alt="Anime Isekai Comedy, extra example 5">
+</p>
+
 ## Art Nouveau Character Arch
 
 Style file: [`Art Nouveau Character Arch.json`](../Art%20Nouveau%20Character%20Arch.json)
