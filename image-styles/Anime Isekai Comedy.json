@@ -211,14 +211,17 @@
       "Dark indigo dominant palette",
       "High-key overexposed picture",
       "An unmotivated tint over the whole scene (a grade without a sunset, a night, or magic in the scene)",
-      "A peach or purple ambience in daylight"
+      "A peach or purple ambience in daylight",
+      "A soft nostalgic green-and-cream pastoral palette",
+      "Cold grey-steel or desaturated gritty palette",
+      "Neon or colored club and stage light over the whole frame"
     ],
     "value": "Mid to mid-low: the whole picture averages approximately 0.44-0.55 brightness",
     "source_color_grade": "The color grade of the source photo or render (a purple or neon night, orange-teal, sepia, a heavy tint) is not identity. Keep the subjects' own identity colors, and relight the scene with the palette and light of this style; a night scene takes the style's cool blue night grade"
   },
   "shading_and_lighting": {
     "lighting": {
-      "type": "Unshowy animation production light with the scene's own local colors: everyday daylight or warm interior light; golden or sunset light only when the time of the scene calls for it; night as a cool blue grade of the whole frame",
+      "type": "Unshowy animation production light with the scene's own local colors: everyday daylight or warm interior light; golden or sunset light only when the time of the scene calls for it; night as a cool blue grade of the whole frame, never neon or colored stage light; the characters keep readable local colors at night",
       "direction": "Broad and easy to read",
       "shadow_style": "Zero or one strongly designed flat cel shadow island per main body section; no feathering, no ambient occlusion gradients",
       "highlight_style": "Tiny single eye glint only if motivated; avoid fur and skin gloss",
@@ -270,7 +273,8 @@
       "off_model_rule": "Dramatic deformation only when justified by source expression; in calm frames show mild handcrafted unevenness rather than compulsory surprise.",
       "eye_scale": "People's eyes are clearly larger than real eyes: each approximately one fifth of the head height, set wide and low, with a heavy dark upper lid wedge and a short outer lash flick",
       "lips": "One short line for the mouth, with at most one small flat tone for lipstick; no lip shading, lip gloss or modeled lips",
-      "eyes_closed": "Happy or laughing eyes as two curved arcs, sleeping eyes as soft lines, pain or effort as squeezed zigzag lids"
+      "eyes_closed": "Happy or laughing eyes as two curved arcs, sleeping eyes as soft lines, pain or effort as squeezed zigzag lids",
+      "calm_face": "A calm or neutral face is welcome and is an acting choice of its own: a deadpan stare drawn on the series model, with half-lidded, slightly uneven eyes, high thin brows, and a tiny flat mouth. It is never the source face traced with anime outlines and never a generic pleasant portrait expression"
     },
     "expression_library": [
       "Flat uninterested half-lidded stare with tiny mouth",
@@ -282,23 +286,8 @@
       "Disgusted squashed face with grimacing mouth",
       "Sudden sinister grin with tiny pupils",
       "Joyful overconfident laugh with eyes squeezed shut",
-      "Gloom: a cool blue tint over the upper face with vertical lines and blank eyes",
-      "Intense or magical stare: a close glowing iris with a soft light bloom only in the eye",
-      "Crying wail: a huge open mouth and streams of outline tears",
-      "Gloom: a cool blue tint over the upper face with vertical lines and blank eyes",
-      "Intense or magical stare: a close glowing iris with a soft light bloom only in the eye",
-      "Crying wail: a huge open mouth and streams of outline tears",
-      "Gloom: a cool blue tint over the upper face with vertical lines and blank eyes",
-      "Intense or magical stare: a close glowing iris with a soft light bloom only in the eye",
-      "Crying wail: a huge open mouth and streams of outline tears",
-      "Gloom: a cool blue tint over the upper face with vertical lines and blank eyes",
-      "Intense or magical stare: a close glowing iris with a soft light bloom only in the eye",
-      "Crying wail: a huge open mouth and streams of outline tears",
-      "Gloom: a cool blue tint over the upper face with vertical lines and blank eyes",
-      "Intense or magical stare: a close glowing iris with a soft light bloom only in the eye",
-      "Crying wail: a huge open mouth and streams of outline tears",
-      "Gloom: a cool blue tint over the upper face with vertical lines and blank eyes",
-      "Intense or magical stare: a close glowing iris with a soft light bloom only in the eye",
+      "Gloom: blank eyes and a few vertical lines over the upper face; on a person also a light transparent blue shade there, on an animal drooped ears instead of any tint",
+      "Intense or magical stare: a close, flat bright eye; a person's iris may glow with a soft bloom only in the eye, an animal's eye stays a flat colored oval with a narrowed pupil",
       "Crying wail: a huge open mouth and streams of outline tears"
     ],
     "expression_contrast": "Normal-to-extreme ratio is dynamic: neutral shots use attractive simple model, reaction shots use very large deviations; do not make every frame hysterical or every character permanently chibi.",
@@ -356,7 +345,7 @@
     "style": "Background-department painted TV scenery made of clean planes: smooth flat or softly graded fills, crisp dark lines at stone and plank joints, cracks, window frames and edges, and only a few local brush patches (a grass tuft, a grime spot, a cloud rim). Simplified architecture: few windows, distant buildings as flat silhouettes with a few lit windows, simple perspective, weaker edges than the cels",
     "source_fidelity": "Keep a recognizable source location and its landmarks; never replace an everyday room with a fantasy village. A plain floor or a blurred photo background becomes a full TV background of that kind of place around the subject: a few readable props, structure drawn with crisp line cracks and plank or stone joints, and designed light. Never copy the source photo's color cast, blur, light leaks or bokeh",
     "architecture": "Credible simplified geometry, large textured planes and selected architectural identifiers",
-    "nature": "Trees and grass as a few layered flat masses with a few brushed tufts at their edges; clouds as soft shapes with a few hard rims; distant hills as flat pale blue planes",
+    "nature": "Trees and grass as a few layered flat masses with a few brushed tufts at their edges; clouds as soft shapes with a few hard rims; distant hills as flat pale blue planes; nature is bright, clean, and graphic, like a TV background, never lush leaf-by-leaf feature-film foliage",
     "interiors": "Simple coherent furniture shapes, grouped shelves and decor, warm brown atmosphere; floors and walls as large planes with a few broken brush patches, never dozens of repeated grain strokes",
     "surface_texture": "Almost no texture: no all-over brush strokes, stipple, noise, streaks or painterly grain on walls, floors, roads or skies; a few local brush patches only",
     "background_edges": "Soft broad paint transitions and fewer dark outlines than foreground",
@@ -380,7 +369,9 @@
       "Impressionist painterly texture",
       "Detailed realistic architecture",
       "Dozens of windows",
-      "Photographic depth and atmosphere"
+      "Photographic depth and atmosphere",
+      "Lush, densely leaf-painted foliage and soft nostalgic skies of a gentle feature film",
+      "Gritty dark ruins or cold grey metal rooms as the whole atmosphere"
     ],
     "clutter_rule": "A dense source scene is reduced, not copied: keep the three to six largest props that identify the place (for example a sofa, a shelf, an instrument, a lamp), drawn as simple shapes; shelves of books or objects become rows of flat color blocks; posters, tapestries and screens become flat simple shapes with one motif; small clutter is left out. The picture reads as a TV set dressed for one scene, never a catalogue of objects",
     "staging_rule": "The subject never sits on a bare floor or blank ground alone: even a close or high-angle shot shows part of the place around it (a wall base, a piece of furniture, a doorway, a step, a mat, a basket or a bowl), drawn as simple shapes in the scene's light"
@@ -439,27 +430,7 @@
       "Blush hatch marks",
       "Gag model: a strongly simplified rounded version of the subject for a cute or comic beat",
       "A gag cut-in: a small inset panel with a simple shape and a bold color border around a reacting face",
-      "Gloom lines over a blue-tinted face",
-      "Foreground framing by a hat brim, a shoulder or a doorway",
-      "Gag model: a strongly simplified rounded version of the subject for a cute or comic beat",
-      "A gag cut-in: a small inset panel with a simple shape and a bold color border around a reacting face",
-      "Gloom lines over a blue-tinted face",
-      "Foreground framing by a hat brim, a shoulder or a doorway",
-      "Gag model: a strongly simplified rounded version of the subject for a cute or comic beat",
-      "A gag cut-in: a small inset panel with a simple shape and a bold color border around a reacting face",
-      "Gloom lines over a blue-tinted face",
-      "Foreground framing by a hat brim, a shoulder or a doorway",
-      "Gag model: a strongly simplified rounded version of the subject for a cute or comic beat",
-      "A gag cut-in: a small inset panel with a simple shape and a bold color border around a reacting face",
-      "Gloom lines over a blue-tinted face",
-      "Foreground framing by a hat brim, a shoulder or a doorway",
-      "Gag model: a strongly simplified rounded version of the subject for a cute or comic beat",
-      "A gag cut-in: a small inset panel with a simple shape and a bold color border around a reacting face",
-      "Gloom lines over a blue-tinted face",
-      "Foreground framing by a hat brim, a shoulder or a doorway",
-      "Gag model: a strongly simplified rounded version of the subject for a cute or comic beat",
-      "A gag cut-in: a small inset panel with a simple shape and a bold color border around a reacting face",
-      "Gloom lines over a blue-tinted face",
+      "Gloom lines over the upper face, with a light blue shade only on a person",
       "Foreground framing by a hat brim, a shoulder or a doorway"
     ],
     "explicitly_not_the_style": [
@@ -479,7 +450,6 @@
       "Clean repeated symmetrical animal face in each variation",
       "Automatic exclamation marks and excited mouth",
       "Cute glossy animal sticker with oversized shiny eyes",
-      "Clean repeated symmetrical animal face in each variation",
       "Thick near-black outlines with bright primary colors and child proportions",
       "Huge sparkling multi-highlight eyes with a pink and lavender palette and sparkle backgrounds",
       "Dark indigo palette with hard graphic shadow blocks, rim light and a tense, technical mood",
@@ -489,7 +459,10 @@
       "Fashion-elongated proportions and realistic modeled anatomy",
       "A photo traced line by line and filled with flat colors",
       "A painterly or impressionist background behind flat characters",
-      "A vintage film or print look: grain, sepia tone, faded colors over the whole picture"
+      "A vintage film or print look: grain, sepia tone, faded colors over the whole picture",
+      "A gentle pastoral feature-film look: lush, densely painted foliage and skies, soft nostalgic light, calm wonder, and round simple faces with small eyes",
+      "Gritty dark ruins or cold grey metal interiors as the atmosphere of the whole picture",
+      "A generic anime filter: the source face and proportions traced with outlines, with no acting choice, neither deadpan nor reaction"
     ],
     "quality_checks": [
       "Would this pass as a frame of a mid-2010s Japanese fantasy-comedy TV episode instead of an AI-generated character poster?",
@@ -551,7 +524,7 @@
     "context_placeholder": "{CONTEXT}",
     "composition_placeholder": "{COMPOSITION}",
     "palette_placeholder": "{PALETTE}",
-    "negative_prompt": "generic polished anime, glossy mobile-game splash art, cute mascot animal, symmetrical glassy eyes, huge sparkling eyes, gradient irises, concentric glossy eyes, human iris on an animal, permanently smiling face, automatically added fangs, surprise rays, exclamation marks, perfectly centered face, identical repeated pose, digital pet portrait, photorealism, CGI, 3D, airbrushed shadows, soft gradient shading on figures, rim light, ambient occlusion, purple-orange color grade over the whole picture, dreamlike glow, high-resolution fur strands, dense hair strands, repeated wood-grain brushstrokes, painterly noise, heavy bloom, heavy bokeh, thick black outlines, fake vector smoothness, pastel washed-out palette, pink and lavender palette, bright primary colors, dark indigo palette, sparkle backgrounds, mecha, chibi body, serrated fur edges, zigzag fur tufts, dozens of stripes, long realistic whiskers, realistic animal portrait, empty floor background, photo color cast, detailed tattoos, intricate fabric patterns, rendered logos and text, lip gloss, modeled lips, realistic nose, realistic body shading, glossy leather reflections, dense rain, film grain, purple neon grade, traced photo, realistic animal proportions, painterly background texture, impressionist brushwork, detailed realistic architecture, photographic depth of field, bare floor background, cluttered background, catalogue of props, realistic cat anatomy, vintage film overlay, sepia print tone, faded retro colors, halftone, small realistic eyes, adult glamour face, realistic hands, long narrow face",
+    "negative_prompt": "generic polished anime, glossy mobile-game splash art, cute mascot animal, symmetrical glassy eyes, huge sparkling eyes, gradient irises, concentric glossy eyes, human iris on an animal, permanently smiling face, automatically added fangs, surprise rays, exclamation marks, perfectly centered face, identical repeated pose, digital pet portrait, photorealism, CGI, 3D, airbrushed shadows, soft gradient shading on figures, rim light, ambient occlusion, purple-orange color grade over the whole picture, dreamlike glow, high-resolution fur strands, dense hair strands, repeated wood-grain brushstrokes, painterly noise, heavy bloom, heavy bokeh, thick black outlines, fake vector smoothness, pastel washed-out palette, pink and lavender palette, bright primary colors, dark indigo palette, sparkle backgrounds, mecha, chibi body, serrated fur edges, zigzag fur tufts, dozens of stripes, long realistic whiskers, realistic animal portrait, empty floor background, photo color cast, detailed tattoos, intricate fabric patterns, rendered logos and text, lip gloss, modeled lips, realistic nose, realistic body shading, glossy leather reflections, dense rain, film grain, purple neon grade, traced photo, realistic animal proportions, painterly background texture, impressionist brushwork, detailed realistic architecture, photographic depth of field, bare floor background, cluttered background, catalogue of props, realistic cat anatomy, vintage film overlay, sepia print tone, faded retro colors, halftone, small realistic eyes, adult glamour face, realistic hands, long narrow face, lush painted foliage, pastoral feature-film look, soft nostalgic light, small simple dot eyes in a normal shot, gritty dark ruins, cold grey metal interior",
     "priority_order": [
       "Rebuild the image as an authentic hand-drawn TV animation frame: an animation model of the subject, flat cels, designed eyes, clean painted background planes",
       "Keep the identity recognizable: the species or the person, the markings, the own colors, the pose",
