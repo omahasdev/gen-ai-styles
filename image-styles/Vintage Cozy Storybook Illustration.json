@@ -1,7 +1,7 @@
 {
   "style_name": "Vintage Cozy Storybook Illustration",
   "style_definition": {
-    "primary_identity": "Highly detailed, nostalgic storybook illustration combining delicate hand-inked contours, finely textured watercolor and gouache coloring, warm domestic atmosphere, and richly illustrated vintage objects. Naturalistic subjects are rendered with gentle expressive stylization and tactile surface detail.",
+    "primary_identity": "Highly detailed, nostalgic storybook illustration combining delicate hand-inked contours, finely textured watercolor and gouache coloring, warm domestic atmosphere, and richly illustrated vintage objects. Naturalistic subjects are rendered with gentle expressive stylization and tactile surface detail. Every subject, also a real person or a pet, is redrawn with visible ink contours and watercolor washes on its face, skin, fur and clothing, never kept as a photographic surface.",
     "aesthetic": "Cozy, nostalgic, intricate, whimsical, handcrafted, intimate",
     "influences": [
       "Late Victorian illustrated storybooks",
@@ -330,7 +330,7 @@
     "style_prompt": "Create a richly detailed vintage storybook illustration rendered in fine traditional pen-and-ink linework, layered watercolor washes, and subtle opaque gouache accents. Use extraordinarily delicate directional strokes, stippling, and selective hatching to describe organic textures and material surfaces. Render subjects with believable anatomy, softly rounded volume, natural expressive gestures, and restrained whimsical stylization. Apply a sophisticated muted palette with warm ivory, amber, sienna, and umber balanced against dusty blue, slate teal, and cool charcoal. Establish soft atmospheric illumination and gently textured shadows. Surround the central subject with a believable, carefully furnished illustrative environment containing contextually appropriate decorative details. Maintain finely controlled visual hierarchy, clear silhouettes, richly differentiated materials, and tactile paper texture. The overall result must resemble a meticulously handcrafted, traditionally printed European storybook illustration rather than a modern digital painting, cartoon, photograph, or 3D render. If the source background is plain or sparse, build a cozy furnished interior around the subject with books, lamps, ceramics, textiles, and plants. Only for anime, fantasy, or highly rendered digital sources: keep the subject's identity, and simplify cinematic perspective, glossy highlights, and repetitive garment details into traditional pen-and-ink, watercolor, and gouache techniques.",
     "negative_prompt": "photorealism, CGI, 3D, smooth vector graphics, flat cartoon coloring, glossy anime rendering, cel shading, thick outlines, plastic surfaces, neon saturation, cinematic bokeh, harsh HDR, extreme chiaroscuro, airbrushed gradients, blurry facial details, simplified textures, chaotic composition, generic watercolor filter, oversaturated colors, random decorative symbols, excessive grunge, warped anatomy, distorted objects, text, watermark",
     "priority_order": [
-      "Preserve subject identity and anatomy",
+      "Preserve subject identity and anatomy through its shape, markings, colors and features, redrawn in ink and watercolor, never as photographic fur or skin",
       "Preserve semantic identity, not source rendering complexity",
       "Apply fine traditional ink drawing",
       "Introduce layered watercolor pigment variation",
