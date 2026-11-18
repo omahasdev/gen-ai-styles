@@ -266,10 +266,6 @@
   },
   "generation_instructions": {
     "style_prompt": "Create an elegant ornamental illustration in a refined Art Nouveau-inspired visual language. Combine clean flowing ink contours, sophisticated decorative composition, semi-realistic stylization, subtly elongated forms, muted jewel tones, antique pastels, gentle watercolor-like shading, and fine paper texture. Integrate precise geometric structures with rhythmic organic ornamentation. Maintain clear visual hierarchy, graceful silhouettes, delicate surface details, and balanced decorative density. Use soft illustrative lighting and a cohesive matte, hand-crafted finish. The result should resemble a meticulously designed traditional illustration rather than a photograph, 3D render, or conventional cartoon. When adapting visually complex source material, reinterpret its details as a controlled hierarchy of large watercolor shapes, elegant ink contours, and selective small ornaments. Consolidate dense hair strands, fabric folds, reflections, and background architecture. Preserve defining features, pose, and recognizable costume components, but avoid reproducing the source's micro-detail or rendering style. Decorative richness must come from intentional composition rather than uniformly dense linework.",
-    "subject_placeholder": "{SUBJECT}",
-    "context_placeholder": "{CONTEXT}",
-    "composition_placeholder": "{COMPOSITION}",
-    "palette_placeholder": "{PALETTE}",
     "negative_prompt": "photorealistic, 3D rendering, CGI, plastic textures, neon colors, excessive saturation, cinematic lighting, strong depth of field, thick cartoon outlines, simplistic cel shading, rough inconsistent linework, chaotic ornamentation, overly glossy surfaces, watermark, unwanted text"
   }
 }
