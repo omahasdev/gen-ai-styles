@@ -1,0 +1,70 @@
+---
+# Style LoRA for Qwen Image 2.1, trained with ai-toolkit (https://github.com/ostris/ai-toolkit).
+# Replace each <...> value. Run: python run.py train.example.yaml (from the ai-toolkit folder).
+# Train on the base weights (not turbo); the LoRA also works on the turbo model in ComfyUI.
+job: extension
+config:
+  name: "<lora name>"
+  process:
+    - type: 'sd_trainer'
+      training_folder: "<output folder>"
+      device: cuda:0
+      network:
+        type: "lora"
+        linear: 16
+        linear_alpha: 16
+      save:
+        dtype: float16
+        save_every: 500
+        max_step_saves_to_keep: 9
+      datasets:
+        - folder_path: "<dataset folder: images with .txt captions>"
+          caption_ext: "txt"
+          caption_dropout_rate: 0.05
+          shuffle_tokens: false
+          cache_latents_to_disk: true
+          resolution: [ 512, 768 ]
+      train:
+        batch_size: 1
+        cache_text_embeddings: true
+        steps: 4500  # approximately 3 passes over the dataset: set it from the image count
+        gradient_accumulation: 1
+        train_unet: true
+        train_text_encoder: false
+        gradient_checkpointing: true
+        noise_scheduler: "flowmatch"
+        timestep_type: "shift"
+        optimizer: "adamw8bit"
+        lr: 1e-4
+        dtype: bf16
+      model:
+        name_or_path: "<models folder>/diffusion_models/qwen_image_2.1_int8_convrot.safetensors"
+        arch: "qwen_image_2"
+        quantize: true
+        qtype: "convrot8"
+        quantize_te: true
+        qtype_te: "convrot8"
+        # 12 GB VRAM: offload half of the transformer and all of the text encoder
+        low_vram: true
+        layer_offloading: true
+        layer_offloading_transformer_percent: 0.5
+        layer_offloading_text_encoder_percent: 1.0
+        model_kwargs:
+          rgba: false
+      sample:
+        sampler: "flowmatch"
+        sample_every: 500
+        sample_start_step: 500
+        width: 768
+        height: 432
+        prompts:
+          - "<trigger>. A woman with a red scarf waits at a rainy bus stop at dusk, medium shot."
+          - "<trigger>. An old fisherman mends a net on a wooden pier in the morning, wide shot."
+        neg: ""
+        seed: 42
+        walk_seed: false
+        guidance_scale: 3
+        sample_steps: 20
+meta:
+  name: "<lora name>"
+  version: '1.0'

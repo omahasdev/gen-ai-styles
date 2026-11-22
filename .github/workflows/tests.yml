@@ -1,0 +1,22 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the test dependencies
+        run: python -m pip install numpy opencv-python-headless pillow
+      - name: Validate the style files
+        run: python -I comfyui/2-storyteller/style_schema.py image-styles
+      - name: Unit tests (CPU, no server)
+        run: |
+          python -I -m unittest discover -s comfyui/2-storyteller/tests
+          python -I -m unittest discover -s storyteller -p "test_*.py"

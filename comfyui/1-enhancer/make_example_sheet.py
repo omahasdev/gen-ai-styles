@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Make the example sheet of comfyui/README.md.
+"""Make the example sheet of comfyui/1-enhancer/README.md.
 
 Column 1 has the source photo image-styles/_baseline.png in each row. The next columns
 have one style each. Row 1 has the ChatGPT example images of image-styles/. Each
@@ -9,9 +9,9 @@ The script calls style_transfer.py for each seed, then puts the images into
 one JPEG. It needs Pillow (the Python environment of ComfyUI has it).
 
 Examples:
-    python comfyui/make_example_sheet.py --work sheet-work --sheet example-sheet.jpg
-    python comfyui/make_example_sheet.py --work sheet-work --sheet example-sheet.jpg --seeds 1 2 3 --server http://127.0.0.1:8188
-    python comfyui/make_example_sheet.py --work sheet-work --sheet example-sheet.jpg --skip-generation
+    python comfyui/1-enhancer/make_example_sheet.py --work sheet-work --sheet example-sheet.jpg
+    python comfyui/1-enhancer/make_example_sheet.py --work sheet-work --sheet example-sheet.jpg --seeds 1 2 3 --server http://127.0.0.1:8188
+    python comfyui/1-enhancer/make_example_sheet.py --work sheet-work --sheet example-sheet.jpg --skip-generation
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = Path(__file__).resolve().parent
-STYLES_DIR = HERE.parent / "image-styles"
+STYLES_DIR = HERE.parents[1] / "image-styles"
 BASELINE = STYLES_DIR / "_baseline.png"
 TRANSFER_SCRIPT = HERE / "style_transfer.py"
 EXAMPLE_SUFFIX = ".example.png"

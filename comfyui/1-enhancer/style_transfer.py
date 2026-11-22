@@ -14,7 +14,7 @@ jobs. Then it downloads each result as "<image>__<style>.png".
 
 Examples:
     python style_transfer.py photo.jpg --output out
-    python style_transfer.py photos/ --styles "../image-styles/Art Nouveau Watercolor.json" --output out
+    python style_transfer.py photos/ --styles "../../image-styles/Art Nouveau Watercolor.json" --output out
     python style_transfer.py photo.jpg --dry-run
 """
 
@@ -35,7 +35,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_GRAPH = HERE / "style-transfer.api.json"
-DEFAULT_STYLES = HERE.parent / "image-styles"
+DEFAULT_STYLES = HERE.parents[1] / "image-styles"
 DEFAULT_SERVER = "http://127.0.0.1:8188"  # ComfyUI default address
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".bmp"}
 STYLE_SKIP_PREFIX = "_"  # files such as _baseline.png are not styles

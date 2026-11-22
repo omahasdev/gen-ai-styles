@@ -1,0 +1,17 @@
+{
+  "loras": [
+    {
+      "file": "Nick_2anime_QwenImage2.1.safetensors",
+      "model": "qwen_image_2.1",
+      "scope": "generic",
+      "autoroute": false,
+      "strength": 0.8,
+      "trigger": "2anime",
+      "note": "photo to Japanese TV anime redraw that keeps the frame; trained on Qwen-Image-2.1 (Civitai model 2966054). Not routed automatically (2026-11-19): it keeps the eye size, the shading, and the background blur of the photo; use it by hand with --extra-lora",
+      "when": {
+        "paths": ["style_definition.primary_identity", "style_definition.influences", "rendering.medium"],
+        "pattern": "japanese\\b.{0,60}\\b(animation|anime)"
+      }
+    }
+  ]
+}

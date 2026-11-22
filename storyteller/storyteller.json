@@ -1,0 +1,3561 @@
+{
+  "request_intro": "Create the input image again in the art style that this specification defines. {rule:build_on_image} When the input shows a real place in focus (a room, a street, a building, a landscape), keep that place. A wall, curtain, or backdrop in focus behind the subjects is their place: keep it. When its background is even, featureless, or blurred, or shows only a floor under the subject, build the setting of the card around the subject, so that it carries the subject's emotion. Design the light and the composition to a professional standard. {rule:true_reflections}",
+  "precedence_note": "The style specification has priority over the scene concept. Every rule of the specification stays in force, also for camera, format, framing, lighting key, empty space, and a place that the specification keeps; adapt or drop any part of the scene concept that conflicts with it.",
+  "open_slot_note": "Some lines of the card are open slots: fill each open slot yourself with one concrete idea that grows from what the image already shows and fits the setting and the style. {rule:natural_surprise} {rule:in_place}",
+  "card_heading": "Scene concept for this picture (subordinate to the style specification):",
+  "spec_heading": "Style specification:",
+  "style_sources": {
+    "setting_keys": [
+      "environments",
+      "settings",
+      "scene",
+      "locations"
+    ],
+    "detail_keys": [
+      "environmental_details",
+      "motifs",
+      "surreal_transformation",
+      "visual_tension",
+      "examples",
+      "primary_components"
+    ],
+    "exclude_keys": [
+      "avoid",
+      "explicitly_not",
+      "negative",
+      "do_not",
+      "mandatory",
+      "optional_features",
+      "palette",
+      "colors",
+      "priority",
+      "complex_source",
+      "rules",
+      "constraints",
+      "adaptation",
+      "quality_checks",
+      "selection_policy",
+      "notation"
+    ],
+    "skip_sections": [
+      "generation_instructions",
+      "source_adaptation"
+    ],
+    "quiet_importance": "^\\s*(none|low|very low|optional|only)\\b",
+    "negation_words": [
+      "no",
+      "not",
+      "never",
+      "avoid",
+      "without",
+      "do not",
+      "don't"
+    ],
+    "material": {
+      "moods": [
+        "mood.variable",
+        "mood.secondary"
+      ],
+      "expressions": [
+        "expression"
+      ],
+      "shots": [
+        "shot_types"
+      ],
+      "influences": [
+        "influences"
+      ]
+    },
+    "place_keys": {
+      "background_design": [
+        "decorative_objects",
+        "furniture",
+        "interiors",
+        "nature",
+        "architecture",
+        "windows",
+        "landscapes",
+        "natural_elements",
+        "architectural_elements"
+      ]
+    }
+  },
+  "modes": {
+    "graphic": {
+      "when": {
+        "paths": [
+          "composition",
+          "background_design",
+          "shading_and_lighting"
+        ],
+        "pattern": "never as a scene|no light and no shading|no scenery|no background scene|without (a |any )?(scene|scenery)"
+      },
+      "caps": [
+        "graphic"
+      ]
+    },
+    "decorative": {
+      "when": {
+        "paths": [
+          "background_design.type",
+          "background_design.style"
+        ],
+        "pattern": "(^|\\s)\"decorative"
+      },
+      "caps": [
+        "decor",
+        "light"
+      ]
+    },
+    "scene": {
+      "caps": [
+        "scene",
+        "light",
+        "depth"
+      ]
+    }
+  },
+  "style_tags": {
+    "uncanny": {
+      "paths": [
+        "style_definition"
+      ],
+      "words": [
+        "uncanny",
+        "surreal",
+        "dream logic",
+        "absurdist"
+      ]
+    },
+    "mystery": {
+      "paths": [
+        "style_definition"
+      ],
+      "words": [
+        "mysterious",
+        "dreamlike",
+        "enigmatic",
+        "symbolist",
+        "ethereal"
+      ]
+    },
+    "comic": {
+      "paths": [
+        "style_definition",
+        "subject_design"
+      ],
+      "words": [
+        "comedy",
+        "sitcom",
+        "gag"
+      ]
+    },
+    "cozy": {
+      "paths": [
+        "style_definition"
+      ],
+      "words": [
+        "cozy",
+        "heartwarming",
+        "comforting"
+      ]
+    },
+    "fantasy": {
+      "paths": [
+        "style_definition"
+      ],
+      "words": [
+        "fantasy"
+      ]
+    },
+    "everyday": {
+      "paths": [
+        "style_definition",
+        "background_design"
+      ],
+      "words": [
+        "without forcing a fantasy",
+        "never replace an everyday",
+        "period-neutral",
+        "everyday environments",
+        "present-day"
+      ]
+    },
+    "anime": {
+      "paths": [
+        "style_definition"
+      ],
+      "words": [
+        "tv animation",
+        "television animation"
+      ]
+    }
+  },
+  "draw": {
+    "boost_factor": 2,
+    "primary_ratio": 0.75
+  },
+  "place_words": {
+    "indoor": [
+      "room",
+      "interior",
+      "corridor",
+      "hall",
+      "kitchen",
+      "library",
+      "attic",
+      "cellar",
+      "studio",
+      "workshop",
+      "dining",
+      "waiting",
+      "parlor",
+      "bedroom",
+      "chamber"
+    ],
+    "outdoor": [
+      "street",
+      "road",
+      "woodland",
+      "forest",
+      "garden",
+      "shore",
+      "beach",
+      "field",
+      "meadow",
+      "neighborhood",
+      "park",
+      "square",
+      "harbor",
+      "lake",
+      "river",
+      "hill",
+      "orchard"
+    ]
+  },
+  "library": {
+    "tensions": [
+      "a place prepared for a guest who has not arrived yet",
+      "the last moment before something long expected arrives",
+      "a small thing has changed in a place that the subject knows well",
+      "the subject keeps something that everyone else has forgotten",
+      "a journey ends here, and its traces are still visible",
+      "a celebration is over, and the subject is the last one in the place",
+      "the subject has found something that was lost a long time ago",
+      "a ritual that the place repeats every day at this hour",
+      "a message arrives without words, told only by objects",
+      "the place seems to wait for a decision of the subject",
+      {
+        "text": "two times of the same place overlap quietly",
+        "only": [
+          "uncanny",
+          "mystery"
+        ]
+      },
+      "a small kindness was left for the subject by someone unseen",
+      "the first quiet day after a big change",
+      "a collection that the subject has gathered over a long time",
+      "the place has slowly adapted itself to the subject",
+      {
+        "text": "a small mishap has just happened, and the evidence is in plain view",
+        "boost": [
+          "comic"
+        ]
+      },
+      "a secret is kept in plain sight",
+      "a new season arrives inside the place",
+      "an old habit of the subject has left marks on the place",
+      "a visitor from far away left a souvenir behind",
+      "the place is arranged in honor of the subject",
+      "the subject keeps watch while everything else rests",
+      {
+        "text": "an ordinary day in which one detail is quietly impossible",
+        "only": [
+          "uncanny"
+        ]
+      },
+      "a farewell has just happened",
+      "a homecoming after a long absence",
+      "a small expedition is about to begin",
+      "the subject waits for a signal",
+      {
+        "text": "a long-delayed repair is finally finished",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a game was interrupted and left half played",
+        "boost": [
+          "comic",
+          "cozy"
+        ],
+        "needs": [
+          "scene"
+        ]
+      },
+      "the place keeps the memory of a former inhabitant",
+      {
+        "text": "something grows in a place where it cannot grow",
+        "only": [
+          "uncanny",
+          "mystery",
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a performance for an audience that nobody can see",
+        "only": [
+          "uncanny",
+          "comic"
+        ]
+      },
+      {
+        "text": "a shared meal is ready, and one seat is reserved for the subject",
+        "boost": [
+          "cozy"
+        ],
+        "needs": [
+          "scene"
+        ]
+      }
+    ],
+    "relationships": [
+      "the place is built to the scale of the subject, as if it was made for it",
+      "the subject is a guest whom the place treats as its host",
+      "the subject is the guardian of this place",
+      "the subject is the only still thing in a place full of small motion",
+      "the place repeats the colors and shapes of the subject",
+      {
+        "text": "the subject belongs to this place more than its furniture does",
+        "needs": [
+          "scene"
+        ]
+      },
+      "the subject is a newcomer, and the place shows signs of welcome",
+      "the subject and one element of the place form a matching pair",
+      {
+        "text": "the place shows the habits of the subject: worn spots, a favorite corner, kept things",
+        "needs": [
+          "scene"
+        ]
+      },
+      "the subject is the reason for an arrangement of objects around it",
+      "the place is in the middle of a change, and the subject is calm in it",
+      "the subject is the owner of a small collection on display",
+      "the subject is the audience of something that happens in the place",
+      "the place and the subject share one color that appears nowhere else in the picture",
+      "the subject is part of a ritual of the place",
+      {
+        "text": "the place is quieter around the subject than everywhere else",
+        "only": [
+          "uncanny",
+          "mystery"
+        ]
+      },
+      "the place seems to expect the subject",
+      "the subject guards the way to a further space",
+      {
+        "text": "the subject is the calm center of a small chaos",
+        "boost": [
+          "comic"
+        ]
+      },
+      "the place keeps small traces of earlier visits of the subject"
+    ],
+    "settings": [
+      {
+        "text": "a sunlit kitchen with a long scrubbed table",
+        "kind": "indoor",
+        "boost": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a small library with tall shelves and a reading chair",
+        "kind": "indoor"
+      },
+      {
+        "text": "an attic room under a sloping roof with a round window",
+        "kind": "indoor"
+      },
+      {
+        "text": "a watchmaker's or tinker's workshop with a cluttered bench",
+        "kind": "indoor"
+      },
+      {
+        "text": "a greenhouse full of potted plants",
+        "kind": "indoor"
+      },
+      {
+        "text": "a quiet railway waiting hall",
+        "kind": "indoor",
+        "boost": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a corner café with a few round tables",
+        "kind": "indoor"
+      },
+      {
+        "text": "a music room with an old instrument",
+        "kind": "indoor"
+      },
+      {
+        "text": "a bakery with fresh loaves on the shelves",
+        "kind": "indoor",
+        "boost": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a hallway with a staircase and many doors",
+        "kind": "indoor",
+        "boost": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a sewing room with fabric, ribbons, and a dress form",
+        "kind": "indoor"
+      },
+      {
+        "text": "a small museum gallery with display cases",
+        "kind": "indoor"
+      },
+      {
+        "text": "a bedroom with the window open",
+        "kind": "indoor"
+      },
+      {
+        "text": "a stage seen from the wings, with heavy curtains",
+        "kind": "indoor"
+      },
+      {
+        "text": "a pantry with jars and preserves on shelves",
+        "kind": "indoor",
+        "boost": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a painter's studio with canvases turned to the wall",
+        "kind": "indoor"
+      },
+      {
+        "text": "a laundry room with sheets hung to dry",
+        "kind": "indoor"
+      },
+      {
+        "text": "a small post office counter with sorting shelves",
+        "kind": "indoor"
+      },
+      {
+        "text": "a hotel lobby with a reception desk and a bell",
+        "kind": "indoor",
+        "boost": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a sunroom with wicker furniture",
+        "kind": "indoor"
+      },
+      {
+        "text": "a cellar with lanterns and old crates",
+        "kind": "indoor"
+      },
+      {
+        "text": "a clockmaker's room full of pendulums",
+        "kind": "indoor",
+        "only": [
+          "uncanny",
+          "mystery",
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a wizard's or alchemist's study with glass vessels",
+        "kind": "indoor",
+        "only": [
+          "fantasy"
+        ],
+        "unless": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a garden with a bench and overgrown paths",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a small harbor with moored boats",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a market street with awnings",
+        "kind": "outdoor"
+      },
+      {
+        "text": "an orchard with old fruit trees",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a riverbank with a small wooden jetty",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a rooftop with chimneys and a view over the town",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a country road with a lone signpost",
+        "kind": "outdoor",
+        "boost": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a meadow at the edge of a forest",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a courtyard with a fountain",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a seaside promenade with railings",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a vegetable garden with a scarecrow and a shed",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a small railway platform in the countryside",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a park with a bandstand",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a village lane between old houses",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a lighthouse on a rocky shore",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a bridge over a slow river",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a campsite with a small tent and a fire",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a stone stairway between old houses",
+        "kind": "outdoor"
+      },
+      {
+        "text": "a ruined tower overgrown with ivy",
+        "kind": "outdoor",
+        "only": [
+          "fantasy",
+          "mystery"
+        ],
+        "unless": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a lake shore with reeds and a small boat",
+        "kind": "outdoor",
+        "only": [
+          "fantasy",
+          "mystery"
+        ]
+      },
+      {
+        "text": "a forest clearing with ancient trees",
+        "kind": "outdoor",
+        "only": [
+          "fantasy",
+          "mystery",
+          "uncanny"
+        ]
+      }
+    ],
+    "spots": [
+      {
+        "text": "at the threshold between two rooms",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "beside a tall window",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "at the foot of a staircase",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "between two matching pieces of furniture",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "at the end of a long table",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "in a corner that someone has carefully prepared",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "on a rug in the middle of the room",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "near a stove or a fireplace",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "beside shelves full of the objects of the place",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "at the edge of water",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      {
+        "text": "on a path that bends out of view",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      {
+        "text": "by a gate in a low wall",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      {
+        "text": "under a large tree",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      {
+        "text": "on steps that lead up to a door",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      {
+        "text": "where two paths cross",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      {
+        "text": "beside a bench",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      "on a low platform, like a small stage",
+      "in front of the most important object of the place"
+    ],
+    "story_objects": [
+      "an object that hints at where the subject came from",
+      "an object that someone left for the subject",
+      "a small collection of things that the subject found in this very place, kept together",
+      "an object that does not belong to the period of the place",
+      "a token from a long journey",
+      "a message told only by an arrangement of objects, with no writing",
+      {
+        "text": "an object that is the wrong size for this place",
+        "only": [
+          "uncanny",
+          "comic"
+        ]
+      },
+      "a small object that is clearly the treasure of the subject",
+      {
+        "text": "an object half unpacked from its container",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a broken object in the middle of its careful repair",
+        "needs": [
+          "scene"
+        ]
+      },
+      "an object that is ready for a celebration",
+      "an object that shows the time of year",
+      {
+        "text": "a pair of matching objects, one of them slightly different",
+        "only": [
+          "uncanny",
+          "mystery"
+        ]
+      },
+      "an object that points the way out of the picture",
+      "an object that belongs to someone just outside the frame",
+      "an object that the subject has just won or found",
+      "a gift that is not yet opened",
+      "an object that holds light",
+      "a container whose contents are almost visible",
+      "a map-like object of shapes and lines, with no writing",
+      "an object too precious for the ordinary place around it",
+      {
+        "text": "a tool for a task that is half finished",
+        "needs": [
+          "scene"
+        ]
+      },
+      "an object that repeats the shape of the subject",
+      "a travel case or bundle, ready or just arrived",
+      "a plant or growing thing that someone looks after",
+      {
+        "text": "an instrument or device that is about to make a sound",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a stack of things that is close to falling",
+        "boost": [
+          "comic"
+        ],
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a table set for a specific number of guests",
+        "needs": [
+          "scene"
+        ]
+      },
+      "an object from the own world of the subject, carried into this place"
+    ],
+    "moments": [
+      {
+        "text": "a door or gate stands slightly open, as if someone has just left",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "the last trace of a departure is still visible: a moving curtain, a settling cloth, a fading footprint",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "something has just been delivered and stands unopened near the subject",
+        "needs": [
+          "scene"
+        ]
+      },
+      "everything around the subject is ready for an event that has not started",
+      {
+        "text": "the light moves across the place, and the subject is in its path",
+        "needs": [
+          "light"
+        ]
+      },
+      "a small creature or a rolling object approaches from the edge of the frame",
+      {
+        "text": "a sound source near the subject has just come to life (a bell, a kettle, a music box), shown by a moving part",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "the remains of a meal or a game show that company has just left",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a long wait is visible: a candle burned low, a teapot gone still, flowers that begin to wilt",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "the place is half prepared: some decorations hang, others still lie in a box",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "something has just fallen, and the pieces are still settling",
+        "boost": [
+          "comic"
+        ]
+      },
+      "a trail of petals, crumbs, or small prints leads to the subject",
+      "the wind has just moved through the place and left things slightly displaced",
+      "a long task is complete at this exact moment",
+      {
+        "text": "someone outside the frame is about to come in, shown by a long shadow at the edge",
+        "needs": [
+          "scene",
+          "light"
+        ]
+      },
+      {
+        "text": "a reflection shows a detail of the place that the direct view hides",
+        "needs": [
+          "scene"
+        ],
+        "only": [
+          "uncanny",
+          "mystery"
+        ]
+      },
+      "the place is between two seasons and shows signs of both",
+      "a small celebration is set up around the subject, with no guests yet",
+      {
+        "text": "a window shows a second, contrasting scene beyond the place",
+        "needs": [
+          "scene"
+        ]
+      },
+      "the objects of the place are arranged in an order that points toward the subject",
+      {
+        "text": "a light in the background has just been switched on",
+        "needs": [
+          "scene",
+          "light"
+        ]
+      },
+      {
+        "text": "the first drops of rain have just started to fall",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "steam rises from something freshly made",
+        "needs": [
+          "scene"
+        ]
+      },
+      "a ribbon, a cloth, or a loose page lifts in a draft",
+      {
+        "text": "things around the subject are still in motion: swinging, rolling, settling",
+        "boost": [
+          "comic"
+        ]
+      },
+      {
+        "text": "the place is lit for a performance, and the subject is where the light falls",
+        "needs": [
+          "light"
+        ]
+      },
+      {
+        "text": "a path behind the subject leads into the distance, and a small sign shows that someone walks it",
+        "needs": [
+          "scene",
+          "outdoor"
+        ]
+      },
+      {
+        "text": "the daily routine of the place goes on around the subject",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a repair is half done: tools lie open next to the mended thing",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a distant window or doorway shows that someone else is awake",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "one object casts a shadow that is slightly wrong",
+        "needs": [
+          "light"
+        ],
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "the same small object appears several times in the place, in a careful row",
+        "only": [
+          "uncanny",
+          "mystery"
+        ]
+      },
+      {
+        "text": "a small animal or bird has come close to the subject and watches it",
+        "unless": [
+          "uncanny"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "text": "a shaft of light through a gap falls across the subject",
+        "needs": [
+          "light",
+          "scene"
+        ]
+      },
+      {
+        "text": "a pale, luminous haze in the far part of the scene",
+        "needs": [
+          "scene",
+          "depth"
+        ]
+      },
+      "a light breeze lifts the lightest things of the scene",
+      {
+        "text": "the first snowflakes drift past",
+        "needs": [
+          "outdoor"
+        ]
+      },
+      {
+        "text": "a warm patch of sun on the ground beside the subject",
+        "needs": [
+          "light",
+          "scene"
+        ]
+      },
+      {
+        "text": "rain on the windows, the inside dry and warm",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "dust motes glow in a beam of light",
+        "needs": [
+          "light",
+          "indoor"
+        ]
+      },
+      "leaves or petals drift through the scene",
+      {
+        "text": "colored light from a glass object falls on a wall",
+        "needs": [
+          "light",
+          "indoor"
+        ]
+      },
+      {
+        "text": "puddles after rain mirror the sky",
+        "needs": [
+          "outdoor",
+          "scene"
+        ]
+      },
+      {
+        "text": "the warm glow of a lamp and the cool light of a window meet on the subject",
+        "needs": [
+          "light",
+          "indoor"
+        ]
+      },
+      {
+        "text": "the shadows of tall things stripe the ground",
+        "needs": [
+          "light",
+          "outdoor"
+        ]
+      },
+      {
+        "text": "fog lifts and shows the far part of the scene",
+        "needs": [
+          "outdoor",
+          "depth"
+        ]
+      },
+      {
+        "text": "a candle flame bends in a draft",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "light reflected from water plays on a wall in soft moving shapes",
+        "needs": [
+          "light",
+          "scene"
+        ]
+      },
+      {
+        "text": "the wind lifts a curtain into the room",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "the shadow of a leaf pattern falls across the scene",
+        "needs": [
+          "light"
+        ]
+      },
+      {
+        "text": "a soft glow comes from a source beyond the frame",
+        "needs": [
+          "light"
+        ]
+      },
+      {
+        "text": "frost patterns grow on the window glass",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "wet ground shines after rain",
+        "needs": [
+          "outdoor",
+          "scene"
+        ]
+      },
+      {
+        "text": "a cloud shadow moves across the land",
+        "needs": [
+          "outdoor",
+          "depth"
+        ]
+      },
+      {
+        "text": "the air is clear, and the far distance is sharp",
+        "needs": [
+          "outdoor",
+          "depth"
+        ]
+      },
+      {
+        "text": "a few sparks rise from a warm source",
+        "needs": [
+          "indoor"
+        ]
+      },
+      {
+        "text": "seeds or pollen float in the light",
+        "needs": [
+          "outdoor",
+          "light"
+        ]
+      }
+    ],
+    "staging": [
+      "show the story object within reach of the subject, large and clear enough to read at thumbnail size",
+      {
+        "text": "let one line of the setting lead the eye from the story object to the subject",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "repeat the main story element once, smaller, farther back in the scene",
+        "needs": [
+          "depth"
+        ]
+      },
+      "place the story element where the attention of the subject goes, so that the look connects them",
+      "frame the subject with two elements of the setting that tell the concept",
+      "give the story object the strongest accent color of the palette near the subject",
+      "let the story element echo the shape of the subject",
+      "keep calm space next to the story element, where the specification allows empty space, so that it reads clearly",
+      {
+        "text": "show the cause in the background and the effect next to the subject",
+        "needs": [
+          "depth"
+        ]
+      },
+      {
+        "text": "let the light of the scene fall on the story element and the subject together",
+        "needs": [
+          "light"
+        ]
+      },
+      {
+        "text": "build the scene in three readable depths: the story object near, the subject, a clue of the setting far",
+        "needs": [
+          "depth"
+        ]
+      },
+      {
+        "text": "work the concept into the motifs of the ornament and the flowers, so that the decoration tells the story",
+        "needs": [
+          "decor"
+        ]
+      }
+    ],
+    "landings": [
+      {
+        "text": "a floor or wall pattern",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a curtain or drapery",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a signature object, turned into an ordinary thing of this place",
+        "needs_any": [
+          "scene",
+          "decor"
+        ]
+      },
+      {
+        "text": "a food or drink ritual on a table",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a recurring animal or symbol",
+        "needs_any": [
+          "scene",
+          "decor"
+        ]
+      },
+      {
+        "text": "a sound source made visible, such as an old telephone, a radio, or a bell",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a small costume element, where the specification allows new accessories",
+        "unless": [
+          "everyday"
+        ],
+        "needs_any": [
+          "scene",
+          "decor"
+        ]
+      },
+      {
+        "text": "a hint of a character outside the frame, such as a shadow or a coat on a hook",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a quality of light (its softness, its direction, or its shadows) that keeps the light sources and the color temperature of the input",
+        "needs": [
+          "light"
+        ]
+      },
+      "a color pairing of colors that the input already shows",
+      {
+        "text": "a piece of furniture",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a view through a window or a doorway",
+        "needs": [
+          "scene"
+        ]
+      },
+      {
+        "text": "a landscape element in the distance, such as a kind of tree, a hill, or a water edge",
+        "needs": [
+          "depth"
+        ]
+      },
+      {
+        "text": "a shape or a mark of the composition",
+        "needs": [
+          "graphic"
+        ]
+      },
+      {
+        "text": "an ornamental or botanical motif",
+        "needs": [
+          "decor"
+        ]
+      }
+    ],
+    "graphic_marks": [
+      "one small pictorial mark of the setting that the specification allows",
+      "the relation between the symbol and one flat band of context",
+      "one signature detail of the subject, shown in the way that the specification allows",
+      "the position of the accent shape of the specification relative to the symbol",
+      "one construction line that connects the symbol to a small context mark",
+      "the orientation of the symbol toward one small context mark",
+      "the grain or halftone texture of one part of the symbol",
+      "the choice of the inks, so that one ink carries the concept",
+      "the gap or the overlap between two modules of the symbol",
+      "the placement of the symbol on the sheet, where the specification allows an offset"
+    ],
+    "themes": [
+      "a moonlit garden with a still pond",
+      "a seashore at dawn",
+      "an orchard in blossom",
+      "a winter forest under snow",
+      "a night sky over low hills",
+      "a rose garden behind a gate",
+      "a lake with water lilies",
+      "a mountain pass at sunrise",
+      "a harvest field with sheaves",
+      "a spring meadow full of wildflowers",
+      "a quiet river with willows",
+      "a cliff above the sea with flying birds",
+      "an autumn wood with falling leaves",
+      "a vineyard on a slope",
+      "a courtyard garden with a fountain",
+      "a field of tall grasses under a crescent moon",
+      {
+        "text": "a starlit tower among the clouds",
+        "only": [
+          "fantasy",
+          "mystery"
+        ]
+      },
+      {
+        "text": "an enchanted forest with glowing flowers",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a palace garden with clipped hedges",
+        "only": [
+          "fantasy",
+          "mystery"
+        ]
+      },
+      "a greenhouse full of climbing plants",
+      "a city of domes and towers on the horizon",
+      "a desert oasis with palms"
+    ],
+    "twists": [
+      {
+        "text": "a reflection that shows the place a little differently than it is",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a shadow cast by something that is not in the picture",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a shadow that points toward the light",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "one part of the place repeats itself, as if a room continued into its own copy",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a window or a doorway that shows another season than the rest of the place",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "weather that happens indoors, small and calm",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "two lights of different times of day in the same space",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "an object at a scale that does not match its distance",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a detail that continues across a surface where it cannot continue",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a perfectly ordinary activity going on where it cannot happen",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "the place arranged around the subject as if it had waited for it for years",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a long series of identical objects with one missing",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a doorway that opens onto a wall, or a wall that opens onto a landscape",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a picture or a photograph in the place that shows this same place empty, long ago or long after",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a clean, sharp patch of the place where it should be worn, or the reverse",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "light that comes from inside an object that cannot shine",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a texture of one material on an object of another material",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "an outdoor element growing calmly inside a built space",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "something very large made small and kept with care, as if it were an ordinary item",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "the horizon or the floor tilted a little, while everything else stands straight",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "traces of a visitor that end in the middle of the floor",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "an object hovering at rest at the height where it was put down",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a frozen moment: one thing in mid-motion while the rest of the scene is still",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "an object that has turned into part of the architecture",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a second, smaller version of the place somewhere inside the place",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "the subject's own markings echoed in one element of the place",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a soft glow on the subject from a direction where nothing is",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a sound made visible: ripples, dust, or light patterns spreading from a silent source",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a mirror, a window, or water whose reflection shows the place changed: another light, another season, or one object that is not in the room",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a room-sized emptiness around one small, carefully placed object",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "furniture or objects that face the subject like an audience",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "the time shown in the place is impossible: a sunset at noon, a midnight sky through a bright window",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a fragment of the outside world, such as a patch of sea or snow, contained inside the place",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "an everyday pattern of the place that forms a figure when seen from afar",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a thin line of light or color that runs through the whole place and ends at the subject",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "the edge of the picture that seems to fold or peel back, showing a calm different scene",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a light that comes from a hidden source just out of view",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a path, stair, or door that leads somewhere the picture never shows",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "one small symbol that repeats quietly in three places of the scene",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "mist, shade, or foliage that hides exactly one part of the place",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a key, a sealed letter, or a small box whose purpose stays unknown",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "an old map or drawing of this place that shows one room or path more than the place has",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a pattern in leaves, water, or cloth that almost forms a sign",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "the subject looks at something just outside the picture that the light also points to",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a small, gentle magic at work, such as light gathering into a shape near the subject",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a plant that blooms out of season around the subject",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "tiny creatures or spirits of the place busy with their own work, half hidden",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "one ordinary object with a single enchanted property",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "fireflies, petals, or sparks that drift in a quiet pattern",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a door, a mirror, or a pool that opens onto another world",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "weather from another place drifting gently into this one",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "an old charm, map, or instrument that reacts to the subject",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a small chain reaction one moment before it happens",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "an object caught in the exact moment before it falls",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "the place reacting to the subject with exaggeration: papers lifting, a pile about to topple",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "an overprepared detail, such as a tiny plan, a checklist, or a hand-drawn diagram",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a grand setup with a tiny, disappointing result",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "the trace of a failed plan just behind the subject",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "an expression of the subject that reacts to something the viewer sees first",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a small kindness waiting to be found",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a warm light left on for someone who is still on the way",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "something homemade at the exact moment it is ready",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a tiny world built with care in one corner of the place",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a change of season seen through one window",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a gift wrapped by someone who is not very good at wrapping",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a small coincidence of real life: two things that match by chance",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "an ordinary moment caught at its peak",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a forgotten thing in a surprising but possible place",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a lucky moment of light that falls on the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "the grain of a wooden floor or the lines of a field flow around the subject like water around a stone",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "dust or pollen that hangs in the air in a perfect, motionless grid",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a curtain, a flag, or tall grass that moves in a wind that touches nothing else",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "water in a vessel or a pool that lies level at a slant, as if its own gravity points aside",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "light that bends around a corner like a slow liquid and collects in a pool on the floor",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a perfectly black opening with clean edges in a wall or in the ground, with nothing visible inside",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a tidy row of the same object in shrinking sizes, the last one too small to see",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "plants that grow in the exact outline of a piece of furniture that is no longer there",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a calm patch of light on the floor in the shape of a window the place does not have",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "in a long row of identical dark windows, one shows a bright open sky inside the room",
+        "only": [
+          "uncanny"
+        ]
+      },
+      {
+        "text": "a chair turned to face a corner, as if someone sat there a moment ago to listen",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a half-finished game on a table, with one piece set carefully apart from the rest",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a line of damp footprints that leads out of the picture through a door left ajar",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a note pinned to a wall with its writing turned away from the viewer",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a single lit window far in the background, the only light in the whole view",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "an object wrapped in cloth and tied with cord, its shape almost but not quite recognizable",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "tally marks scratched into a surface in neat groups, with the last group unfinished",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a staircase whose upper steps disappear into deep, even shadow",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a framed photograph laid face down on a shelf, the only one turned away",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a rope or a cable that runs from near the subject out of the frame, pulled taut",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a fresh chip in an old surface, with the dust of it still lying below",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "two places set at a table, one used and one untouched",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a grate or a hatch in the floor with a faint draft that stirs the dust around it",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a clean circle of ground or floor in the middle of the dust, with no visible reason",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "an arrow chalked on a wall that points to a place outside the picture",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a notebook left open at one page, with a single line circled in pencil",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a lamp aimed at an empty spot on the floor, as if something important stood there once",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a mirror covered with a cloth, one corner lifted a little",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a row of hooks with one empty hook that still swings gently",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a gap in a row of books or jars, in the shape of an object nobody can name",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "ripples that spread on still water from a point just outside the picture",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a thin beam through a keyhole or a crack that falls exactly on one small object",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a worn plaque or sign where every word is faded except one",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a trail of tracks in sand or dust that circles the subject once and then leaves",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "a candle still smoking on a table, just put out by someone who is gone",
+        "only": [
+          "mystery"
+        ]
+      },
+      {
+        "text": "moss or tiny flowers that sprout at each place where the subject touches the ground",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "dust in a beam of light that drifts into the letters of an unknown, gentle alphabet",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a lamp whose flame is a small curled creature asleep inside the glass",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a house plant whose leaves turn toward the subject instead of toward the light",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a tiny door at the foot of a wall or a tree, with a lit window and a doormat",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "steam from a cup that takes the shape of a small fish swimming slowly upward",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "the stones of a path that light up softly, one by one, ahead of the subject",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "an open book whose pictures rise a little into the air above the pages",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a small private cloud that rains gently on one potted plant",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a bowl of water that holds a small sky of its own, with clouds moving in it",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "tiny lanterns that hang from blades of grass or from the threads of a cobweb",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "scraps of paper that fold themselves into small birds near the subject",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a small spirit made of leaves or dust that rests quietly beside the subject",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "the subject's shadow on a wall that wears a crown or wings the subject does not have",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a slow line of moths that carry tiny lights through the scene",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "cracks in an old wall that hold tiny gardens tended by unseen hands",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a bell-shaped flower that holds one small glowing pearl of light",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "old keys and coins that hang from a branch like ripe fruit",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a crack in the ground that shows warm golden light and a tiny stair going down",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "an animal painted on a wall or a pot that turns its head toward the subject",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a tiny winged lizard curled up asleep on a warm stone or a lamp",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "embroidered vines on a cloth that grow off its edge into real green leaves",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a tea party set for creatures too small to see, the thimble cups still steaming",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a ring of mushrooms around the subject that glows faintly from below",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a stream or a puddle where small paper boats sail against the current on their own errands",
+        "only": [
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a row of things falling like dominoes, the last one about to tap the subject",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a cupboard door that bursts open under a pile it can no longer hold",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a tablecloth pulled halfway off, with everything on it sliding toward the edge",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a collapsed heap of things right next to the subject, who looks completely innocent",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a stern handmade warning note, ignored in the most obvious way right beside it",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a trail of chaos, knocked things and scattered bits, that leads straight to a calm subject",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "curtains and plants all blown sideways by a fan that someone switched to full power",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a burst box of small round things rolling away in every direction at once",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "growth marks on a door frame, with the newest mark drawn absurdly high",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a garden hose that sprays in the wrong direction at the worst possible moment",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a hiding place that hides everything except the most obvious part of the subject",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a delivery box far too large for the tiny thing that came inside it",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a crooked shelf with everything on it slid down into a heap at one end",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a pot on a stove that boils over in a dramatic wave of foam",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a cushion squashed flat under the subject, with feathers puffing out of a seam",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a trail of crumbs that leads to the subject and ends in one crumb on it",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a framed portrait knocked crooked so that its painted face seems to stare in disbelief",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a house plant pulled halfway out of its pot, with soil spread across the whole floor",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a tiny handmade sign that claims this exact spot for the subject",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a neat pile of swept dust beside a broom, scattered again in one big gust",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a lawn sprinkler that turns on and soaks the one dry spot where the subject is",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a curtain rail that gives way at one end, the curtain pouring down in a slow slide",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a secret hoard of small stolen things piled just behind the subject",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "the subject's shadow on the wall, cast by a low lamp, much bigger and fiercer than the subject",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a row of things in perfect order, with one of them wildly out of place",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a folded blanket set out beside a warm spot, waiting for the subject",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a bowl of water and a small treat left on a step for whoever comes by",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a handwritten thank-you note tucked where only the subject would find it",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a jar of something homemade with a hand-drawn label and a ribbon on its lid",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "an old object mended with neat, visible stitches or a bright patch",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a window seat with cushions worn into the shape of a favorite spot",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a child's drawing of the subject pinned proudly to the wall",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a row of small lights strung along a path that leads to an open door",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a kettle on a stove that just begins to steam",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "scattered seeds left out on a ledge, with tiny tracks all around them",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a box lined with soft cloth, sized exactly for the subject",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a book left open face down beside a warm drink, to keep the place",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a small fire that just catches in a stove, with a neat stack of wood beside it",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a garden bed with a small hand-painted marker beside each plant",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a shelf of well-loved small treasures, each one dusted and set with care",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a spare key under a flowerpot, its spot worn smooth by friendly use",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a hot water bottle in a knitted cover, left warm on a chair",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a fogged window with a small heart drawn in it by a finger",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "laundry on a line, soft and still warm from the sun",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a cup of tea with a saucer on top to keep it warm for someone",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a big pot of soup with a ladle and a stack of bowls ready for many guests",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a small repaired toy on a windowsill, waiting for its owner to come back",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a plant cutting that grows roots in a glass jar, with a gift tag on it",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "warm bread wrapped in a cloth in a basket on the doorstep",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a hand-built bench made of scrap wood, sturdy, a little crooked, and clearly loved",
+        "only": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "a passing cloud shadow that covers everything except the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a wallpaper or a fabric pattern that matches the subject's colors by pure chance",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a gust that lifts a curtain at the exact moment it frames the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a long vehicle that passes behind, blurred, its windows a single band of light",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a poster on a wall whose picture happens to look like the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "the shadow of a window frame that falls in a neat cross on the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a freshly painted bench with a wet-paint note and one small fingerprint in it",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a half-drunk cup beside a notebook left mid-sentence, as if someone just stepped out",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a small rainbow from a glass of water or a prism that falls across the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "one falling leaf caught in the air just in front of the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "steam from a vent or a cup that drifts across the scene in one long ribbon",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a stone, a cushion, or a cloud that happens to have the same shape as the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "the pages of an open book caught mid-flip by a sudden draft",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "drops of water on a window that catch the light like a row of small lamps",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a pair of shoes kicked off by the door, one of them on its side",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a single drop from a tap or a leaf that hits water at the exact instant of the splash",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a row of identical windows with different curtains, each one a sign of a small private life",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a list on a fridge door that, by chance, names the things in this picture",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "fresh tire tracks in soft mud that curve neatly around the subject",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "toast that pops out of a toaster at the exact moment of the picture",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a sagging power line between two poles that lines up exactly with the horizon",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a parked car or a door painted in exactly the subject's colors",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "the shadows of a fence that line up exactly with the painted stripes of a crossing",
+        "only": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "a delivery left on a doorstep, still wrapped, at the moment its door opens a crack",
+        "only": [
+          "everyday"
+        ]
+      }
+    ],
+    "plots": [
+      "the subject has just found a hidden place, and the opening still shows how it was found",
+      "something covered for a long time is uncovered right beside the subject, its cover just pulled back",
+      "the subject is the first to reach this spot, and the untouched place around it proves it",
+      "the subject keeps an appointment, and the place shows that the other side is late",
+      "the subject has waited so long that the place has quietly started to change around it",
+      {
+        "text": "the place has kept a spot ready for the subject for years, and the spot still looks new",
+        "only": [
+          "uncanny",
+          "mystery"
+        ]
+      },
+      "two things that belong together are finally reunited, and the gap between them has just closed",
+      "a lost thing has found its way home, and the trail of its long trip is still fresh",
+      "a ritual repeated every day happens for the last time, and the place already shows the change",
+      {
+        "text": "the place is packed up for a move, and the subject is the last thing still unpacked",
+        "boost": [
+          "comic"
+        ]
+      },
+      "a small daily ritual is half done, and its next step waits within reach of the subject",
+      "the subject has the central role in a quiet ceremony that the place performs around it",
+      {
+        "text": "two rivals have marked the same territory, and the subject holds the disputed middle",
+        "boost": [
+          "comic"
+        ]
+      },
+      "the subject has just won a small contest, and the trace of the other side is still in view",
+      {
+        "text": "a careful plan has failed at its very last step, and the half-built setup is still in view",
+        "boost": [
+          "comic"
+        ]
+      },
+      {
+        "text": "something forbidden has just happened, and the subject is the calm, innocent center of all the evidence",
+        "only": [
+          "comic"
+        ]
+      },
+      {
+        "text": "a harmless trap is set and ready, and its trigger waits in plain view",
+        "only": [
+          "comic"
+        ]
+      },
+      "a small rescue has just succeeded, and the saved thing rests safe beside the subject",
+      "the subject guards something it saved, and the place still shows the danger it escaped",
+      "the subject is back, and its old place still keeps its exact shape, as if untouched",
+      {
+        "text": "the place has prepared a welcome back, and the subject is the one it was made for",
+        "boost": [
+          "cozy"
+        ]
+      },
+      "everything is ready for a big occasion except one detail, which is still plainly unfinished",
+      "the subject is the last missing part of a long preparation, and the place waits only for it",
+      "a busy event has just swept through, and the place shows the exact path that it took",
+      "a big effort is over, and the result stands complete next to the tools that made it",
+      "the subject shares a secret with the place, and one hidden detail tells it to a careful viewer",
+      "a hiding place is in plain view, and only the subject seems to know what it holds",
+      {
+        "text": "the subject is the guest of honor of a celebration that it did not ask for",
+        "boost": [
+          "comic",
+          "cozy"
+        ]
+      },
+      {
+        "text": "the place celebrates a small, ordinary achievement of the subject as if it were a great one",
+        "boost": [
+          "comic",
+          "cozy"
+        ]
+      },
+      {
+        "text": "something has arrived at the wrong address, and the place tries hard to make room for it",
+        "boost": [
+          "comic"
+        ]
+      },
+      {
+        "text": "one thing in the place is done exactly wrong, with great care and visible pride",
+        "only": [
+          "comic"
+        ]
+      },
+      "a renovation of the place has stopped at the exact edge of the subject",
+      "the subject has changed the place a little at a time, and the full result now shows",
+      {
+        "text": "something in the place slowly copies the subject, and the copy is almost finished",
+        "only": [
+          "uncanny",
+          "mystery",
+          "fantasy"
+        ]
+      },
+      {
+        "text": "a small enchantment answers the subject, and the place shows its very first effect",
+        "only": [
+          "fantasy"
+        ]
+      },
+      "the subject guards a treasure that is ordinary to everyone except the subject",
+      "the subject holds an official post, and the place marks that post with small signs of rank",
+      "the subject is a lookout, and the place shows what it watches for at the edge of the frame",
+      {
+        "text": "the subject is the new keeper of a passage between this place and another one",
+        "only": [
+          "fantasy",
+          "mystery"
+        ]
+      },
+      "a trade is under way: the offer of the subject is set out, and the other offer is still covered",
+      "at a fixed spot, someone unseen leaves one thing and takes another, and the subject keeps the exchange",
+      "the route of a journey is laid out, and the subject is at its very first mark",
+      "everything for a departure is ready, but one beloved thing of the place still holds the subject back",
+      "a long journey ends at a place much smaller than the route that led to it",
+      "the subject has reached the end of its map, and the place looks quite unlike the map",
+      {
+        "text": "the place has misread the wish of the subject and prepared the wrong thing with great care",
+        "boost": [
+          "comic"
+        ]
+      },
+      {
+        "text": "an instruction for the subject was taken too literally, and the result fills the scene",
+        "only": [
+          "comic"
+        ]
+      },
+      "the belongings of two strangers match by chance, and the subject is exactly between them",
+      "by pure chance, three unrelated objects of the place repeat one pattern of the subject",
+      "the subject takes over a role from a former keeper, whose tools still wait in their places",
+      "the subject meets something new for the first time, and the whole place leans toward that meeting",
+      "a lost-and-found corner of the place holds one item that clearly belongs to the subject",
+      "a promise made long ago is kept at last, and the proof stands next to the subject",
+      {
+        "text": "a gift for the subject is left in a way that tells exactly who left it",
+        "boost": [
+          "cozy"
+        ]
+      },
+      "a small mystery has one clue left in the place, and the subject is right next to it",
+      {
+        "text": "a household routine goes on, and the empty seat of one member still holds their things",
+        "boost": [
+          "cozy"
+        ]
+      },
+      {
+        "text": "an ordinary errand is half done, and its unfinished part waits beside the subject",
+        "boost": [
+          "everyday"
+        ]
+      },
+      {
+        "text": "an improvised repair from the things at hand holds, but only just, right beside the subject",
+        "boost": [
+          "comic",
+          "everyday"
+        ]
+      },
+      {
+        "text": "the place puts itself back in order, and one object has returned to a slightly different spot",
+        "only": [
+          "uncanny"
+        ]
+      }
+    ]
+  },
+  "lines": [
+    {
+      "label": "Concept",
+      "template": "the picture shows what the input image shows. {rule:emotion_first} {rule:composition_first} Let the place, the light, and the colors carry that emotion. {rule:one_figure} {rule:uncanny_balance} Start the instruction with one plain sentence that tells what the picture shows",
+      "mode_overrides": {
+        "graphic": {
+          "template": "the picture shows the subject of the input image with its own emotion and pose, only with the shapes, marks, and colors that the specification allows; the symbol shows that emotion one step stronger, never another one. Start the instruction with one plain sentence that tells what the picture shows"
+        }
+      },
+      "probability": 1.0
+    },
+    {
+      "label": "Plot",
+      "template": "the story shape of this picture, caught in one moment around the subject, which keeps its pose: {lib:plots}. The concept gives the theme, and this plot gives the setup and the turn: show the setup in the place and the turn next to the subject",
+      "modes": [
+        "scene",
+        "decorative"
+      ],
+      "probability": 0
+    },
+    {
+      "label": "Setting",
+      "source": "style_settings",
+      "library": "settings",
+      "item_prefix": "only when the input shows no place of its own (an even, featureless, or blurred background, or only a floor; a wall, curtain, or backdrop in focus behind the subjects is their place), build this setting around the subject; when the input shows a place, keep that place and skip this line: ",
+      "mode_overrides": {
+        "decorative": {
+          "library": "themes",
+          "item_prefix": "a theme place for the background, ornament, and botanical elements, drawn only in the background forms of the specification (a real place of the input stays and gets these elements): ",
+          "source": "style_settings"
+        },
+        "graphic": {
+          "library": "settings",
+          "item_prefix": "enters only in the reduced form that the specification allows for context; when the input shows no place, take the context from: ",
+          "source": "style_settings"
+        }
+      },
+      "adds_kind": true,
+      "slug": true,
+      "probability": 1.0
+    },
+    {
+      "label": "Spot",
+      "library": "spots",
+      "prefix": "only when the input shows no place of its own (an even, featureless, or blurred background, or only a floor; a wall, curtain, or backdrop in focus behind the subjects is their place), the subject is ",
+      "modes": [
+        "scene"
+      ],
+      "probability": 0.6
+    },
+    {
+      "label": "Key story detail",
+      "source": "style_details",
+      "item_prefix": "where the image is plain or empty, and {rule:in_place_short}, add this feature of the style: ",
+      "probability": 0.5
+    },
+    {
+      "label": "Surprise",
+      "library": "twists",
+      "prefix": "the one surprising element of this picture, {rule:surprise_logic}: build it from this idea and from what the image already shows, as a change of something that is there (its light, a surface, a reflection, a shadow, a scale, a view through a window), never as a new object set down near the subject; {rule:second_look}: ",
+      "modes": [
+        "scene",
+        "decorative"
+      ],
+      "probability": 1.0,
+      "primary_share": 1.0,
+      "only": [
+        "uncanny"
+      ]
+    },
+    {
+      "label": "Story object",
+      "library": "story_objects",
+      "prefix": "one concrete object in this role, taken from the setting or the specification where one fits: ",
+      "modes": [
+        "scene",
+        "decorative"
+      ],
+      "probability": 0,
+      "kind": "object"
+    },
+    {
+      "label": "Story mark",
+      "library": "graphic_marks",
+      "prefix": "the concept lives in ",
+      "modes": [
+        "graphic"
+      ],
+      "probability": 1.0
+    },
+    {
+      "label": "Moment",
+      "library": "moments",
+      "prefix": "around the subject, which keeps its pose: ",
+      "modes": [
+        "scene",
+        "decorative"
+      ],
+      "probability": 0
+    },
+    {
+      "label": "Event",
+      "library": "events",
+      "modes": [
+        "scene",
+        "decorative"
+      ],
+      "probability": 0
+    },
+    {
+      "label": "Mood",
+      "source": "moods",
+      "item_prefix": "color the place, the light, and the colors toward this mood of the specification, as far as it agrees with the emotion in the image; the subjects keep their own emotion: ",
+      "probability": 0
+    },
+    {
+      "label": "Acting",
+      "source": "expressions",
+      "item_prefix": "when the subject has a face or a body that can act and the moment calls for it, within the pose of the input: ",
+      "requires": "expressions",
+      "probability": 0
+    },
+    {
+      "label": "Cast design",
+      "modes": [
+        "scene"
+      ],
+      "probability": 1.0,
+      "only": [
+        "anime"
+      ],
+      "variants": [
+        {
+          "template": "each main character of the image (each person the picture is about, whom the viewer must recognize) gets a unique character design of the style, taken from that person: an own face shape, eye shape and eye size, brows, hairstyle silhouette, and body type, so that no two main characters share one face; every main character gets the large eyes of the style, larger than the eyes of the photo (each eye about as tall as the nose is long, the iris filling most of the eye); a main creature (a monster, an alien, a puppet) keeps the build of its own head from the input, one step stronger like a caricature: the outline of the head and where it is widest, the size and the place of the eyes, the size and the shape of the nose, the thickness of the lips, the chin and the jaw, and the outline of the hair; it takes only the line, the colors, and the eye construction of the style, never the face of the people; a person of a crowd or far in the background is a background extra of the style: simpler means fewer details and flatter color, never a broken drawing; each extra has a correct, complete body with natural proportions, a clear face of a few clean lines with both eyes and a mouth in place, whole hands, and whole, recognizable objects, drawn with the same clean line as the main characters; each extra sits fully in its own seat or place, and no extra is cut by a main character's head in a confusing way"
+        }
+      ]
+    },
+    {
+      "label": "Staging",
+      "library": "staging",
+      "modes": [
+        "scene",
+        "decorative"
+      ],
+      "probability": 0
+    },
+    {
+      "label": "Place details",
+      "template": "where the image is plain or empty, furnish it with the kinds of objects that the specification describes: {style:place_keys*1-2}",
+      "requires": "place_keys",
+      "modes": [
+        "scene"
+      ],
+      "probability": 0.5
+    },
+    {
+      "label": "Time of day",
+      "modes": [
+        "scene"
+      ],
+      "pool": [
+        "early morning with soft clear light",
+        "late morning in full daylight",
+        "midday with bright, even light",
+        "overcast afternoon with pale, bright, diffuse light",
+        "late afternoon with warm golden light",
+        "early evening with every lamp of the place switched on"
+      ],
+      "probability": 1.0,
+      "prefix": "only when the input image has no clear light of its own: "
+    },
+    {
+      "label": "Shot",
+      "source": "shots",
+      "item_prefix": "only when the source shot does not already read as one of the shot types of the specification, use: ",
+      "requires": "shots",
+      "probability": 0.5
+    },
+    {
+      "label": "Camera",
+      "if_style_has": {
+        "paths": [
+          "composition.camera",
+          "composition.subject_position",
+          "composition.subject_scale",
+          "composition.depth",
+          "composition.perspective",
+          "composition.spatial_design"
+        ],
+        "text": "one of the camera options that the composition of the specification allows"
+      },
+      "pool": [
+        "eye-level medium shot, the subject large and slightly off-center",
+        "close shot, the subject fills most of the frame height, the scene visible around it",
+        "low camera near the ground, the subject large in the foreground, the setting rising behind it",
+        "wide shot that shows the whole setting, the subject small and centered in it",
+        "three-quarter view, the subject on one third of the frame, the story detail on the other",
+        "symmetrical frontal composition, the subject in the center between matching elements"
+      ],
+      "weights": [
+        3,
+        3,
+        2,
+        1,
+        2,
+        1
+      ],
+      "probability": 1.0,
+      "unless_line": "Shot"
+    },
+    {
+      "label": "Format",
+      "pool": [
+        "portrait, taller than wide (2:3)",
+        "landscape, wider than tall (3:2)",
+        "square (1:1)"
+      ],
+      "weights": [
+        2,
+        2,
+        1
+      ],
+      "style_filter": {
+        "paths": [
+          "composition.aspect_ratio",
+          "composition.preferred_aspect_ratio",
+          "composition.default_orientation"
+        ],
+        "source_words": [
+          "preserve the source",
+          "source aspect"
+        ],
+        "source_text": "the aspect ratio of the source image",
+        "ratio_text": "{ratio}, the aspect ratio that the specification states",
+        "match": {
+          "portrait": [
+            "portrait",
+            "vertical"
+          ],
+          "landscape": [
+            "landscape",
+            "horizontal"
+          ],
+          "square": [
+            "square"
+          ]
+        },
+        "flexible_words": [
+          "flexible"
+        ],
+        "preference_boost": 3
+      },
+      "probability": 1.0
+    },
+    {
+      "label": "Open slots",
+      "prefix": "(open slot) ",
+      "count": 2,
+      "slots": [
+        {
+          "label": "Backstory",
+          "text": "invent in one clause what happened just before this moment, and show one visible trace of it",
+          "needs_any": [
+            "scene",
+            "decor"
+          ]
+        },
+        {
+          "label": "Outside the frame",
+          "text": "decide who or what is just outside the frame, and show one hint of it inside the frame, such as a shadow, a reflection, or an object that belongs to it",
+          "needs": [
+            "scene"
+          ]
+        },
+        {
+          "label": "Private detail",
+          "text": "add one small detail that only the subject would notice, close to the subject",
+          "needs_any": [
+            "scene",
+            "decor"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Tie object",
+          "text": "choose the object that ties the scene to a story, and make it the clearest prop near the subject",
+          "needs": [
+            "scene"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Next second",
+          "text": "decide what happens one second later, and show the sign that announces it",
+          "needs": [
+            "scene"
+          ]
+        },
+        {
+          "label": "Owner",
+          "text": "decide who lives or works in this place, and show two objects that tell it",
+          "needs": [
+            "scene"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "House rule",
+          "text": "invent one quiet rule that this place obeys, for example that everything faces one direction, and show it",
+          "needs": [
+            "scene"
+          ]
+        },
+        {
+          "label": "Season",
+          "text": "decide the season and show one sign of it",
+          "needs": [
+            "scene"
+          ]
+        },
+        {
+          "label": "Sound",
+          "text": "decide the main sound of this moment, and show its source",
+          "needs": [
+            "scene"
+          ]
+        },
+        {
+          "label": "Reward",
+          "text": "decide what the subject gets at the end of this moment, and place it in view",
+          "needs": [
+            "scene"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Memory",
+          "text": "add one object that holds a memory of the past of the subject, within its reach",
+          "needs_any": [
+            "scene",
+            "decor"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Sign",
+          "text": "choose one signature detail of the subject that carries the concept, in the form that the specification allows",
+          "needs": [
+            "graphic"
+          ]
+        },
+        {
+          "label": "Motif choice",
+          "text": "choose the flowers or motifs of the ornament so that they tell the concept",
+          "needs": [
+            "decor"
+          ]
+        },
+        {
+          "label": "Context mark",
+          "text": "choose the one small mark of the setting that carries the concept, in the form that the specification allows for context",
+          "needs": [
+            "graphic"
+          ]
+        },
+        {
+          "label": "Scent",
+          "text": "decide the strongest smell of this place, and show its source near the subject",
+          "needs": [
+            "scene"
+          ]
+        },
+        {
+          "label": "Touch",
+          "text": "decide how one surface near the subject feels to the touch, and make that texture clear",
+          "needs_any": [
+            "scene",
+            "decor"
+          ]
+        },
+        {
+          "label": "Weight",
+          "text": "decide which thing near the subject is the heaviest or the lightest, and show that weight in how it rests on its support",
+          "needs_any": [
+            "scene",
+            "decor"
+          ]
+        },
+        {
+          "label": "Wish",
+          "text": "decide what this subject would want most in this moment, and show the wanted thing in view but out of reach",
+          "needs": [
+            "scene"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Favorite thing",
+          "text": "decide which thing in this place belongs most to the subject, and give it the best spot near the subject",
+          "needs_any": [
+            "scene",
+            "decor"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Last visitor",
+          "text": "decide who came to this place last, and show the one thing that they left behind",
+          "needs": [
+            "scene"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Oldest thing",
+          "text": "add one thing that is much older than everything else in this place, and show one sign of how it survived",
+          "needs_any": [
+            "scene",
+            "decor"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Unfinished thing",
+          "text": "leave one thing in this place unfinished, and let its missing part show what it will become",
+          "needs_any": [
+            "scene",
+            "decor"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Motion",
+          "text": "choose one small thing that moves near the still subject, and show the direction of its movement",
+          "needs": [
+            "scene"
+          ]
+        },
+        {
+          "label": "Scale clue",
+          "text": "add one familiar thing whose size shows how big or how small the subject is",
+          "needs": [
+            "scene"
+          ],
+          "kind": "object"
+        },
+        {
+          "label": "Counterpart",
+          "text": "add one small element that is the opposite of the subject in shape or color, never a second figure, and place it so that the two complete each other, in a form that the specification allows"
+        },
+        {
+          "label": "Hidden answer",
+          "text": "decide what question this picture asks, and hide its answer in one small detail far from the subject, in a form that the specification allows"
+        }
+      ],
+      "probability": 0
+    },
+    {
+      "label": "Homage",
+      "variants": [
+        {
+          "weight": 2,
+          "template": "blend partial motifs from one to three well-known films, series, books, games, or paintings that you choose, which match these traits of the specification: {style:influences*2-3}, its aesthetic and mood, and this setting. Put the borrowed motifs at these places: {lib:landings*1-3}. Take a different kind of element from each work and transform it, so that the image stays original and only feels familiar. Leave out characters, names, logos, and text of these works, and {rule:no_titles}; {rule:ordinary_motifs}"
+        },
+        {
+          "weight": 1,
+          "template": "let one well-known film, series, book, game, or painting that you choose give most motifs of this picture. Choose a work that matches these traits of the specification: {style:influences*2-3}, its aesthetic and mood, and this setting. Put its motifs at these places: {lib:landings*1-2}. Transform each motif under the rules of the specification, so that the image stays original and only feels familiar. Leave out characters, names, logos, and text of the work, and {rule:no_titles}; {rule:ordinary_motifs}"
+        }
+      ],
+      "probability": 0.2,
+      "fallback_template": "blend partial motifs from one to three well-known films, series, books, games, or paintings that you choose, which match the influences, the aesthetic, and the mood of the specification and this setting. Put the borrowed motifs at these places: {lib:landings*1-3}. Take a different kind of element from each work and transform it, so that the image stays original and only feels familiar. Leave out characters, names, logos, and text of these works, and {rule:no_titles}; {rule:ordinary_motifs}"
+    },
+    {
+      "label": "Story homage",
+      "template": "take one story situation, relationship, or twist from a well-known film, series, book, game, or painting that you choose, which matches these traits of the specification: {style:influences*1-2}. Stage it around the subject in its own pose as an enrichment of this card, transformed so that the image stays original. Leave out characters, names, logos, and text of the work, and {rule:no_titles}; {rule:ordinary_motifs}",
+      "probability": 0,
+      "fallback_template": "take one story situation, relationship, or twist from a well-known film, series, book, game, or painting that you choose, which matches the influences, the aesthetic, and the mood of the specification. Stage it around the subject in its own pose as an enrichment of this card, transformed so that the image stays original. Leave out characters, names, logos, and text of the work, and {rule:no_titles}; {rule:ordinary_motifs}"
+    }
+  ],
+  "rules": {
+    "one_figure": {
+      "text": "The subject is the only figure in the picture, unless the specification or the input image shows other people or creatures: tell of anyone else only by traces, such as an object, an open door, a lit window, or a shadow at the edge, never by a visible person, figure, or silhouette.",
+      "needs_any": [
+        "scene",
+        "decor"
+      ]
+    },
+    "true_reflections": {
+      "text": "Every reflection in a mirror, glass, metal, or water obeys the geometry of the place: the surface shows what stands in front of it, from its own position and angle (a floor puddle shows the subject upside down from below, a side mirror the side that faces it, a mirror or a window behind the subject its back), mirrored, in the perspective of the scene, and changed by its material, never a flat copy of the subject; a wrong reflection changes the place, the light, or one object, and the subject in it keeps the same pose.",
+      "needs_any": [
+        "scene",
+        "decor"
+      ]
+    },
+    "no_titles": {
+      "text": "never write the title of a work or the name of its author in the instruction: describe only the borrowed motifs"
+    },
+    "ordinary_motifs": {
+      "text": "each borrowed motif becomes an ordinary thing that belongs to this place and this moment, so that the work is felt in the mood, the light, and the colors, never seen as a famous prop quoted as it is"
+    },
+    "surprise_logic": {
+      "text": "in the logic of the style (quietly strange in an uncanny style, enigmatic in a mysterious one, magical in a fantasy one, playful in a comic one, warm in a cozy one)"
+    },
+    "second_look": {
+      "text": "everything else stays true to the world of the style, so that the surprise shows on a second look"
+    },
+    "natural_surprise": {
+      "text": "An unexpected element follows the logic of the style and is treated as natural in its world, never a random sight gag."
+    },
+    "uncanny_balance": {
+      "text": "Keep the balance of the style: at most one quiet strangeness, and everything else believable, so that the picture reads as real at first glance.",
+      "only": [
+        "uncanny"
+      ]
+    },
+    "build_on_image": {
+      "text": "The input image is already the story: keep its subjects, their poses and expressions, the people it shows, its place, and its composition. The composition is the subjects, the place, and the shot, never the faults of the photo: an out-of-focus object at an edge, a dark or cut corner, a vignette, a lens flare, or a finger over the lens; the picture shows its scene to every edge and corner. Build the picture over it: redraw everything in the style, simplify the over-detailed areas, and add details of the style only where the image is plain, blurred, or empty, in the tone of the subject's emotion and of its place. Never add a new plot, event, character, or object that the image does not suggest."
+    },
+    "in_place": {
+      "text": "Every added thing belongs to the place, at the position where such a thing usually is (on furniture, a wall, a sill, the ground farther away); never a group of things set down around the subject."
+    },
+    "in_place_short": {
+      "text": "only at the place where such a thing usually is, never as a group of things around the subject"
+    },
+    "emotion_first": {
+      "text": "Read the emotion of each person or animal in the image and keep it: show it one step stronger with the means of acting that the style has (eyes, mouth, brows, hands, the line of the body), never as another emotion."
+    },
+    "composition_first": {
+      "text": "Keep the composition of the image (the same subjects, their places in the frame, their size in the frame, and the shot), and make it read as a strong shot of the style: the main subjects clear and readable, the secondary ones simpler, and the background in clear planes. Keep the color key of the image (a cool place stays cool, a warm one stays warm, each main color keeps its hue) and make it clean, clear, and bright in the means of the style; drop only the blur and the color cast of the photo (a tint of the camera or of a colored lamp over the whole frame); the own color of a surface (a blue door, a gray pavement, a green field) is never a cast and keeps its hue and temperature, and lift a dull, underexposed photo; a scene that is dark by its nature (a cinema, a candle-lit room, a night street) keeps its low key, with the light on the faces and the light sources."
+    }
+  },
+  "budgets": {
+    "object": 1
+  },
+  "recipes": [
+    {
+      "name": "balanced",
+      "weight": 4
+    },
+    {
+      "name": "quiet moment",
+      "weight": 2,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Event": 0,
+        "Homage": 0,
+        "Story homage": 0,
+        "Staging": 0
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "keep this picture calm and simple: few elements and much breathing space; the light, the place, and one or two details tell the story"
+    },
+    {
+      "name": "story-led",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Event": 1,
+        "Story object": 1,
+        "Homage": 0.2
+      },
+      "note": "let the story read at a glance: the subject and the main story element form one clear moment that a viewer can retell in one sentence"
+    },
+    {
+      "name": "homage-led",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Homage": 1,
+        "Story homage": 0.6,
+        "Surprise": 0.3,
+        "Event": 0.3
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "let the borrowed motifs carry the atmosphere: mood, light, and color first, objects last"
+    },
+    {
+      "name": "surprise-led",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Surprise": 1,
+        "Event": 0.3,
+        "Homage": 0
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "build the picture around its one surprise; every other part stays plain, so that the surprise reads"
+    },
+    {
+      "name": "plot-led",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Plot": 1,
+        "Story object": 1,
+        "Story homage": 0,
+        "Surprise": 0.4
+      },
+      "note": "let the plot carry the picture: a viewer sees the setup and the turn at one glance and can retell the plot in one sentence"
+    },
+    {
+      "name": "before and after",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Plot": 1,
+        "Staging": 1,
+        "Event": 0.3,
+        "Story homage": 0,
+        "Homage": 0.2
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "show the plot as a before and an after in one picture: the trace of what came before is far from the subject, and the result is next to it"
+    },
+    {
+      "name": "small drama",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "boost": [
+        "comic"
+      ],
+      "lines": {
+        "Plot": 1,
+        "Surprise": 0.5,
+        "Staging": 1,
+        "Homage": 0,
+        "Story homage": 0
+      },
+      "note": "stage the plot as a small drama with a clear cause and effect: the subject stays the calm center while the place reacts"
+    },
+    {
+      "name": "quiet chapter",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "boost": [
+        "cozy",
+        "mystery"
+      ],
+      "lines": {
+        "Plot": 1,
+        "Event": 0.4,
+        "Surprise": 0.2,
+        "Homage": 0,
+        "Story homage": 0
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the plot quietly, as one page of a longer story: few elements, calm space, and one clear trace of what came before"
+    },
+    {
+      "name": "two scales",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Place details": 1,
+        "Surprise": 0.3,
+        "Event": 0,
+        "Story object": 0.5,
+        "Homage": 0
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the concept twice, at two scales: the big place around the subject and a small copy of the same story inside it, close to the subject. The small world has no figures, and the viewer finds it on a second look."
+    },
+    {
+      "name": "ritual",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Event": 0,
+        "Surprise": 0.2,
+        "Story object": 1,
+        "Staging": 1,
+        "Mood": 1,
+        "Homage": 0.2
+      },
+      "budgets": {
+        "object": 3
+      },
+      "note": "tell the concept as a small ritual of this place: the objects of the ritual stand around the subject in a careful order. The order alone shows that the ritual happens again and again."
+    },
+    {
+      "name": "aftermath",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Event": 0,
+        "Surprise": 0.3,
+        "Key story detail": 1,
+        "Place details": 0.8,
+        "Acting": 1
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the concept through the moment just after something big happened, and keep the event itself out of view. Its traces lie around the calm subject, and the viewer guesses the event from them."
+    },
+    {
+      "name": "discovery",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Story object": 1,
+        "Event": 0.3,
+        "Surprise": 0.4,
+        "Acting": 1,
+        "Homage": 0.2
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the concept as a discovery: something that this place hid comes to light right next to the subject. The found thing is the clearest point of the picture, and the light and the lines of the place lead the eye to it."
+    },
+    {
+      "name": "the place as a character",
+      "weight": 1,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Place details": 1,
+        "Spot": 1,
+        "Event": 0,
+        "Story object": 0,
+        "Homage": 0.2
+      },
+      "budgets": {
+        "object": 1
+      },
+      "note": "let the place answer the presence of the subject with one small sign of its own parts, as if the place were a second character, {rule:surprise_logic}. The sign is a shape or a small object, never a new light or a new color: the place keeps the light and the color temperature of the input. The place never gets a face or a body, and everything else in it stays believable."
+    },
+    {
+      "name": "within reach",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Spot": 0,
+        "Place details": 0,
+        "Event": 0.3,
+        "Story object": 1,
+        "Key story detail": 1,
+        "Surprise": 0.3
+      },
+      "budgets": {
+        "object": 3
+      },
+      "note": "tell the whole story with the things within reach of the subject, in the closest frame that the specification allows. The far setting stays soft and simple, and every detail near the subject counts."
+    },
+    {
+      "name": "quiet triumph",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Event": 0.2,
+        "Story object": 1,
+        "Acting": 1,
+        "Surprise": 0.2,
+        "Homage": 0
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the concept as the moment just after a small success of the subject. The proof of the success sits near the subject, and the calm scene honors it without a celebration."
+    },
+    {
+      "name": "interrupted moment",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Event": 1,
+        "Surprise": 0.3,
+        "Story object": 0.6,
+        "Acting": 1,
+        "Homage": 0
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the concept as an interrupted moment: an activity around the subject stops halfway and leaves its objects in the foreground. The cause of the interruption shows only as a hint at the edge of the frame."
+    },
+    {
+      "name": "collection",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor",
+        "graphic"
+      ],
+      "lines": {
+        "Story object": 0.3,
+        "Surprise": 0,
+        "Event": 0,
+        "Staging": 1,
+        "Homage": 0
+      },
+      "budgets": {
+        "object": 1
+      },
+      "note": "tell the concept through a collection or a series: one form repeats many times in a clear order around the subject. The order breaks once, near the subject, and that break carries the story."
+    },
+    {
+      "name": "threshold",
+      "weight": 0,
+      "needs_any": [
+        "scene",
+        "decor"
+      ],
+      "lines": {
+        "Spot": 0,
+        "Event": 0.3,
+        "Story object": 0.6,
+        "Staging": 1,
+        "Place details": 0.7
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the concept as the start of a journey: the subject keeps its place on the near side of a threshold, and the far side opens deep into the picture. The near side shows where the subject comes from, and the far side promises where it goes."
+    },
+    {
+      "name": "warm and cold",
+      "weight": 1,
+      "needs_any": [
+        "scene",
+        "decor",
+        "graphic"
+      ],
+      "lines": {
+        "Event": 0,
+        "Homage": 0
+      },
+      "budgets": {
+        "object": 2
+      },
+      "note": "tell the concept as a meeting of warm and cold: the subject belongs to one color temperature and the place around it to the other, by light where the specification has light and by color in every case. One element carries a little of the other temperature across, toward the subject."
+    }
+  ]
+}

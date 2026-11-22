@@ -34,7 +34,15 @@ More ChatGPT examples of each style, with the source photo and the main example 
 
 You can also give the full JSON file to a language model and ask for a prompt for a specific subject.
 
-To apply the styles to your own images with a local ComfyUI, see [`comfyui/`](comfyui/README.md).
+To apply the styles to your own images with a local ComfyUI, see [`comfyui/`](comfyui/README.md). It has two workflows and an example matrix that compares them with ChatGPT.
+
+To get a different scene for each image of a style, in ChatGPT or in ComfyUI, see the [storyteller](storyteller/README.md). For ChatGPT, this command prints a request to paste into the chat together with your image:
+
+```bash
+python storyteller/storyteller.py "image-styles/Uncanny Dream Logic Surrealism.json" --seed 1 --request
+```
+
+To train a style LoRA for Qwen Image 2.1 (build a dataset, write the captions, train), see [`lora-training/`](lora-training/README.md).
 
 ## License
 
