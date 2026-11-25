@@ -1,0 +1,702 @@
+{
+  "style_name": "Gothic Stained Glass Character Polyptych",
+  "style_definition": {
+    "primary_identity": "An elaborate unified Gothic stained-glass character polyptych: every principal character from the source is individually redrawn as a graphic painted-glass portrait inside their own tall architectural lancet, with pointed arches, slim near-black mullions and lead, a dark tracery crown with small jewel-bright panes, and rich character-derived Gothic iconography: nested inner lancets and a rosette behind each head, a crowned heraldic emblem with a rose or foliage wreath below each figure, and a shared base frieze with a central roundel that shows a signature motif of the subject. The architecture fills the whole canvas. The windows form a single continuous low-key artwork: dark lead and architecture dominate, and color glows in the windows. The figures are clean graphic ink drawings with a light anime and cartoon inflection, built from large flat glass shapes with hard-edged shadow panes. Each window takes its palette from its own character and setting: one dominant hue family plus neutrals.",
+    "aesthetic": "Gothic, monumental, low-key, graphic, lightly anime-inflected, ornamental, character-driven, luminous against darkness, handcrafted, symbolically coherent",
+    "influences": [
+      "Medieval Gothic cathedral lancet windows and multi-light window architecture",
+      "Painted figurative stained glass with vitreous grisaille and colored glass",
+      "Gothic Revival memorial and heraldic window compositions",
+      "Symbolist narrative art and medieval polyptychs",
+      "Architectural tracery, heraldic shields, rosettes, foliated ornament and ornamental ironwork",
+      "Dark graphic-novel and anime-inflected character illustration with clean ink shapes and hard shadow shapes"
+    ],
+    "adaptability": "Applicable to single portraits, couples, families, ensembles, fictional characters, realistic people, animals, anthropomorphic creatures and meaningful nonhuman protagonists in any setting or genre. Neither medieval costume nor religious subject matter is a prerequisite.",
+    "core_principle": "One principal character, one dedicated primary window, all windows one artwork. Treat the ensemble as the subject of the whole architecture and each character as the subject of an individual light. Derive the decorative narrative from the source rather than transplanting the reference's characters, mythology, palette assignments or emblems.",
+    "mood": {
+      "primary": [
+        "Architecturally solemn",
+        "Richly atmospheric",
+        "Symbolically expressive",
+        "Monumental",
+        "Timeless"
+      ],
+      "variable": [
+        "Ominous",
+        "Heroic",
+        "Melancholic",
+        "Romantic",
+        "Playful",
+        "Tender",
+        "Triumphant",
+        "Contemplative",
+        "Whimsical",
+        "Combative",
+        "Serene"
+      ],
+      "adaptation": "Gothic describes the visual construction, not a mandatory emotional genre. Preserve each character's actual affect and determine the ensemble's atmosphere from their combination, interaction and setting. A friendly group may become a warm celebratory window, a comedy may become an ornate deadpan tableau, and a tense dark ensemble may become a severe nocturnal composition. Never make a happy subject sinister simply because the architecture is Gothic.",
+      "emotional_contrast": "Individual windows may have contrasting moods or color temperatures while participating in one shared emotional register. Preserve an intentionally contradictory or humorous combination rather than averaging every character into the same expression."
+    }
+  },
+  "rendering": {
+    "medium": "High-resolution 2D illustration of a complete figurative Gothic stained-glass assembly, combining painted colored glass, dark lead cames, architectural framing and graphic character drawing",
+    "technique": "Construct the entire design from irregularly shaped, structurally plausible glass panes and hand-drawn figures. Use heavy blackened lead for major pane divisions, finer dark painted ink or grisaille for faces, anatomy and folds, pigment-rich translucent color, selective dark hatching and mottled glass luminosity. All elements, including the figures, must participate in the same material and surface treatment. Figures read as clean, slightly simplified cartoon and anime-like drawings made of large flat glass shapes and hard-edged shadow panes, not as painterly realistic rendering.",
+    "realism_level": 0.15,
+    "stylization_level": 0.92,
+    "line_art_prominence": 0.94,
+    "flat_color_prominence": 0.92,
+    "painterly_rendering": 0.15,
+    "texture_strength": 0.45,
+    "detail_resolution": "High at faces, hand gestures, signature props, window tracery and deliberate symbolic ornaments; moderate in large garment masses and background panes. Selective rather than uniform micro-detail.",
+    "source_translation": "Completely reconstruct the source as illustrated stained glass. Do not place intact source photographs or unmodified anime cutouts behind a decorative window, apply a generic mosaic filter or overlay a repeated crack pattern.",
+    "surface_finish": "Aged, pigment-rich, subtly translucent glass with matte fired-paint contours and low-sheen dark architectural framing. Refined handmade irregularities, not ruined or dirty surfaces.",
+    "dimensionality": "Predominantly frontal two-dimensional architectural artwork. Figures have compressed illustrative volume through shape, limited tonal modeling and dark painted shading; glass thickness is only suggested at pane edges.",
+    "photographic_elements": false,
+    "three_dimensional_rendering": false,
+    "material_integration": {
+      "character_glass": "Large sections of hair, garments, skin and props read as colored glass with painterly internal drawing and coordinated structural seams.",
+      "background_glass": "More visibly subdivided into varied geometric and organic panes than faces; create rhythmic stained-glass texture without competing with character recognition.",
+      "painted_detail": "Fine dark strokes are fired-paint-like marks on the pane, not actual metal partitions. Use this distinction to depict recognizable facial features without a grid across the face.",
+      "architectural_frame": "Dark aged stone or patinated metal outlines with subtle carved bevels, layered mouldings and narrow muted edge highlights.",
+      "edge_behavior": "Near-black pane boundaries are strong and continuous; local painted marks can taper and break. Color stays predominantly within its pane."
+    },
+    "avoid": [
+      "Photographic face pasted into a window",
+      "Generic stained-glass image filter",
+      "Uniform Voronoi mosaic or broken-glass overlay",
+      "Tiffany lamp-like all-over tessellation",
+      "Smooth vector-only illustration",
+      "Glossy 3D glass render",
+      "Photograph of a cathedral interior",
+      "Excessive mirror reflections or rainbow refraction",
+      "Modern neon light tubes",
+      "Opaque oil painting unrelated to glass segmentation",
+      "Uniform black overlay destroying facial readability"
+    ],
+    "glass_first_rule": "Glass first, illustration second. Every figure is built from flat colored glass panes: each pane carries one color with only subtle glass mottling. Form comes from the pane boundaries, black lead and hard-edged black painted shadow shapes, never from smooth gradients, airbrushed volume or photographic texture."
+  },
+  "composition": {
+    "structure": "One complete frontal Gothic architectural polyptych occupying the canvas, with a dedicated principal lancet for every main character. Repeated arch springlines, vertical structural mullions, aligned sill and shared outer frame unify the set.",
+    "hierarchy": "Recognizable individual faces and poses first; ensemble silhouette and one-to-one window allocation second; character-specific background color and symbolic motifs third; common architecture and lower ornaments fourth; surface texture last.",
+    "camera": "Straight-on orthographic or near-orthographic view of the artwork itself. No surrounding church room, wall, perspective mockup, tabletop, tilted frame or camera distortion.",
+    "perspective": "Flattened architectural plane with shallow pictorial depth inside each light. Characters may retain source-specific local perspective and foreshortening, but the windows must share a coherent frontal structure.",
+    "aspect_ratio": "Adaptive to character count, figure crop and source relationships. Prefer tall portrait for one to three narrow lancets, square or landscape for wider ensembles; expand the single canvas rather than squeeze many characters into illegible slots. Honor explicit user aspect ratio if given.",
+    "subject_scale": "The figure normally occupies about 65-85% of the usable height of its principal light below the upper tracery, with distinct reserved space for the crown and optional lower emblem. Faces large enough to retain identity.",
+    "subject_framing": "Half-length, three-quarter, seated or full-length portrait selected from source and window proportions. Preserve meaningful pose and crop; do not invent unseen lower body merely to force full length.",
+    "silhouette": "Tall elegant silhouettes for standing figures; natural compact silhouettes for seated, small or nonhuman subjects. Strong differences between adjacent characters remain visible.",
+    "balance": "Architectural symmetry or controlled asymmetry at ensemble level, with individual differences in gesture, character size and ornament inside windows. The facade balances even when the source characters are not symmetrical.",
+    "visual_flow": "Pointed arches pull the eye upward; character faces and directional gazes create horizontal rhythm; lower symbols, shared sill and optional central medallion anchor the whole composition.",
+    "negative_space": "Reserve quiet larger panes immediately around faces, hands and narrow silhouettes; decorative tracery concentrates in crowns, spandrels, background margins and the lower register.",
+    "depth": "Dark outer frame and leading, figurative painted-glass plane, then simpler translucent background pattern. No illusion of live characters standing in front of physical windows.",
+    "group_interaction": "Keep the source's left-to-right order and meaningful proximity by default, preserve gaze directions, gestures and relationships. Adapt interacting gestures at the adjoining edges without merging the principal figures into one window. For shared actions, a continuous background motif or lower frieze may bridge the separation.",
+    "window_layout": {
+      "count_rule": "Exactly one principal character light for each distinct principal character in the source. Decorative upper tracery, border panes and subordinate medallions are not extra character windows. Never use three panels automatically because the style reference has three.",
+      "one": "One centered tall principal lancet, flanked by narrow ornamental side lights, buttresses with pinnacles or tracery panels that fill the canvas width. The side lights carry tracery and emblems, never extra portraits.",
+      "two": "A diptych of two adjacent lancets inside one common frame. Equal widths for equal emphasis; subtle unequal widths only when justified by the source. Shared central mullion.",
+      "three": "Three adjacent lancets with a continuous base and crown rhythm. A wider or taller central light is appropriate for an explicitly central subject, otherwise equal or near-equal windows.",
+      "four_to_six": "A single coherent row of four to six architectural lights in an appropriately wide canvas; pair or cluster windows visually according to the source relationships without adding empty slots.",
+      "seven_or_more": "Prefer a wider continuous polyptych. If fixed canvas constraints would make faces unreadable, use two aligned architectural registers within one outer frame; keep every character in an individual complete lancet. Never omit or duplicate a principal character to achieve symmetry.",
+      "relative_widths": "For equal prominence use widths within roughly 10% of one another; a source-supported lead may have a light roughly 1.1-1.35 times the width of a secondary light. These are visual defaults, not fixed geometric requirements.",
+      "order": "Use source spatial order or meaningful source grouping, not a new hierarchy based on gender, costume color, moral judgment or apparent importance unrelated to the image.",
+      "height_alignment": "Keep lower sill and main architectural rhythm consistent. Vary interior portrait position or upper arch height as needed without creating visually unrelated cards.",
+      "no_dead_slots": "Every principal lancet contains exactly one intended principal character; do not add anonymous saints, silhouette stand-ins, duplicate portraits or empty matching windows."
+    },
+    "rules": [
+      "Create one image, not separate files, individual cards, collage panels or a comic strip.",
+      "Allocate dedicated windows before rendering any figure or ornament.",
+      "Do not mistake tracery subpanes, shields, rosettes or background motifs for principal windows.",
+      "Do not impose a central protagonist or a red middle window unless supported by this source.",
+      "Preserve the visible subject count, individual identity, meaningful actions and relationships.",
+      "Adapt canvas proportions, ornament density and crop before compromising face readability.",
+      "Fit the whole architectural assembly inside the canvas: size the arches to the canvas height so that every pointed apex and the full sill are visible with a narrow dark margin; never crop the apex to enlarge the figure.",
+      "Keep the character windows visibly adjacent and physically connected by shared architecture."
+    ]
+  },
+  "framing": {
+    "importance": "Mandatory; the architectural framing is a defining part of the style",
+    "default_shape": "Tall narrow Gothic lancets with pointed ogival arches, enclosed by a single rectangular or pointed architectural perimeter",
+    "frame_style": "Slim near-black mullions and dark lead-like mouldings, pointed arch ribs, nested crowns of smaller inner arches, fleurs-de-lis, crosses, quatrefoils and trefoils as small bright jewel panes, pinnacles and finials, dark spandrels with foliated tracery, and a continuous dark lower sill with a frieze",
+    "border_color": "Near-black charcoal, blackened brown, iron gray or deep desaturated hues drawn from the shared palette",
+    "border_width": "Heavy enough to read structurally, subordinate to portrait area. Outer moulding approximately 1-3% of overall canvas width; mullions sized relative to the individual window width rather than the full ensemble.",
+    "secondary_contour": "Narrow low-value stone bevel or patina line on selected edges. No bright ivory picture-frame outlines as a default.",
+    "border_ornamentation": "Selective carved-like foliated patterns, floral flourishes, restrained heraldic shapes, rosettes and source-specific recurring motifs",
+    "geometric_divisions": {
+      "enabled": true,
+      "style": "Gothic tracery and irregular leaded glass subdivisions: pointed arches, lancets, trefoils, quatrefoils, petals, lozenges, branching curves, irregular angular panes",
+      "density": "High in upper crowns and perimeter; moderate in backgrounds and garments; low around focal facial features",
+      "structural_rule": "Main ribs form plausible connected architectural shapes and frame each entire window; internal lead seams form closed glass panes or terminate at an enclosing boundary. Use meaningful subdivisions, not random diagonal crossings.",
+      "rhythm": "Repeat the same arch family and general scale across the ensemble with individualized tracery and iconography inside.",
+      "avoid": [
+        "Unconnected floating decorative lines",
+        "Uniform regular grid across all characters",
+        "Random shattered-glass fractures",
+        "Identical duplicated tracery in every panel when individualized motifs are available"
+      ]
+    },
+    "registers": {
+      "upper": "Architectural crown containing smaller pointed arches and a compact character-specific motif, rosette or abstract ornament where appropriate.",
+      "main": "Dedicated figurative glass portrait and subdued contextual panes.",
+      "lower": "Optional shield, medallion, stylized prop, botanical ornament or thematic symbol linked to that window's subject.",
+      "shared_base": "One continuous sill or frieze across the complete composition; optional central roundel or repeated motifs representing the group, setting or relationship as a whole.",
+      "outer_spandrels": "Fill corners and spaces between arches with connected, understated leaded foliage or tracery, never extra character portraits by default."
+    },
+    "outer_background": {
+      "type": "The Gothic architecture fills the whole canvas: side lights, buttresses, pinnacles, spandrels and the base frieze occupy the space around the principal lancets, with only a thin dark margin above the highest apex and below the sill. No empty black field around the window.",
+      "color": "Deep charcoal, warm black, blackened umber or dark source-derived neutral",
+      "visual_role": "Unify all windows and isolate their transmitted colors without presenting them as detached cards"
+    },
+    "avoid": [
+      "Separate card borders with empty gutters",
+      "White gaps between windows",
+      "Floating portal effect",
+      "Modern rectangular photo collage",
+      "Thick gold picture frames",
+      "Church interior mockup",
+      "Unrequested titles or labels",
+      "Cut-off principal arch tips or sill caused by careless framing",
+      "Thick beige or sandstone carved columns and capitals",
+      "Light stone architecture dominating the image",
+      "A single small arch floating on an empty black field",
+      "Wide empty dark margins at the sides"
+    ]
+  },
+  "linework": {
+    "primary_style": "Strong blackened lead geometry combined with clean, confident graphic ink drawing: hard-edged shadow shapes, few deliberate interior strokes and minimal hatching",
+    "outline_color": "#171514",
+    "alternate_outline_colors": [
+      "#211B19",
+      "#252524",
+      "#211D24",
+      "#2B2622"
+    ],
+    "line_hierarchy": {
+      "architectural_mullions": "Heaviest dark vertical structural divisions and arch mouldings, broader than any glass seam.",
+      "glass_cames": "Continuous medium-heavy dark strips around individual glass shapes; subtly irregular, with occasional narrow edge accents.",
+      "character_external_contours": "Confident medium-weight dark contours fused where appropriate with nearby glass seams, strong enough to separate the figure from the patterned background.",
+      "character_internal_contours": "Finer tapered painted strokes for brows, eyes, lips, nose, hair, fingers, wrinkles, costume folds and accessory construction.",
+      "micro_detail": "Sparse fine directional marks, engraved-like hatching and mottled grisaille; never the same thickness as actual lead."
+    },
+    "external_contours": {
+      "weight": "Medium to heavy relative to local window scale; vary with structural function",
+      "appearance": "Dark, angular where anatomical structure calls for it, smoothly curved in ornamental sections; imperfect handmade edges",
+      "continuity": "Mostly continuous, selectively merging with dense shadows or architectural leading"
+    },
+    "internal_contours": {
+      "weight": "Approximately 25-60% of figure outline weight for most painted marks",
+      "density": "Low to moderate; high only on eyes, brows, mouth and signature props",
+      "application": [
+        "Facial planes and expression",
+        "Hair clumps and selected fine strands",
+        "Fabric folds",
+        "Hands and articulated joints",
+        "Signature props and accessories",
+        "Heraldic motif details",
+        "Decorative foliage and flower petals"
+      ]
+    },
+    "line_character": {
+      "precision": 0.86,
+      "fluidity": 0.75,
+      "uniformity": 0.4,
+      "expressiveness": 0.86,
+      "roughness": 0.28
+    },
+    "face_seam_policy": "A face is primarily one or a few sufficiently large flesh-colored panes, with eyes, nose, mouth and expression drawn in painted detail. Avoid thick lead cutting across both eyes, lips, or other identity-defining features. Align any necessary seam with the jaw, hairline, shadow plane or outer edge.",
+    "pane_shape_policy": "Let leading follow plausible cut-glass shapes, garment folds, hair masses, silhouette contours and decorative structure. Panes should vary in scale and shape; avoid dozens of tiny uncuttable slivers unless decorative tracery warrants them.",
+    "rules": [
+      "Maintain a visibly distinct hierarchy of stone, lead and painted strokes.",
+      "Use dark contours to separate overlapping forms without indiscriminately outlining each tiny tonal variation.",
+      "Follow anatomical and material direction in interior hatching.",
+      "Do not flatten every line into identical smooth vector strokes.",
+      "Maintain coherent leading across all windows."
+    ],
+    "avoid": [
+      "Hairline-only contours",
+      "Uniform thick cartoon outlines",
+      "Mechanical vector perfection",
+      "Shattered glass across faces",
+      "Random black scribbles",
+      "White or gold lead seams by default",
+      "Dense hatching obscuring eye and mouth shapes",
+      "Hair-by-hair or fur-by-fur strokes",
+      "Dense painterly hatching on hair, fur or cloth"
+    ],
+    "figure_lead_policy": "Lead runs through each figure, not only around it: garments, hair and fur masses are cut into large panes along folds, shadow shapes and color boundaries, so the figure itself reads as glass. Faces keep the face seam policy."
+  },
+  "color_system": {
+    "identity": "Source-derived colored glass glowing inside dominant near-black lead and dark architecture; each window has one dominant hue family taken from its character, plus neutrals",
+    "saturation": "Set by the source: rich only where the source color is rich. Transmitted light raises luminance, not the number of hues.",
+    "value_range": "Low-key: dark lead, mullions and shadowed glass cover roughly half of the image; color glows in the windows, brightest behind the heads and in small accents. Faces stay readable.",
+    "contrast": "Strong dark structural separations, with localized bright focal details and sufficient midtone variation to preserve silhouettes. Do not equate Gothic with globally crushed blacks.",
+    "temperature": "Choose individual warm or cool domains according to subjects and shared environmental light, then bind them with repeated neutrals and small common accent colors.",
+    "color_application": "Pigment-rich enclosed glass shapes with subtle mottling, edge darkening and internal tonal variation. No uniformly smooth digital gradients or rainbow spectrum by default.",
+    "palette": {
+      "lead_black": "#171514",
+      "dark_stone": "#292522",
+      "patinated_iron": "#42423E",
+      "smoked_gray": "#5F6466",
+      "aged_ivory": "#C7BCA0",
+      "opal_glass": "#D1D7D4",
+      "luminous_glass": "#E7E8DD",
+      "antique_gold": "#AD8743"
+    },
+    "palette_rule": "Only the structural neutrals and the antique gold metal tone are fixed. Every chromatic hue comes from the source through source_color_extraction. Never use reference hues, and never force blue-left, red-center, white-right or any fixed combination.",
+    "per_window_palette": {
+      "selection": "Assign each principal light the dominant hue family of its own character by source_color_extraction. Adjacent lights may share a hue when the characters or their shared setting share it.",
+      "roles": [
+        "One dominant background glass family",
+        "One compatible secondary family",
+        "Source-faithful character local colors",
+        "Shared structural near-black",
+        "Small optional emblem or transmitted-light accent"
+      ],
+      "distribution": "One dominant chromatic family and at most one secondary family per light, plus neutrals and small source accents. Large calm areas of the dominant hue.",
+      "separation": "Background glass should contrast enough with the figure's clothing, hair and silhouette to avoid color camouflage. Distinguish adjacent characters through silhouette and value even when their palettes overlap."
+    },
+    "ensemble_palette": {
+      "method": "Common near-black architecture, one environmental light temperature taken from the source, and repeated neutrals bind the windows; each window keeps its own source hue.",
+      "mood_adjustment": "The mood of the source changes value and chroma (darker and calmer for ominous or sad scenes, brighter for cheerful ones), never the hue families."
+    },
+    "identity_color_policy": "Preserve recognizable hair, eye, skin, fur, costume and accessory colors. Modify their value and chroma as needed for glass but never substitute a new hair color, eye color, outfit palette or skin tone solely to match a window theme.",
+    "avoid": [
+      "Fixed reference palette assignments",
+      "Uniform sepia wash",
+      "Universal red horror grading",
+      "Neon rainbow mosaic",
+      "Oversaturated every-pane treatment",
+      "Pure black clothing without readable form",
+      "Unmotivated color changes to identity features",
+      "Hues absent from the source",
+      "Changed eye color",
+      "Three or more saturated hues in one window",
+      "Orange-and-purple or gold-and-cobalt defaults"
+    ],
+    "source_color_extraction": [
+      "Dominant hue of a window: the character's most distinctive large color (coat, dress, hair or fur).",
+      "Background glass of that window: the setting color nearest to the character (wall, floor, sky, light), at lower chroma than the figure.",
+      "Neutrals: the character's own darks and lights (black, gray, white, skin) as smoked, opal or ivory glass.",
+      "Accents: only from small source items (eyes, jewelry, a lamp, a prop); the eye color stays exact.",
+      "Architecture and shared base: near-black plus the darkest hue of the scene.",
+      "Glass fields use at most two chromatic families per window and no hue that the source does not show; crown jewels and emblems may add antique gold, silver and the source's accent hues."
+    ]
+  },
+  "shading_and_lighting": {
+    "lighting": {
+      "type": "Restrained transmitted illumination through colored glass combined with dark figurative painted shading; the entire facade shares a common optical atmosphere",
+      "direction": "Broad backlighting of the glass plane, with source-compatible pictorial highlights on figures. No competing photographic spotlights unless translated into the painted imagery.",
+      "temperature": "A coherent ensemble-wide light character, such as warm late-day amber, cool overcast opal, neutral daylight or subdued nocturnal luminosity; allow individual pane colors to modulate it.",
+      "shadows": "Dense colored shadows and blackened grisaille with selective hatching; retain discernible silhouettes, facial features and clothing structure.",
+      "highlights": "Small bright glass facets, lightly painted facial planes, pale metallic edges or meaningful reflective details. Brightest accents belong to key focal points.",
+      "luminosity": "Glass should seem to transmit muted colored light from within the architectural plane, not emit modern neon or sit under glossy studio lighting.",
+      "source_light_adaptation": "Translate the source's time of day, environment and emotional lighting into the collective glass illumination. A bright setting should not become an unreadably dark cathedral simply because the reference is low-key."
+    },
+    "shading": {
+      "method": "Broad enclosed colored regions, layered translucent pigment and localized grisaille-like shadows, reinforced by directional fine hatching",
+      "volume": "Moderately sculptural graphic modeling with angular planes and carefully selected soft transitions within panes",
+      "material_definition": "Differentiate skin, fabric, hair, leather, metal, wood and glass using local hue, silhouette and painted marks, while keeping all materials visibly part of the same painted-glass medium.",
+      "ambient_occlusion": "Dark seams and restrained shadow emphasis near overlapping garment shapes, adjacent glass segments and architectural recesses.",
+      "edge_treatment": "Some pane edges darken near the lead. Preserve luminous interiors and avoid mechanical uniform inner-shadow effects on every cell.",
+      "priority": "Expression and recognizable forms outrank realistic optical simulation."
+    },
+    "effects_policy": {
+      "glowing_eyes": "Only depict luminous eyes or reflective eyewear if the source explicitly shows or strongly supports that feature; otherwise use normal recognizable eyes and preserved gaze.",
+      "specular_stars": "Occasional small sharp glints on appropriate jewelry, glasses, polished tools or other reflective objects; never a universal character effect.",
+      "halos": "Optional source-grounded symbolic crown or rosette, not an obligatory religious halo.",
+      "bloom": "Minimal and localized to unusually bright relevant glass details; no bloom bleeding across the entire architectural grid."
+    },
+    "avoid": [
+      "Photographic studio lighting",
+      "Heavy lens flare",
+      "Volumetric god rays in a surrounding room",
+      "Rainbow dispersion",
+      "Uniformly luminous all-white eyes",
+      "Unmotivated magical aura",
+      "Obscuring the whole face in shadow",
+      "Glossy specular treatment on every pane"
+    ],
+    "backlight": "Transmitted light is brightest in the glass directly behind each head and shoulders and in the crown jewels; the lower parts of the windows and the architecture stay dark.",
+    "glow_accents": "The brightest points of the image are a few small source details: eyes, glasses, metal edges, a lamp or a jewel."
+  },
+  "subject_design": {
+    "overall_style": "Expressive graphic character illustration with a light anime and cartoon inflection, embedded into figurative stained glass. Simplify forms into clean, readable shapes with hard-edged shadow panes and a few decisive dark strokes; keep natural proportions and each source's identity. The inflection is light: not chibi, not exaggerated big-eye style, and no single anime character model imposed on every source.",
+    "anatomy": {
+      "proportions": "Source-faithful with modest illustrative elongation only where natural and useful to the window design.",
+      "pose": "Keep characteristic posture, body orientation, tilt, gesture, facial direction and meaningful relationships to props. Adapt tight crop or placement rather than replacing the pose with a generic front-facing saint.",
+      "hands": "Accurately articulated fingers, natural grasp and contact, clean recognizable silhouette. Glass seams must not look like extra fingers.",
+      "body_type": "Preserve recognizable build, age cues, stature and characteristic relative scale without forcing a slender Gothic body model.",
+      "accessibility_and_identity": "Preserve visible assistive devices, distinctive anatomy and identity-defining accessories as part of the portrait."
+    },
+    "face": {
+      "construction": "Rebuild the recognizable facial geometry from major planes of forehead, cheek, jaw, nose and chin; select deliberate expressive strokes rather than tracing photographic pixels.",
+      "eyes": "Preserve shape, exact iris color, gaze, openness, eyelid tension and relation to brows. Draw eyes slightly larger and cleaner than natural, with a clear iris shape and one small highlight; never hide them behind shine.",
+      "expression": "Preserve the actual emotional beat of each individual, including quiet neutral expressions, amusement, distress, laughter, surprise or tension. Do not add scowls, uncanny grins or solemn devotional expressions just to fit Gothic architecture.",
+      "identity": "Preserve individual facial proportions, hairline, facial hair, recognizable makeup, glasses, scars or other visible identity cues. Avoid a generic handsome or beautiful fantasy face.",
+      "skin": "Render with glass-compatible local hues and nuanced painted tonal planes; keep source skin tone recognizable rather than bleaching or darkening every figure.",
+      "facial_detail_priority": [
+        "Eye shape and gaze",
+        "Brows and mouth expression",
+        "Facial silhouette",
+        "Nose and cheek geometry",
+        "Hairline and distinctive accessories",
+        "Selective internal texture"
+      ],
+      "stylization": "Slightly simplified anime-leaning face: clean eye shapes, a simplified nose, a crisp mouth shape that carries the exact source expression, and two or three flat skin tones. Age, build and identity stay as in the source."
+    },
+    "hair_and_fur": {
+      "structure": "Group into large flowing, angular or rounded masses according to the source's actual texture and silhouette.",
+      "linework": "Use larger lead divisions for major masses, delicate painted directional marks for smaller clumps and selected strands.",
+      "color": "Preserve defining hair, fur and markings, with subtle locally appropriate jewel-like pigment variation.",
+      "avoid": [
+        "Changing hairstyles to medieval or Gothic fashion",
+        "Uniform long flowing hair",
+        "Arbitrary color changes",
+        "Hundreds of separate tiny glass cells describing individual strands"
+      ],
+      "simplification": "A few large locks or masses with clear tips, in two or three tones as separate glass panes. Patterns and markings (stripes, spots, prints) become bold shape bands, not individual strokes."
+    },
+    "clothing": {
+      "structure": "Retain source outfit type, silhouette, layering, seams, notable graphics, materials and signature accessories; organize folds into strong colored glass shapes.",
+      "period_policy": "Modern clothes remain modern, uniforms remain recognizable, and fantasy costumes remain themselves. The architectural medium does not require dressing every subject in medieval robes.",
+      "shading": "Dark graphic folding planes, controlled highlights and selective hatch marks; avoid rendering every wrinkle as a lead seam.",
+      "details": "Keep meaningful garment symbols or text if recognizable and important. Do not invent brand names, heraldic insignia, religious regalia, armor, weapons or jewelry."
+    },
+    "props": {
+      "importance": "High when a source prop defines a character or action.",
+      "rendering": "Depict through distinctive contour, large glass divisions and selectively detailed painted elements.",
+      "relationship": "Preserve object ownership, orientation, contact and pose; never transfer a distinctive object to another window merely for balance.",
+      "symbolic_echo": "A recognizable prop can inspire a small background or lower-register motif without duplicating it as another principal figure.",
+      "avoid": [
+        "Unmotivated swords, crucifixes, crowns or candles",
+        "Incorrect handling of source objects",
+        "Generic replacement of a distinctive prop"
+      ]
+    },
+    "animals_and_creatures": {
+      "allocation": "A pet, animal or creature that is independently a main character receives its own principal lancet, just like a human character.",
+      "anatomy": "Preserve species, breed-like visible features, size, body geometry, markings, ears, eyes, tail and characteristic pose; no forced anthropomorphism.",
+      "crop": "Use a seated, curled, perched, standing or close portrait suitable to its source appearance. Adjust surrounding quiet glass rather than stretching a small creature to fill the entire lancet.",
+      "dependent_subjects": "An incidental animal held by a main figure may remain in that figure's light when it is clearly part of the action and not a principal subject.",
+      "stylization": "Animals get the same light cartoon simplification and the same flat-pane construction: clean silhouettes, bold marking bands as separate panes, expressive eyes with the exact source eye color, and no fur texture."
+    },
+    "fictional_and_illustrated_subjects": "Retain distinctive stylized anatomy, costumes and visual identity from the input. Translate source linework into Gothic painted-glass contours and structural seams rather than imposing photorealism or the style-reference's face designs.",
+    "nonhuman_protagonists": "A robot, personified object or other clearly character-like principal subject can receive its own window. Ordinary props and scenery do not receive character windows.",
+    "group_identity": "Every principal character remains individually distinguishable. Do not average features, exchange garments or accessories, duplicate a face, or make all portraits equally attractive, stern, symmetrical or supernatural.",
+    "subject_integrity": "Preserve recognizable identity, source-specific features, action and affect above decorative choices. Use new framing, ornament and material translation to create the style, not invented character attributes.",
+    "avoid": [
+      "Generic saint substitution",
+      "Forced medieval costume",
+      "Unrequested vampire redesign",
+      "Identical faces across windows",
+      "Invented wounds or supernatural features",
+      "Religious or moral character classification",
+      "Source-inconsistent pose or expression",
+      "Photorealistic faces embedded in illustrated glass",
+      "Unnecessary chibi proportions"
+    ],
+    "material_translation": [
+      "Garments, hair and fur: a few large panes along the main masses, folds and pattern bands; no fabric, hair or fur texture inside a pane.",
+      "Skin and faces: one or two flat flesh panes with dark painted features; no pores, skin gradients or realistic modeling.",
+      "Eyes: a painted outline, a flat iris in the exact source color, a dark pupil and one small highlight; no photographic iris detail.",
+      "Fine lines (single hairs, eyelashes, whiskers, stitching, jewelry chains): a few deliberate painted strokes or none.",
+      "Each material uses at most three flat values: light, middle and a hard black shadow shape.",
+      "Metal, leather, wood and other props: flat panes with one hard highlight shape; no realistic reflections."
+    ]
+  },
+  "botanical_design": {
+    "importance": "Moderate: rose or foliage wreaths around the lower emblems, roses or leaf scrolls in the base frieze, foliated spandrels. Botanical forms stay in the ornament zones, never around the face.",
+    "style": "Stylized Gothic foliated ornament, angular curling leaves, rose blossoms, trefoil-like petals, acanthus-inspired scrolls and branching plant shapes made from dark-bordered colored glass.",
+    "flower_geometry": "Compact radial flowers and layered petal silhouettes built as graphic panes rather than naturalistic painted bouquets.",
+    "placement": "Upper arch shoulders, side margins, lower shield surrounds, shared frieze and spandrels. Keep flowers and leaves away from eyes and other focal features.",
+    "color": "Muted source-compatible greens, reds, ochres, ivory, blues or other glass hues, often subdued relative to the character.",
+    "selection_rule": "Use plant imagery associated with the visible scene or its overall mood when appropriate. A botanical motif may be replaced by geometric, celestial, mechanical, aquatic or other contextual ornament. Do not automatically add roses, thorns or funeral lilies to unrelated subjects.",
+    "avoid": [
+      "Unrelated huge flower bouquets",
+      "Random ivy covering the face",
+      "Naturalistic botanical photography",
+      "Identical flowers assigned indiscriminately to every character",
+      "Invented symbolic meaning presented as factual biography",
+      "Lilies, ivy or flowers added around the figure without source support"
+    ]
+  },
+  "background_design": {
+    "type": "Character-specific leaded glass fields nested within one coherent architectural ensemble.",
+    "interior_style": "Window-within-window Gothic tracery behind the figure: inner smaller lancets, rosettes, quatrefoils, trefoils and arch ribs in the window's dominant source hue, with a rosette or radiating tracery roundel behind the head and lighter, more luminous panes there. Richly built but lower in contrast than the figure. One or two setting cues may appear as glass shapes.",
+    "depth": "Low; flatter and less pictorially detailed than the figure. Distinct silhouettes, limited overlapping pictorial layers and no photographic depth-of-field.",
+    "primary_components": [
+      "Nested inner lancets and arch tracery in the dominant source hue",
+      "A rosette or radiating roundel behind the head, brightest panes of the window",
+      "Darker panes toward the lower part and the edges",
+      "One or two simplified setting cues",
+      "Shared structural rhythm linking adjacent windows"
+    ],
+    "setting_translation": {
+      "rule": "Take the setting's colors for the background glass and translate one or two setting cues into glass shapes or emblems. Character-derived emblems belong in the crown, the lower emblem and the base frieze. Do not place loose props, toys, food or animals around the figure that the source does not show.",
+      "urban": "Window grids, skyline silhouettes, street lamps, building profiles or relevant signage may become abstract leaded architectural motifs.",
+      "domestic": "Interior colors (walls, floor, light) set the background glass hues; furniture or objects become shapes only when they are visible in the source.",
+      "nature": "Trees, hills, water, clouds, flowers, moon, sun or geological shapes become broad colored panes and botanical or celestial patterns.",
+      "modern_technology": "Equipment, circuitry, instruments or other recognizable technological forms become geometric tracery and small visual emblems without changing the underlying Gothic window architecture.",
+      "fantasy": "Translate existing magical, historical, heraldic or supernatural motifs into symbolic glass imagery; do not invent an unrelated mythology.",
+      "neutral_or_missing": "When the background provides little information, use tasteful geometric and foliated tracery related to the source's visible colors. Avoid constructing a fictional backstory or invented setting."
+    },
+    "ensemble_continuity": "A horizon-like shape, compatible branching tracery, repeating border detail or lower frieze may connect several lights, while each window remains clearly individual. Shared cues must support the actual source relationship.",
+    "contrast_policy": "Use a slightly calmer value range, smaller accents and simplified shapes immediately around the figure. Do not let the background pattern merge into hair or clothing.",
+    "density": "Moderate to high: rich tracery around and above the figure, calm panes directly around the face and hands",
+    "avoid": [
+      "Unmodified source photograph as background",
+      "Generic cathedral interior behind every subject",
+      "Separate landscapes unrelated to one another",
+      "Flat solid backgrounds without any glass segmentation",
+      "Random all-over geometric noise",
+      "Overly detailed scenes behind each face",
+      "Invented props or scenery not in the source",
+      "Pictorial landscape behind the figure",
+      "Plain diamond lattice as the whole background",
+      "Flat mottled panes without tracery"
+    ]
+  },
+  "ornamental_language": {
+    "importance": "High; ornament is a designed visual narrative, never arbitrary filler.",
+    "identity": "Dark Gothic architectural tracery and figurative decorative glass with controlled heraldic, botanical, geometric or context-specific iconography.",
+    "symbolism": {
+      "principle": "Derive symbolism from visible subject characteristics, recognizable objects, setting and supported relationships. Use abstract visual analogies when meaning is uncertain. Do not assert personal beliefs, virtues, vices, religion, nationality, affiliations or biography based on appearance.",
+      "individual": "Each character may receive one distinctive motif in the upper tracery and one supporting emblem near the base. These can be a stylized object, shape, creature, botanical form, contextual detail or a source-supported symbol.",
+      "collective": "An optional shared lower medallion, continuous border motif or central architectural ornament may embody a common environment, shared interest, event or relationship visible in the source.",
+      "relationship": "Related subjects may have complementary or interlocking motifs; contrasting subjects may have differentiated motifs connected by common architectural framing. Do not invent conflict, intimacy or hierarchy absent from the source.",
+      "ambiguity": "When a subject-specific emblem cannot be justified, prefer a rosette, geometric design or a palette-derived abstract motif to a fabricated coat of arms or backstory."
+    },
+    "motif_library": {
+      "architectural": [
+        "Pointed arches",
+        "Trefoils",
+        "Quatrefoils",
+        "Lancet-within-lancet tracery",
+        "Branching ribs",
+        "Rosettes",
+        "Lozenges",
+        "Foliated spandrels"
+      ],
+      "emblematic": [
+        "Plain ornamental shields",
+        "Roundels",
+        "Medallions",
+        "Stylized source props",
+        "Abstract interlocking signs",
+        "Source-grounded insignia"
+      ],
+      "botanical": [
+        "Rosettes with layered petals",
+        "Foliated scrollwork",
+        "Vines",
+        "Stylized leaves",
+        "Contextually appropriate flowers"
+      ],
+      "contextual": [
+        "Celestial discs",
+        "Waves",
+        "Flames",
+        "Mountain forms",
+        "Musical or mechanical shapes",
+        "Geometric elements derived from the actual setting"
+      ],
+      "conditional_religious": [
+        "Crosses",
+        "Halos",
+        "Devotional symbols",
+        "Ecclesiastical insignia"
+      ],
+      "religious_rule": "Religious motifs are available only when visibly present in the source, explicitly requested, or clearly appropriate to the represented fictional setting. Pointed arches and Gothic tracery themselves are universal architectural design devices for this style; they do not require religious attribution."
+    },
+    "heraldry": {
+      "shape": "Compact lower-register shield, circular emblem or alternate medallion framed with dark lead and optional foliage.",
+      "policy": "Use source-derived abstract colors, shapes and objects. Existing identifiable insignia may be retained when meaningful; invented heraldry must be decorative rather than pretending to represent a real family, nation, institution or personal affiliation.",
+      "scale": "Subordinate to the main portrait, typically within the bottom 10-20% of a window where adequate room exists.",
+      "variation": "Keep a compatible emblem framing family across the ensemble while varying interior symbols, shape or small ornamental details."
+    },
+    "typography": {
+      "importance": "None by default",
+      "rule": "No titles, character names, pseudo-Latin, invented mottos, dates, labels or captions unless explicitly requested or essential source text is clearly legible and relevant.",
+      "source_text": "Preserve important readable inscriptions on original objects or clothing when feasible, but do not invent letters to fill a decorative ribbon.",
+      "banners": "Optional empty ornamental ribbons or non-text substitutes when heraldic composition benefits; do not add nonsensical glyphs."
+    },
+    "scale": "Large architectural motifs at crown and base, medium symbols in peripheral spaces, fine details only where the design has visual room.",
+    "density": "Rich and zoned, as in a cathedral window: a jewel-paned tracery crown above each light, a lower heraldic emblem in each light (a shield or medallion with a crown or helm crest, a rose or foliage wreath), foliated spandrels, and a shared base frieze with roses or foliage scrolls around a central roundel. The face and hands stay calm.",
+    "integration": "All ornament must be made of glass shapes, dark structural lines or painted details integrated into the same continuous window assembly.",
+    "repetition": "Repeat structural grammar and a few shared motifs with subtle variation, not mechanically duplicated decorations.",
+    "avoid": [
+      "Automatic crosses, occult seals or red eyes copied from the reference",
+      "Invented pseudo-Latin mottos",
+      "Random symbolic clutter",
+      "Gold leaf covering the architecture",
+      "Universal crowns and weapons",
+      "Ornaments covering face or hand gestures",
+      "Unrelated emblems that imply unsupported character biography"
+    ],
+    "emblem_derivation": [
+      "Charges on shields, roundels and crown motifs come from the subject: signature props, garment or uniform motifs, profession or activity, setting objects, distinctive features such as eye color, and for an animal or creature its own markings and shape.",
+      "The central base roundel shows one strong signature motif of the subject or the group, for example a key prop, a garment emblem, an eye, a shared object or a silhouette.",
+      "Emblem tinctures use the source colors plus antique gold and silver metal tones.",
+      "Each window gets its own emblem; adjacent emblems differ in shape and charge."
+    ]
+  },
+  "texture": {
+    "overall": "Crisp, refined glass irregularity subordinate to the drawing: light mottling inside panes and a faint crackle on large garment panes; no heavy grain.",
+    "glass_mottling": "Subtle irregular clouds of pigment and translucent tonal patches within each pane. Variation follows pane boundaries and differs slightly from piece to piece.",
+    "glass_grain": "Very fine and barely visible; it never competes with the lead geometry or the drawing.",
+    "grisaille_texture": "Fine ink-like hatch strokes, stippled shading and mildly irregular pigment deposits, concentrated on painted portrait detail and shadowed margins.",
+    "lead_texture": "Dark matte patina, occasional narrow edge sheen and handmade contour variation. No bright chrome or repeated embossed bevel preset.",
+    "stone_texture": "Restrained mottling and wear in the outer mouldings and mullions. Maintain structural clarity; no heavy rubble, damage or realistic porous stone dominating the composition.",
+    "surface_weathering": "Light to moderate antique character, occasional subtle stains or darker pane edges, no obligatory cracks, missing sections, mildew or grime.",
+    "texture_distribution": "Strongest on glass fields, dark mouldings and broad garment panes; reduce near facial features and tiny identity-defining marks. Keep a shared material treatment across the entire image.",
+    "micro_detail": "Selective and material-specific; ornamental leadwork and painted facial details can be crisp, while pigment granularity remains subordinate.",
+    "finish": "Dark, crisp and luminous, with transparent-looking highlights and matte painted lines. No photographic filter.",
+    "avoid": [
+      "Uniform film grain applied across every material",
+      "Heavy parchment texture",
+      "Random shattered-glass cracks",
+      "Large dirty scratches across faces",
+      "Plastic glass gloss",
+      "Lens artifacts",
+      "Smooth untextured vector fill",
+      "Excessive noise hiding the artwork",
+      "Heavy granular texture over the whole image",
+      "Fur, hair or fabric texture inside panes",
+      "Photographic detail inside glass"
+    ]
+  },
+  "style_fidelity": {
+    "mandatory_features": [
+      "Figures built from flat colored glass panes with black lead and hard black painted shadow shapes, never photorealistic rendering",
+      "One unified frontal Gothic architectural artwork, not a collection of cards",
+      "Exactly one dedicated principal pointed-arch character window per distinct principal character",
+      "All principal characters visible, individually recognizable and rendered in the same painted-glass language",
+      "Dark connected mullions, pointed arch framing, shared architectural base and coherent leaded glass segmentation",
+      "Strong hierarchy of architectural lines, glass cames and fine painted figurative contours",
+      "Source-faithful character features, local colors, poses, expressions and meaningful props",
+      "Individual window palettes and contextual decoration selected from the source rather than the reference's fixed iconography",
+      "A collective mood and architectural color harmony appropriate to the ensemble and setting",
+      "Visible pigment mottling, controlled translucency and aged material texture",
+      "Selective Gothic ornamental complexity with clear readable faces and silhouettes",
+      "Low-key composition: dark lead and architecture dominate, color glows in the windows",
+      "Each window palette taken from its character and setting: one dominant hue family plus neutrals",
+      "Clean graphic figure drawing with a light anime and cartoon inflection and lead running through the figure",
+      "Rich character-derived Gothic iconography: jewel-paned crown, lower heraldic emblem with wreath, base frieze with a central signature roundel",
+      "Architecture fills the canvas; window-within-window tracery behind each figure"
+    ],
+    "optional_features": [
+      "Wider central window when supported by source hierarchy",
+      "Heraldic shields or lower-register medallions",
+      "Shared central roundel or continuous foliated frieze",
+      "Upper character-specific symbols",
+      "Religious or supernatural imagery when source-supported",
+      "Subtle glints on relevant objects",
+      "Closely related palettes for characters sharing a context",
+      "Two architectural registers for large ensembles under aspect ratio constraints"
+    ],
+    "explicitly_not_the_style": [
+      "Generic stained-glass filter over a photo",
+      "Three-window template regardless of subject count",
+      "Independent tarot cards or character selection screen",
+      "Bright Art Nouveau botanical illustration with pale thin borders",
+      "Flat vector mosaic with arbitrary geometric triangles",
+      "Photorealistic cathedral interior",
+      "Cosplay transformation into Gothic clergy or vampires",
+      "Illuminated manuscript on parchment",
+      "Glossy fantasy game portrait",
+      "Horror-only style that changes expressions or source mood",
+      "Bright painterly illustration with dense fur or hair hatching",
+      "Beige carved sandstone architecture",
+      "Chibi or exaggerated big-eye cartoon",
+      "Realistic animal or human portrait behind lead lines",
+      "Airbrushed or gradient volume shading"
+    ],
+    "quality_checks": [
+      "Count the distinct principal characters and the principal character windows; the numbers must match exactly.",
+      "Verify that each character appears in their own window once and that no principal character is missing, merged, repeated or replaced.",
+      "Check each face, hair or fur color, outfit, expression, gesture, gaze and signature prop against the source independently.",
+      "Check that the collective palette and symbols communicate the source group's actual tone and setting rather than merely imitating the reference ensemble.",
+      "Confirm the outer frame, arch ribs, mullions and sill form a connected single piece of architecture.",
+      "Confirm that all figures visibly belong to the painted-glass medium and that heavy lead does not arbitrarily cross essential facial features.",
+      "Inspect at thumbnail scale: every primary silhouette and expression remains distinct.",
+      "Inspect at full size: correct hands, plausible lead intersections, coherent pane texture and no stray lettering or accidental duplicate features.",
+      "Do not add invented character-specific religious, national, moral or personal claims through emblems.",
+      "If a check fails, correct the affected character or architectural section without altering already accurate faces, expressions, colors or symbols elsewhere.",
+      "Each window's dominant hue matches its character's dominant source color, and no window has a hue absent from the source.",
+      "Eye colors match the source exactly.",
+      "No scenery, flowers or props appear that the source does not show.",
+      "No pane shows fur, hair, skin or fabric texture; form reads only from pane shapes, lead and flat shadow shapes."
+    ]
+  },
+  "source_adaptation": {
+    "principle": "Preserve semantic identity and relationships while completely rebuilding the source in the target architectural stained-glass medium.",
+    "subject_independence": "The example's number of figures, character identities, costumes, colors, weapons, religious motifs, red eyes, emblems and dark tone are not fixed style requirements.",
+    "principal_character_detection": {
+      "method": "Identify distinct visually and narratively principal characters using prominence, focus, meaningful actions, framing, interaction and the apparent intent of the source photograph or illustration.",
+      "inclusion": "Include all intentionally featured humans, animals, creatures and personified protagonists even if a figure is partially occluded, small, seated or located near an edge.",
+      "exclusion": "Do not allocate principal windows to incidental background passersby, decorative statues, ordinary props, reflections or duplicates of an already counted subject unless they are deliberately presented as distinct main characters.",
+      "ambiguous_group": "For a posed group portrait, treat every intentionally posed member as principal by default, including peripheral members. For a crowd scene with clear focal subjects, preserve the focal group and translate incidental crowd context into simplified background glass rather than creating an enormous number of unintended portrait windows.",
+      "count_lock": "Determine and keep the principal count before allocating the layout. Re-evaluate only when actual source evidence indicates a mistaken identification.",
+      "single_subject": "A single principal subject gets a single decorated Gothic lancet, not a triptych.",
+      "no_character_source": "When there is no character at all, use one or more nonfigurative Gothic glass lights to represent the main scene or object; never invent people merely to populate the architecture."
+    },
+    "tone_analysis": {
+      "input_cues": [
+        "Visible facial affect and posture of each character",
+        "Nature of the action and visible interaction",
+        "Shared setting and time-of-day cues",
+        "Source light and color relationships",
+        "Contextual objects, clothing and motifs"
+      ],
+      "individual_tone": "Preserve each character's source affect independently. Express differences through individual palette, gesture and decorative rhythm without changing their actual expression.",
+      "collective_tone": "Find a coherent shared mood supported by the combined visual evidence. Preserve genuine contrast when characters differ. Let the setting inform light quality and shared ornaments.",
+      "uncertainty": "Use neutral, elegant architectural ornament and source-derived colors rather than guessing hidden personalities or motives from appearance."
+    },
+    "detail_budget": {
+      "primary_subject": "Highest priority for recognizable facial geometry, pose, expression and defining accessories.",
+      "secondary_subjects": "Every principal character receives adequate window space and meaningful identity detail, not a generic simplified stand-in.",
+      "background": "Simplify photographic setting into a few readable context motifs, surrounded by glass tracery.",
+      "ornament": "Allocate detail in quieter upper and lower architectural registers; reduce density as the number of characters rises.",
+      "texture": "Consistent material identity with selective variation; reduce fine texture if it obstructs readability."
+    },
+    "complex_source_handling": [
+      "Identify character count and unique features before assigning any windows.",
+      "Record meaningful source spatial order, gaze, actions and object ownership; do not flatten all group relations into independent stock portraits.",
+      "Design the shared architecture to fit that count and order; choose canvas orientation, window width and crop according to available space.",
+      "Choose a source-grounded ensemble tone, common structural colors and individual glass hue families.",
+      "Select individual and collective motifs only from relevant visual or contextual cues; use neutral ornament when evidence is insufficient.",
+      "Redraw each figure using recognizable shape language, painted details and meaningful glass subdivisions.",
+      "Convert shared scene elements into connected decorative cues across the windows without merging character allocations.",
+      "Complete crown tracery, peripheral glass divisions, lower registers and common perimeter; simplify decoration before compromising identity.",
+      "Apply pigment texture and localized lighting; validate count, facial identity, affect, colors, gestures and material coherence before finishing."
+    ],
+    "complexity_rule": "Adapt aspect ratio and simplify incidental detail as subject count and scene complexity increase. Preserve all principal characters; never solve a crowded layout through omissions or duplicates.",
+    "composition_adaptation": "Recomposition into dedicated lancets is intentionally allowed even when the source is a continuous scene. Preserve recognizable identities and relationships rather than exact pixel placement; retain the original crop whenever it is useful, and do not invent unseen anatomy unnecessarily.",
+    "reference_extraction_notes": "The visual reference shows a three-light vertical Gothic arrangement with a prominent warm central figure, cooler flanking glass fields, heavy black architectural ribs, dark angular character drawing, colored-pane mottling, detailed upper tracery, lower emblems and one continuous ornamental base. These are evidence for the visual grammar. Variable character count, adaptive window proportions, mood-dependent palette families, source-grounded symbolism and the handling of nonhuman subjects are generalization rules chosen to make this style reusable on arbitrary input images, not claims that these alternatives are visible in the reference."
+  },
+  "generation_instructions": {
+    "style_prompt": "Reimagine the entire source image as a single richly detailed figurative Gothic stained-glass character polyptych. First identify every distinct principal character in the source, including independently important animals and nonhuman characters. Give exactly one dedicated tall pointed-arch lancet to each of them, no extra anonymous portraits and no missing or duplicated main characters. Adapt the width, orientation, number and relative size of the windows to fit the actual source ensemble, not a fixed triptych. All lights are immediately adjacent within one coherent frontal Gothic architectural assembly, connected by deep charcoal stone or patinated metal mullions, repeated pointed ribs, elaborate upper tracery, restrained spandrel decoration and one continuous sill or lower frieze. Show the complete architecture inside the canvas: the full pointed apex of every arch and the full sill stay visible, with a narrow dark stone margin above the highest apex and below the sill; no arch tip touches or crosses the canvas edge.Glass first, illustration second: build every figure from flat colored glass panes, one color per pane with subtle mottling, and show form only by pane boundaries, black lead and hard black painted shadow shapes; no fur, hair, skin or fabric texture, no smooth gradients and no photographic detail. Redraw each figure as an expressive, recognizable graphic painted-glass illustration with a light anime and cartoon inflection: clean ink shapes, hard-edged shadow panes, slightly simplified faces with clear expressive eyes, hair, fur and garments as a few large shapes with bold pattern bands, and lead running through the garments, with distinctive source facial anatomy, hair or fur color, expression, pose, clothing and signature objects. Preserve meaningful source order, gestures and gaze relationships. Use strong dark lead cames that follow plausible glass shapes and major garment or background divisions, fine tapered grisaille-like painted contours and hatching for facial detail, irregular pigment-rich translucent panes, mottled glass texture and dramatic but readable graphic shading. Do not cut across facial features with arbitrary heavy lead. Take every window's colors from the source: its dominant hue from the character's most distinctive large color, the background glass from the nearest setting color, accents only from small source details, and exact eye colors; add no hue the source does not show. Keep the whole image low-key: near-black lead and slim dark mullions dominate, and the glass behind each head glows brightest. The Gothic architecture fills the whole canvas, with side lights, pinnacles and spandrels around the principal lancets, never a lone arch on an empty black field. Behind each figure, build window-within-window tracery: inner lancets, quatrefoils and a rosette behind the head. Give every window rich iconography derived from its character: a jewel-paned crown with fleurs-de-lis or quatrefoils, a crowned heraldic shield or medallion with a rose or foliage wreath carrying the character's own charges, and a shared base frieze of roses or leaf scrolls around a central roundel with the subject's signature motif. Give the ensemble one coherent visual mood and light character derived from its combined personalities as visibly expressed, its interactions and setting; a cheerful, romantic or playful source must remain emotionally appropriate, not automatically become sinister. Use Gothic tracery, rosettes, foliated scrolls, geometric glass fragments and source-relevant abstract or pictorial emblems in the upper and lower registers. A shared border motif or roundel can unify the group. Optional religious motifs, heraldry, supernatural eyes or specific weapons are permitted only when relevant to the actual source or explicitly requested. Keep the reference's architectural stained-glass grammar, textured material, layered dark linework and ornamental density, without copying its characters, fixed three-window arrangement, specific symbols, or red-blue-white color assignment. The finished image must look like one handcrafted, monumental, aged but well-preserved narrative stained-glass artwork viewed directly from the front, with every main character individually recognizable and the entire ensemble emotionally coherent.",
+    "negative_prompt": "fixed triptych regardless of input, incorrect principal character count, missing main character, duplicated character, two principal characters sharing one window, empty portrait slot, incidental background crowd promoted to protagonists, merged faces, identical generic faces, incorrect hair color, incorrect eye color, altered facial expression, forced scowl, forced Gothic horror atmosphere, automatic vampire costume, unrequested medieval robes, generic saint portrait, source-inconsistent props, unsupported religious imagery, invented heraldic affiliation, invented Latin motto, gibberish text, unrelated crosses or occult emblems, mandatory red central panel, copying reference characters, detached cards, white gutters, cropped arch apex, arch tip cut by the top edge, cropped sill, tarot card collage, comic panel layout, floating arches, modern rectangular photo collage, cathedral interior photograph, window mockup, tilted perspective, pasted photographs, photorealistic face, photorealistic skin, fur or fabric, individual hair strands, realistic portrait rendering, photographic eyes, airbrushed gradients, smooth volume shading, 3D rendering, unmodified anime cutout, generic stained-glass overlay, random shattered glass, Voronoi mosaic, thick lead across eyes and lips, unreadable facial features, poor anatomy, extra fingers, unrecognizable props, overdecorated faces, smooth vector-only illustration, glossy CGI glass, neon rainbow, excessive bloom, lens flare, uniform sepia, crushed black shadows, opaque painting without pane segmentation, heavy parchment, gratuitous distressing, watermark, invented scenery, loose props around the figure, single arch floating on an empty black field, wide empty margins, plain diamond lattice background, sparse ornament, beige sandstone columns, painterly hatching, hair-by-hair strokes, saturated multi-hue windows, hues absent from the source, changed eye color, heavy grain, chibi, exaggerated big eyes",
+    "priority_order": [
+      "Preserve all distinct principal characters and allocate exactly one dedicated primary window to each.",
+      "Build every figure from flat glass panes and hard shadow shapes; nothing photorealistic.",
+      "Preserve each character's recognizable identity, colors, anatomy, expression, gesture, clothing and important objects.",
+      "Take each window's colors from its character and setting; keep the image low-key.",
+      "Preserve the ensemble's source-supported relationships, action and collective emotional tone.",
+      "Build one physically connected Gothic architectural composition adapted to the actual character count and aspect ratio.",
+      "Integrate every figure into the painted stained-glass medium through meaningful lead geometry and fine painted linework.",
+      "Establish coherent shared light and individualized source-derived glass palettes.",
+      "Add contextual upper tracery, lower emblems and shared ornament without inventing biography or overpowering portraits.",
+      "Apply tactile pigment, dark architectural patina and refined aged-glass texture.",
+      "Validate character count, identity, expression, color, anatomy, architecture and tone; fix only confirmed errors."
+    ],
+    "reference_image_usage": {
+      "style_references": "Use the supplied Gothic window illustration as the authority for visual material, character-window structure, line hierarchy, architectural ornament, glass segmentation, tonal modeling and texture. Use the supplied JSON examples as organizational and specificity references for this specification.",
+      "subject_reference": "Use the image being transformed as the authority for actual character identities, count, clothing, facial features, expressions, props, setting and relationships.",
+      "style_strength": "High for architecture, stained-glass material, rendering and ornamental language",
+      "subject_identity_strength": "Very high",
+      "composition_adaptation": "Required: reorganize the source into one dedicated lancet per principal character while preserving the ensemble's recognizable relationships and meaningful source composition.",
+      "palette_transfer": "Transfer glass color behavior, not the fixed reference color assignment. Derive window palettes and overall atmosphere from the new source.",
+      "iconography_transfer": "Do not reuse the style reference's particular emblems, symbols, supernatural traits, clothing or props unless independently supported by the new source.",
+      "texture_transfer": "Reconstruct the painted glass material consistently across all subjects; do not transfer photographic surface noise."
+    }
+  }
+}

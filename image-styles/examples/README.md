@@ -50,6 +50,20 @@ Style file: [`Art Nouveau Watercolor.json`](../Art%20Nouveau%20Watercolor.json)
 <img src="Art%20Nouveau%20Watercolor/%D0%9A%D1%96%D1%82%20%D1%83%20%D1%81%D1%82%D0%B8%D0%BB%D1%96%20%D0%BC%D0%BE%D0%B4%D0%B5%D1%80%D0%BD%20%D1%96%D0%B7%20%D0%BA%D0%B2%D1%96%D1%82%D0%BA%D0%BE%D0%B2%D0%BE%D1%8E%20%D0%B0%D1%80%D0%BA%D0%BE%D1%8E.png" width="110" alt="Art Nouveau Watercolor, extra example 5">
 </p>
 
+## Gothic Stained Glass Character Polyptych
+
+Style file: [`Gothic Stained Glass Character Polyptych.json`](../Gothic%20Stained%20Glass%20Character%20Polyptych.json)
+
+<p>
+<img src="../_baseline.png" width="110" alt="Source photo">
+<img src="../Gothic%20Stained%20Glass%20Character%20Polyptych.example.png" width="110" alt="Gothic Stained Glass Character Polyptych, main example">
+<img src="Gothic%20Stained%20Glass%20Character%20Polyptych/%D0%92%D1%96%D1%82%D1%80%D0%B0%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BA%D1%96%D1%82%20%D1%83%20%D0%B3%D0%BE%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%BC%D1%83%20%D0%B2%D1%96%D0%BA%D0%BD%D1%96.png" width="110" alt="Gothic Stained Glass Character Polyptych, extra example 1">
+<img src="Gothic%20Stained%20Glass%20Character%20Polyptych/%D0%93%D0%BE%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9%20%D0%B2%D1%96%D1%82%D1%80%D0%B0%D0%B6%20%D1%96%D0%B7%20%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%BC%20%D0%BA%D0%BE%D1%82%D0%BE%D0%BC.png" width="110" alt="Gothic Stained Glass Character Polyptych, extra example 2">
+<img src="Gothic%20Stained%20Glass%20Character%20Polyptych/%D0%93%D0%BE%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9%20%D0%B2%D1%96%D1%82%D1%80%D0%B0%D0%B6%20%D1%96%D0%B7%20%D0%BA%D0%BE%D1%82%D0%BE%D0%BC%20%D1%96%20%D0%B3%D0%B5%D1%80%D0%B1%D0%BE%D0%BC.png" width="110" alt="Gothic Stained Glass Character Polyptych, extra example 3">
+<img src="Gothic%20Stained%20Glass%20Character%20Polyptych/%D0%93%D0%BE%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9%20%D0%B2%D1%96%D1%82%D1%80%D0%B0%D0%B6%20%D1%96%D0%B7%20%D1%82%D0%B0%D0%B1%D0%B1%D1%96-%D0%BA%D0%BE%D1%82%D0%BE%D0%BC%201.png" width="110" alt="Gothic Stained Glass Character Polyptych, extra example 4">
+<img src="Gothic%20Stained%20Glass%20Character%20Polyptych/%D0%93%D0%BE%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9%20%D0%B2%D1%96%D1%82%D1%80%D0%B0%D0%B6%20%D1%96%D0%B7%20%D1%82%D0%B0%D0%B1%D0%B1%D1%96-%D0%BA%D0%BE%D1%82%D0%BE%D0%BC%202.png" width="110" alt="Gothic Stained Glass Character Polyptych, extra example 5">
+</p>
+
 ## Modern Happy Cartoon Illustration
 
 Style file: [`Modern Happy Cartoon Illustration.json`](../Modern%20Happy%20Cartoon%20Illustration.json)
